@@ -1,0 +1,923 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="db_SifirGibiMakinaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Log">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="date" Type="datetime" Nullable="false" />
+    <Property Name="thread" Type="varchar" MaxLength="255" />
+    <Property Name="level" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="logger" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="message" Type="varchar" MaxLength="4000" Nullable="false" />
+    <Property Name="exception" Type="varchar" MaxLength="2000" />
+    <Property Name="host" Type="varchar" MaxLength="50" />
+    <Property Name="page" Type="varchar" MaxLength="255" />
+    <Property Name="ipaddress" Type="varchar" MaxLength="15" />
+    <Property Name="browser" Type="varchar" MaxLength="255" />
+    <Property Name="platform" Type="varchar" MaxLength="255" />
+    <Property Name="device" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Sehirler">
+    <Key>
+      <PropertyRef Name="SehirId" />
+    </Key>
+    <Property Name="SehirId" Type="int" Nullable="false" />
+    <Property Name="SehirAdi" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="PlakaNo" Type="tinyint" Nullable="false" />
+    <Property Name="TelefonKodu" Type="int" Nullable="false" />
+    <Property Name="RowNumber" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_Ayarlar">
+    <Key>
+      <PropertyRef Name="ayar_ID" />
+    </Key>
+    <Property Name="ayar_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Site_Adi" Type="nvarchar" MaxLength="250" />
+    <Property Name="Site_Adi_EN" Type="nvarchar" MaxLength="250" />
+    <Property Name="Site_Adi_DE" Type="nvarchar" MaxLength="250" />
+    <Property Name="Site_Adi_RU" Type="nvarchar" MaxLength="250" />
+    <Property Name="Logo" Type="nvarchar" MaxLength="50" />
+    <Property Name="SMTP_Server" Type="nvarchar" MaxLength="50" />
+    <Property Name="SMTP_Port" Type="nvarchar" MaxLength="50" />
+    <Property Name="SMTP_Mail" Type="nvarchar" MaxLength="150" />
+    <Property Name="SMTP_Gonderen" Type="nvarchar" MaxLength="250" />
+    <Property Name="SMTP_Email" Type="nvarchar" MaxLength="150" />
+    <Property Name="SMTP_Sifre" Type="nvarchar" MaxLength="50" />
+    <Property Name="TeknikKisiler" Type="nvarchar" MaxLength="500" />
+    <Property Name="OzelBolumWhatsapp" Type="nvarchar" MaxLength="50" />
+    <Property Name="Adres" Type="nvarchar" MaxLength="500" />
+    <Property Name="Il" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ilce" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="GoogleMap" Type="nvarchar" MaxLength="1000" />
+    <Property Name="Email" Type="nvarchar" MaxLength="150" />
+    <Property Name="EkUyeSayisi" Type="int" />
+    <Property Name="EkAcikArtirmaSayisi" Type="int" />
+    <Property Name="EkTeklifSayisi" Type="int" />
+    <Property Name="EkSatilanMakinaSayisi" Type="int" />
+    <Property Name="SayilarPanel" Type="bit" />
+    <Property Name="SEOAnaSayfa" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_BeniHaberdarEt">
+    <Key>
+      <PropertyRef Name="benihaberdaret_ID" />
+    </Key>
+    <Property Name="benihaberdaret_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AdSoyad" Type="nvarchar" MaxLength="250" />
+    <Property Name="EMail" Type="varchar" MaxLength="250" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="tur_ID" Type="int" />
+    <Property Name="Alttur_ID" Type="int" />
+    <Property Name="Alttur2_ID" Type="int" />
+    <Property Name="marka_ID" Type="int" />
+    <Property Name="yil_ID" Type="int" />
+    <Property Name="Model" Type="nvarchar" MaxLength="250" />
+    <Property Name="Fiyat" Type="nvarchar" MaxLength="50" />
+    <Property Name="Para_Birimi" Type="int" />
+    <Property Name="Aciklama" Type="nvarchar(max)" />
+    <Property Name="Rapor" Type="nvarchar(max)" />
+    <Property Name="Yanit" Type="bit" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Ekleyen" Type="int" />
+    <Property Name="IP" Type="nvarchar" MaxLength="50" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Rapor_Tarihi" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tbl_Diller">
+    <Key>
+      <PropertyRef Name="dil_ID" />
+    </Key>
+    <Property Name="dil_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Dil" Type="nvarchar" MaxLength="50" />
+    <Property Name="YaziYonu" Type="nvarchar" MaxLength="50" />
+    <Property Name="LokalKod" Type="nvarchar" MaxLength="50" />
+    <Property Name="Kod" Type="nvarchar" MaxLength="50" />
+    <Property Name="Resim" Type="nvarchar" MaxLength="50" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Durum" Type="bit" />
+  </EntityType>
+  <EntityType Name="tbl_Duyurular">
+    <Key>
+      <PropertyRef Name="duy_ID" />
+    </Key>
+    <Property Name="duy_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Baslik" Type="nvarchar" MaxLength="500" />
+    <Property Name="KisaAciklama" Type="nvarchar" MaxLength="250" />
+    <Property Name="Icerik" Type="nvarchar(max)" />
+    <Property Name="Fotograf" Type="nvarchar" MaxLength="50" />
+    <Property Name="cat_ID" Type="int" />
+    <Property Name="Manset" Type="bit" />
+    <Property Name="AnaSayfaYayin" Type="bit" />
+    <Property Name="Siralama" Type="int" />
+    <Property Name="Yayin_Tarihi" Type="datetime" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Update_Tarihi" Type="datetime" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="SeoKeywords" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescription" Type="nvarchar" MaxLength="500" />
+    <Property Name="SosyalMedyaPaylasim" Type="bit" />
+    <Property Name="Yayinda" Type="bit" />
+    <Property Name="BuyukBlog" Type="bit" />
+    <Property Name="OkumaSayisi" Type="int" />
+    <Property Name="OneCikar" Type="bit" />
+  </EntityType>
+  <EntityType Name="tbl_DuyurularCat">
+    <Key>
+      <PropertyRef Name="cat_ID" />
+    </Key>
+    <Property Name="cat_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Kategori" Type="nvarchar" MaxLength="50" />
+    <Property Name="Resim" Type="nvarchar" MaxLength="50" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="SeoKeywords" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescription" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="tbl_Expertiz">
+    <Key>
+      <PropertyRef Name="expertiz_ID" />
+    </Key>
+    <Property Name="expertiz_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ExpertizFirmasi_ID" Type="int" />
+    <Property Name="Randevu_Tarihi" Type="datetime" />
+    <Property Name="Adi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Soyadi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="EMail" Type="nvarchar" MaxLength="50" />
+    <Property Name="Baslik" Type="nvarchar" MaxLength="250" />
+    <Property Name="tur_ID" Type="int" />
+    <Property Name="Alttur_ID" Type="int" />
+    <Property Name="Alttur2_ID" Type="int" />
+    <Property Name="marka_ID" Type="int" />
+    <Property Name="yil_ID" Type="int" />
+    <Property Name="Model" Type="nvarchar" MaxLength="250" />
+    <Property Name="Aciklama" Type="nvarchar(max)" />
+    <Property Name="Rapor" Type="nvarchar(max)" />
+    <Property Name="Fotograf" Type="nvarchar" MaxLength="50" />
+    <Property Name="Yanit" Type="bit" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Ekleyen" Type="int" />
+    <Property Name="uye_ID" Type="int" />
+    <Property Name="IP" Type="nvarchar" MaxLength="50" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tbl_Firmalar">
+    <Key>
+      <PropertyRef Name="Firma_ID" />
+    </Key>
+    <Property Name="Firma_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Firma_Adi" Type="nvarchar" MaxLength="250" />
+    <Property Name="Firma_Adi_EN" Type="nvarchar" MaxLength="250" />
+    <Property Name="Firma_Adi_DE" Type="nvarchar" MaxLength="250" />
+    <Property Name="Firma_Adi_RU" Type="nvarchar" MaxLength="250" />
+    <Property Name="EMail" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ilgili" Type="nvarchar" MaxLength="250" />
+    <Property Name="Sifre" Type="nvarchar" MaxLength="50" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Resim" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="Gonderilecek_Mailler" Type="nvarchar" MaxLength="500" />
+    <Property Name="Duzenleme" Type="int" />
+    <Property Name="Yetki_Makinalar" Type="int" />
+    <Property Name="Yetki_MakinalarDuzenleme" Type="int" />
+    <Property Name="Yetki_MakinamNeEder" Type="int" />
+    <Property Name="Yetki_MakinamNeEderDuzenleme" Type="int" />
+    <Property Name="Yetki_Uyeler" Type="int" />
+    <Property Name="Yetki_UyelerDuzenleme" Type="int" />
+    <Property Name="Yetki_Sayfalar" Type="int" />
+    <Property Name="Yetki_SayfalarDuzenleme" Type="int" />
+    <Property Name="Yetki_Kullanicilar" Type="int" />
+    <Property Name="Yetki_KullanicilarDuzenleme" Type="int" />
+    <Property Name="Yetki_MakinaTanimlari" Type="int" />
+    <Property Name="Yetki_MakinaTanimlariDuzenleme" Type="int" />
+    <Property Name="Yetki_Diger" Type="int" />
+    <Property Name="Yetki_DigerDuzenleme" Type="int" />
+    <Property Name="Yetki_GelenMesajlar" Type="int" />
+    <Property Name="Yetki_Odemeler" Type="int" />
+    <Property Name="Yetki_OdemelerDuzenleme" Type="int" />
+    <Property Name="Yetki_Ihaleler" Type="int" />
+    <Property Name="Yetki_IhalelerDuzenleme" Type="int" />
+    <Property Name="Yetki_SagMenu" Type="int" />
+    <Property Name="Yetki_DestekTalebi" Type="int" />
+    <Property Name="Yetki_SifreDegistir" Type="int" />
+    <Property Name="Yetki_SosyalMedya" Type="int" />
+    <Property Name="user_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="IsAdmin" Type="int" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tbl_FirmaLogolari">
+    <Key>
+      <PropertyRef Name="logo_ID" />
+    </Key>
+    <Property Name="logo_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Baslik" Type="nvarchar" MaxLength="250" />
+    <Property Name="uye_ID" Type="int" />
+    <Property Name="Link" Type="nvarchar" MaxLength="250" />
+    <Property Name="Fotograf" Type="nvarchar" MaxLength="50" />
+    <Property Name="Buyuk_Logo" Type="nvarchar" MaxLength="50" />
+    <Property Name="Aciklama" Type="nvarchar(max)" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="Yayinda" Type="bit" />
+    <Property Name="Siralama" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_Icerikler">
+    <Key>
+      <PropertyRef Name="icerik_ID" />
+    </Key>
+    <Property Name="icerik_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Baslik" Type="nvarchar" MaxLength="150" />
+    <Property Name="Aciklama" Type="nvarchar(max)" />
+    <Property Name="Resim" Type="nvarchar" MaxLength="50" />
+    <Property Name="icerikOrder" Type="int" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Update_Tarihi" Type="datetime" />
+    <Property Name="sagMenu_ID" Type="int" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="SeoKeywords" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescription" Type="nvarchar" MaxLength="500" />
+    <Property Name="SosyalMedyaPaylasim" Type="bit" />
+    <Property Name="Yayinda" Type="bit" />
+  </EntityType>
+  <EntityType Name="tbl_Ihale">
+    <Key>
+      <PropertyRef Name="ihale_ID" />
+    </Key>
+    <Property Name="ihale_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="makina_ID" Type="int" />
+    <Property Name="uye_ID" Type="int" />
+    <Property Name="Verilen_Fiyat" Type="smallmoney" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="IP" Type="nvarchar" MaxLength="50" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="SonFiyat" Type="money" />
+  </EntityType>
+  <EntityType Name="tbl_Iletisim">
+    <Key>
+      <PropertyRef Name="iletisim_ID" />
+    </Key>
+    <Property Name="iletisim_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AdSoyad" Type="nvarchar" MaxLength="200" />
+    <Property Name="Email" Type="nvarchar" MaxLength="150" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mesaj" Type="nvarchar(max)" />
+    <Property Name="IP" Type="nvarchar" MaxLength="50" />
+    <Property Name="Konu" Type="nvarchar" MaxLength="150" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Durum" Type="bit" />
+  </EntityType>
+  <EntityType Name="tbl_ilanEmail">
+    <Key>
+      <PropertyRef Name="mesaj_ID" />
+    </Key>
+    <Property Name="mesaj_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="makina_ID" Type="int" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="GonderenAdi" Type="nvarchar" MaxLength="250" />
+    <Property Name="AliciAdi" Type="nvarchar" MaxLength="250" />
+    <Property Name="AliciMail" Type="nvarchar" MaxLength="50" />
+    <Property Name="UygunCheck" Type="int" />
+    <Property Name="GarantiCheck" Type="int" />
+    <Property Name="DurumuCheck" Type="int" />
+    <Property Name="FiyatOgreneBilirmiyimCheck" Type="int" />
+    <Property Name="PazarlikChek" Type="int" />
+    <Property Name="FiyatOneri" Type="nvarchar" MaxLength="50" />
+    <Property Name="DahaFazlaResimChek" Type="int" />
+    <Property Name="YasadigimYerCheck" Type="int" />
+    <Property Name="YasadigimYer" Type="nvarchar" MaxLength="50" />
+    <Property Name="KonusulanDillerCheck" Type="int" />
+    <Property Name="KonusulanDiller" Type="nvarchar" MaxLength="50" />
+    <Property Name="GorusmePlanlamaCheck" Type="int" />
+    <Property Name="IletimTalepCheck" Type="int" />
+    <Property Name="DahaOnceGorusmeCheck" Type="int" />
+    <Property Name="TelefonDahaOnceGorusmeTarih" Type="nvarchar" MaxLength="50" />
+    <Property Name="AyirtmaCheck" Type="int" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mesaj" Type="nvarchar(max)" />
+    <Property Name="IP" Type="nvarchar" MaxLength="50" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tbl_ilanFavorileri">
+    <Key>
+      <PropertyRef Name="favori_ID" />
+    </Key>
+    <Property Name="favori_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="makina_ID" Type="int" />
+    <Property Name="user_ID" Type="int" />
+    <Property Name="IP" Type="nvarchar" MaxLength="50" />
+    <Property Name="EklenenFiyat" Type="nvarchar" MaxLength="50" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tbl_ilanKategoriListeleme">
+    <Key>
+      <PropertyRef Name="ilanKategoriListeleme_ID" />
+    </Key>
+    <Property Name="ilanKategoriListeleme_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Baslik" Type="nvarchar" MaxLength="500" />
+    <Property Name="KisaAciklama" Type="nvarchar" MaxLength="250" />
+    <Property Name="Icerik" Type="nvarchar(max)" />
+    <Property Name="Fotograf" Type="nvarchar" MaxLength="50" />
+    <Property Name="tur_ID" Type="int" />
+    <Property Name="Siralama" Type="int" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Update_Tarihi" Type="datetime" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="Yayinda" Type="bit" />
+  </EntityType>
+  <EntityType Name="tbl_ilanMesajlari">
+    <Key>
+      <PropertyRef Name="mesaj_ID" />
+    </Key>
+    <Property Name="mesaj_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="makina_ID" Type="int" />
+    <Property Name="UstMesaj_ID" Type="int" />
+    <Property Name="Kimden" Type="int" />
+    <Property Name="Kime" Type="int" />
+    <Property Name="Mesaj" Type="nvarchar(max)" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Okunma" Type="int" />
+    <Property Name="IP" Type="nvarchar" MaxLength="50" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="GonderenSildi" Type="int" />
+    <Property Name="AliciSildi" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_Kullanicilar">
+    <Key>
+      <PropertyRef Name="Kullanici_ID" />
+    </Key>
+    <Property Name="Kullanici_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Adi_Soyadi" Type="nvarchar" MaxLength="250" />
+    <Property Name="EMail" Type="nvarchar" MaxLength="50" />
+    <Property Name="Sifre" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Duzenleme" Type="int" />
+    <Property Name="Yetki_Makinalar" Type="int" />
+    <Property Name="Yetki_MakinalarDuzenleme" Type="int" />
+    <Property Name="Yetki_MakinamNeEder" Type="int" />
+    <Property Name="Yetki_MakinamNeEderDuzenleme" Type="int" />
+    <Property Name="Yetki_Uyeler" Type="int" />
+    <Property Name="Yetki_UyelerDuzenleme" Type="int" />
+    <Property Name="Yetki_Sayfalar" Type="int" />
+    <Property Name="Yetki_SayfalarDuzenleme" Type="int" />
+    <Property Name="Yetki_Kullanicilar" Type="int" />
+    <Property Name="Yetki_KullanicilarDuzenleme" Type="int" />
+    <Property Name="Yetki_MakinaTanimlari" Type="int" />
+    <Property Name="Yetki_MakinaTanimlariDuzenleme" Type="int" />
+    <Property Name="Yetki_Diger" Type="int" />
+    <Property Name="Yetki_DigerDuzenleme" Type="int" />
+    <Property Name="Yetki_GelenMesajlar" Type="int" />
+    <Property Name="Yetki_Odemeler" Type="int" />
+    <Property Name="Yetki_OdemelerDuzenleme" Type="int" />
+    <Property Name="Yetki_Ihaleler" Type="int" />
+    <Property Name="Yetki_IhalelerDuzenleme" Type="int" />
+    <Property Name="Yetki_SagMenu" Type="int" />
+    <Property Name="Yetki_DestekTalebi" Type="int" />
+    <Property Name="Yetki_SifreDegistir" Type="int" />
+    <Property Name="Yetki_SosyalMedya" Type="int" />
+    <Property Name="user_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="IsAdmin" Type="int" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tbl_MakinaAltTurleri">
+    <Key>
+      <PropertyRef Name="Alttur_ID" />
+    </Key>
+    <Property Name="Alttur_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="tur_ID" Type="int" />
+    <Property Name="Kategori" Type="nvarchar" MaxLength="50" />
+    <Property Name="KategoriEN" Type="nvarchar" MaxLength="50" />
+    <Property Name="KategoriDE" Type="nvarchar" MaxLength="50" />
+    <Property Name="KategoriRU" Type="nvarchar" MaxLength="50" />
+    <Property Name="Resim" Type="nvarchar" MaxLength="50" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="SeoKeywords" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescription" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescriptionEN" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescriptionDE" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescriptionRU" Type="nvarchar" MaxLength="500" />
+    <Property Name="FooterAciklamaSEO" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_MakinaAltTurleri2">
+    <Key>
+      <PropertyRef Name="Alttur2_ID" />
+    </Key>
+    <Property Name="Alttur2_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Alttur_ID" Type="int" />
+    <Property Name="Kategori" Type="nvarchar" MaxLength="50" />
+    <Property Name="KategoriEN" Type="nvarchar" MaxLength="50" />
+    <Property Name="KategoriDE" Type="nvarchar" MaxLength="50" />
+    <Property Name="KategoriRU" Type="nvarchar" MaxLength="50" />
+    <Property Name="Resim" Type="nvarchar" MaxLength="50" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="SeoKeywords" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescription" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescriptionEN" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescriptionDE" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescriptionRU" Type="nvarchar" MaxLength="500" />
+    <Property Name="FooterAciklamaSEO" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_MakinaEksper">
+    <Key>
+      <PropertyRef Name="eksper_ID" />
+    </Key>
+    <Property Name="eksper_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Kategori" Type="nvarchar" MaxLength="50" />
+    <Property Name="KategoriEN" Type="nvarchar" MaxLength="50" />
+    <Property Name="KategoriDE" Type="nvarchar" MaxLength="50" />
+    <Property Name="KategoriRU" Type="nvarchar" MaxLength="50" />
+    <Property Name="Resim" Type="nvarchar" MaxLength="50" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="SeoKeywords" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescription" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="tbl_MakinaEksperSecimi">
+    <Key>
+      <PropertyRef Name="ozellik_ID" />
+    </Key>
+    <Property Name="ozellik_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="makina_ID" Type="int" />
+    <Property Name="eksper_ID" Type="int" />
+    <Property Name="Note" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_MakinaIhale">
+    <Key>
+      <PropertyRef Name="makinaihale_ID" />
+    </Key>
+    <Property Name="makinaihale_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="makina_ID" Type="int" />
+    <Property Name="uye_ID" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_MakinaIslemler">
+    <Key>
+      <PropertyRef Name="islem_ID" />
+    </Key>
+    <Property Name="islem_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="makina_ID" Type="int" />
+    <Property Name="Tarih" Type="datetime" />
+    <Property Name="Aciklama" Type="nvarchar(max)" />
+    <Property Name="Islemi_Yapan_Firma" Type="nvarchar" MaxLength="250" />
+    <Property Name="Islemi_Yapan_Muhendis" Type="nvarchar" MaxLength="250" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Durum" Type="bit" />
+  </EntityType>
+  <EntityType Name="tbl_Makinalar">
+    <Key>
+      <PropertyRef Name="makina_ID" />
+    </Key>
+    <Property Name="makina_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Baslik" Type="nvarchar" MaxLength="250" />
+    <Property Name="BaslikEN" Type="nvarchar" MaxLength="250" />
+    <Property Name="BaslikDE" Type="nvarchar" MaxLength="250" />
+    <Property Name="BaslikRU" Type="nvarchar" MaxLength="250" />
+    <Property Name="tur_ID" Type="int" />
+    <Property Name="Alttur_ID" Type="int" />
+    <Property Name="Alttur2_ID" Type="int" />
+    <Property Name="marka_ID" Type="int" />
+    <Property Name="yil_ID" Type="int" />
+    <Property Name="Statu" Type="int" />
+    <Property Name="Kimden" Type="int" />
+    <Property Name="Slide" Type="bit" />
+    <Property Name="Ihale" Type="bit" />
+    <Property Name="Ihale_Baslangic" Type="datetime" />
+    <Property Name="Ihale_Bitis" Type="datetime" />
+    <Property Name="Ihale_Acilis_Fiyat" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Minimum_Satis_Fiyati" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="AnaVitrin" Type="bit" />
+    <Property Name="Vitrin" Type="bit" />
+    <Property Name="Model" Type="nvarchar" MaxLength="250" />
+    <Property Name="Fiyat" Type="int" />
+    <Property Name="Para_Birimi" Type="int" />
+    <Property Name="Aciklama" Type="nvarchar(max)" />
+    <Property Name="AciklamaEN" Type="nvarchar(max)" />
+    <Property Name="AciklamaDE" Type="nvarchar(max)" />
+    <Property Name="AciklamaRU" Type="nvarchar(max)" />
+    <Property Name="SeoKeywords" Type="nvarchar" MaxLength="250" />
+    <Property Name="SeoDescription" Type="nvarchar" MaxLength="250" />
+    <Property Name="SeoDescriptionEN" Type="nvarchar" MaxLength="250" />
+    <Property Name="SeoDescriptionDE" Type="nvarchar" MaxLength="250" />
+    <Property Name="SeoDescriptionRU" Type="nvarchar" MaxLength="250" />
+    <Property Name="KM" Type="nvarchar" MaxLength="50" />
+    <Property Name="Fotograf" Type="nvarchar" MaxLength="50" />
+    <Property Name="SosyalMedyaPaylasim" Type="bit" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Makina_Order" Type="int" />
+    <Property Name="Yayinda" Type="bit" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Ekleyen" Type="int" />
+    <Property Name="IP" Type="nvarchar" MaxLength="50" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Satis_Temsilcisi_Adi" Type="nvarchar" MaxLength="250" />
+    <Property Name="Satis_Temsilcisi_Telefon" Type="nvarchar" MaxLength="250" />
+    <Property Name="Satis_Temsilcisi_Email" Type="nvarchar" MaxLength="150" />
+    <Property Name="Kapora" Type="nvarchar" MaxLength="50" />
+    <Property Name="QRCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="QRCodeImage" Type="nvarchar" MaxLength="50" />
+    <Property Name="StokGelis_Tarihi" Type="datetime" />
+    <Property Name="EksperTalebi" Type="bit" />
+    <Property Name="Yayinlanma_Tarihi" Type="datetime" />
+    <Property Name="Ulke" Type="int" />
+    <Property Name="il" Type="nvarchar" MaxLength="100" />
+    <Property Name="ilce" Type="nvarchar" MaxLength="100" />
+    <Property Name="GoruntulenmeSayisi" Type="int" />
+    <Property Name="FavoriSayisi" Type="int" />
+    <Property Name="IlanNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="KaldirmaSebebi" Type="int" />
+    <Property Name="KaldirmaTarihi" Type="datetime" />
+    <Property Name="FiyatGosterilmesin" Type="bit" />
+    <Property Name="SEOUrl" Type="nvarchar" MaxLength="250" />
+    <Property Name="SEOUrlEN" Type="nvarchar" MaxLength="250" />
+    <Property Name="SEOUrlDE" Type="nvarchar" MaxLength="250" />
+    <Property Name="SEOUrlRU" Type="nvarchar" MaxLength="250" />
+    <Property Name="TelefonNumarasiGostermeSayisi" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_MakinaMarkalari">
+    <Key>
+      <PropertyRef Name="marka_ID" />
+    </Key>
+    <Property Name="marka_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Kategori" Type="nvarchar" MaxLength="50" />
+    <Property Name="Resim" Type="nvarchar" MaxLength="50" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="SeoKeywords" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescription" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescriptionEN" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescriptionDE" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescriptionRU" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="tbl_MakinamNeEder">
+    <Key>
+      <PropertyRef Name="makinamneeder_ID" />
+    </Key>
+    <Property Name="makinamneeder_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="uye_ID" Type="int" />
+    <Property Name="Baslik" Type="nvarchar" MaxLength="250" />
+    <Property Name="tur_ID" Type="int" />
+    <Property Name="Alttur_ID" Type="int" />
+    <Property Name="Alttur2_ID" Type="int" />
+    <Property Name="marka_ID" Type="int" />
+    <Property Name="yil_ID" Type="int" />
+    <Property Name="Model" Type="nvarchar" MaxLength="250" />
+    <Property Name="OngorulenFiyat" Type="nvarchar" MaxLength="50" />
+    <Property Name="Fiyat" Type="nvarchar" MaxLength="50" />
+    <Property Name="Para_Birimi_Ongorulen" Type="int" />
+    <Property Name="Para_Birimi" Type="int" />
+    <Property Name="Aciklama" Type="nvarchar(max)" />
+    <Property Name="Rapor" Type="nvarchar(max)" />
+    <Property Name="Fotograf" Type="nvarchar" MaxLength="50" />
+    <Property Name="Yanit" Type="bit" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Ekleyen" Type="int" />
+    <Property Name="IP" Type="nvarchar" MaxLength="50" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tbl_MakinamNeEderResimler">
+    <Key>
+      <PropertyRef Name="makinamNeEderResim_ID" />
+    </Key>
+    <Property Name="makinamNeEderResim_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="makinamneeder_ID" Type="int" />
+    <Property Name="Fotograf" Type="nvarchar" MaxLength="50" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tbl_MakinaResimler">
+    <Key>
+      <PropertyRef Name="makinaResim_ID" />
+    </Key>
+    <Property Name="makinaResim_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="makina_ID" Type="int" />
+    <Property Name="Fotograf" Type="nvarchar" MaxLength="50" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Vitrin" Type="bit" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tbl_MakinaTurleri">
+    <Key>
+      <PropertyRef Name="tur_ID" />
+    </Key>
+    <Property Name="tur_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Kategori" Type="nvarchar" MaxLength="50" />
+    <Property Name="KategoriEN" Type="nvarchar" MaxLength="50" />
+    <Property Name="KategoriDE" Type="nvarchar" MaxLength="50" />
+    <Property Name="KategoriRU" Type="nvarchar" MaxLength="50" />
+    <Property Name="Resim" Type="nvarchar" MaxLength="50" />
+    <Property Name="Vitrin" Type="bit" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="SeoKeywords" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescription" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescriptionEN" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescriptionDE" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescriptionRU" Type="nvarchar" MaxLength="500" />
+    <Property Name="UstResim" Type="nvarchar" MaxLength="50" />
+    <Property Name="FooterAciklamaSEO" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_MakinaYillar">
+    <Key>
+      <PropertyRef Name="yil_ID" />
+    </Key>
+    <Property Name="yil_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Kategori" Type="int" />
+    <Property Name="Resim" Type="nvarchar" MaxLength="50" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="SeoKeywords" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescription" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="tbl_OdemeBildirimleri">
+    <Key>
+      <PropertyRef Name="odeme_ID" />
+    </Key>
+    <Property Name="odeme_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="makina_ID" Type="int" />
+    <Property Name="uye_ID" Type="int" />
+    <Property Name="Verilen_Fiyat" Type="smallmoney" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="IP" Type="nvarchar" MaxLength="50" />
+    <Property Name="Banka" Type="nvarchar" MaxLength="50" />
+    <Property Name="DekontNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="Dekont" Type="nvarchar" MaxLength="50" />
+    <Property Name="Aciklama" Type="nvarchar" MaxLength="250" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tbl_ReklamAlanlari">
+    <Key>
+      <PropertyRef Name="reklamAlan_ID" />
+    </Key>
+    <Property Name="reklamAlan_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Adi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_Reklamlar">
+    <Key>
+      <PropertyRef Name="reklam_ID" />
+    </Key>
+    <Property Name="reklam_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Adi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Url" Type="nvarchar" MaxLength="250" />
+    <Property Name="logo_ID" Type="int" />
+    <Property Name="TiklamaSayisi" Type="int" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="Yayinda" Type="bit" />
+    <Property Name="Dosya" Type="nvarchar" MaxLength="50" />
+    <Property Name="reklamAlan_ID" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_SagMenu">
+    <Key>
+      <PropertyRef Name="sagMenu_ID" />
+    </Key>
+    <Property Name="sagMenu_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Baslik" Type="nvarchar" MaxLength="250" />
+    <Property Name="Aciklama" Type="nvarchar(max)" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="Yayinda" Type="bit" />
+  </EntityType>
+  <EntityType Name="tbl_Servis">
+    <Key>
+      <PropertyRef Name="servis_ID" />
+    </Key>
+    <Property Name="servis_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ServisFirmasi_ID" Type="int" />
+    <Property Name="Randevu_Tarihi" Type="datetime" />
+    <Property Name="Adi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Soyadi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="EMail" Type="nvarchar" MaxLength="50" />
+    <Property Name="Baslik" Type="nvarchar" MaxLength="250" />
+    <Property Name="tur_ID" Type="int" />
+    <Property Name="Alttur_ID" Type="int" />
+    <Property Name="Alttur2_ID" Type="int" />
+    <Property Name="marka_ID" Type="int" />
+    <Property Name="yil_ID" Type="int" />
+    <Property Name="Model" Type="nvarchar" MaxLength="250" />
+    <Property Name="Aciklama" Type="nvarchar(max)" />
+    <Property Name="Rapor" Type="nvarchar(max)" />
+    <Property Name="Fotograf" Type="nvarchar" MaxLength="50" />
+    <Property Name="Yanit" Type="bit" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Ekleyen" Type="int" />
+    <Property Name="uye_ID" Type="int" />
+    <Property Name="IP" Type="nvarchar" MaxLength="50" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tbl_Slider">
+    <Key>
+      <PropertyRef Name="slider_ID" />
+    </Key>
+    <Property Name="slider_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Baslik" Type="nvarchar" MaxLength="250" />
+    <Property Name="UstBilgi" Type="nvarchar" MaxLength="250" />
+    <Property Name="AltBilgi" Type="nvarchar" MaxLength="250" />
+    <Property Name="ButonYazi" Type="nvarchar" MaxLength="250" />
+    <Property Name="Link" Type="nvarchar" MaxLength="250" />
+    <Property Name="Resim" Type="nvarchar" MaxLength="250" />
+    <Property Name="UstBilgiMobil" Type="nvarchar" MaxLength="250" />
+    <Property Name="AltBilgiMobil" Type="nvarchar" MaxLength="250" />
+    <Property Name="ButonYaziMobil" Type="nvarchar" MaxLength="250" />
+    <Property Name="ResimMobil" Type="nvarchar" MaxLength="250" />
+    <Property Name="LinkMobil" Type="nvarchar" MaxLength="250" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="Yayinda" Type="bit" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Siralama" Type="int" />
+    <Property Name="makina_ID" Type="int" />
+    <Property Name="blog_ID" Type="int" />
+    <Property Name="Fiyat" Type="nvarchar" MaxLength="50" />
+    <Property Name="ButonYazi1" Type="nvarchar" MaxLength="250" />
+    <Property Name="Link1" Type="nvarchar" MaxLength="250" />
+    <Property Name="ButonGorunmesin" Type="bit" />
+  </EntityType>
+  <EntityType Name="tbl_SosyalMedya">
+    <Key>
+      <PropertyRef Name="sosyalmedya_ID" />
+    </Key>
+    <Property Name="sosyalmedya_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Baslik" Type="nvarchar" MaxLength="50" />
+    <Property Name="FontAwasome" Type="nvarchar" MaxLength="50" />
+    <Property Name="Resim" Type="nvarchar" MaxLength="50" />
+    <Property Name="Link" Type="nvarchar" MaxLength="250" />
+    <Property Name="Siralama" Type="int" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Update_Tarihi" Type="datetime" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="Footer_Yayinda" Type="bit" />
+    <Property Name="Header_Yayinda" Type="bit" />
+  </EntityType>
+  <EntityType Name="tbl_SSS">
+    <Key>
+      <PropertyRef Name="sss_ID" />
+    </Key>
+    <Property Name="sss_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Baslik" Type="nvarchar" MaxLength="150" />
+    <Property Name="Aciklama" Type="nvarchar(max)" />
+    <Property Name="icerikOrder" Type="int" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Update_Tarihi" Type="datetime" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="Yayinda" Type="bit" />
+  </EntityType>
+  <EntityType Name="tbl_TeknikDestek">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AdSoyad" Type="nvarchar" MaxLength="200" />
+    <Property Name="Email" Type="nvarchar" MaxLength="150" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="OnemDerecesi" Type="nvarchar" MaxLength="50" />
+    <Property Name="EkranGoruntusu" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mesaj" Type="nvarchar(max)" />
+    <Property Name="Durum" Type="nvarchar" MaxLength="50" />
+    <Property Name="IP" Type="nvarchar" MaxLength="50" />
+    <Property Name="Tarih" Type="datetime" />
+    <Property Name="Sayfa" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tbl_Ulkeler">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="iso" Type="char" MaxLength="2" />
+    <Property Name="name" Type="nvarchar" MaxLength="80" />
+    <Property Name="nicename" Type="nvarchar" MaxLength="80" />
+    <Property Name="iso3" Type="char" MaxLength="3" />
+    <Property Name="GoogleTranslateCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="numcode" Type="smallint" />
+    <Property Name="phonecode" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_Uyeler">
+    <Key>
+      <PropertyRef Name="uye_ID" />
+    </Key>
+    <Property Name="uye_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirmaAdi" Type="nvarchar" MaxLength="250" />
+    <Property Name="Adi" Type="nvarchar" MaxLength="250" />
+    <Property Name="Soyadi" Type="nvarchar" MaxLength="250" />
+    <Property Name="EMail" Type="nvarchar" MaxLength="150" />
+    <Property Name="Hesap_Turu" Type="nvarchar" MaxLength="50" />
+    <Property Name="Cinsiyet" Type="nvarchar" MaxLength="50" />
+    <Property Name="Sifre" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="IP" Type="nvarchar" MaxLength="50" />
+    <Property Name="TCK" Type="nvarchar" MaxLength="50" />
+    <Property Name="DogumTarihi" Type="datetime" />
+    <Property Name="Il" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ilce" Type="nvarchar" MaxLength="50" />
+    <Property Name="Adres" Type="nvarchar" MaxLength="250" />
+    <Property Name="Aktif" Type="bit" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Code" Type="nvarchar" MaxLength="50" />
+    <Property Name="KayitOlunanSite" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ulke" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="db_SifirGibiMakinaModelStoreContainer">
+    <EntitySet Name="Log" EntityType="Self.Log" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sehirler" EntityType="Self.Sehirler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Ayarlar" EntityType="Self.tbl_Ayarlar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_BeniHaberdarEt" EntityType="Self.tbl_BeniHaberdarEt" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Diller" EntityType="Self.tbl_Diller" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Duyurular" EntityType="Self.tbl_Duyurular" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_DuyurularCat" EntityType="Self.tbl_DuyurularCat" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Expertiz" EntityType="Self.tbl_Expertiz" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Firmalar" EntityType="Self.tbl_Firmalar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_FirmaLogolari" EntityType="Self.tbl_FirmaLogolari" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Icerikler" EntityType="Self.tbl_Icerikler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Ihale" EntityType="Self.tbl_Ihale" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Iletisim" EntityType="Self.tbl_Iletisim" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ilanEmail" EntityType="Self.tbl_ilanEmail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ilanFavorileri" EntityType="Self.tbl_ilanFavorileri" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ilanKategoriListeleme" EntityType="Self.tbl_ilanKategoriListeleme" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ilanMesajlari" EntityType="Self.tbl_ilanMesajlari" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Kullanicilar" EntityType="Self.tbl_Kullanicilar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_MakinaAltTurleri" EntityType="Self.tbl_MakinaAltTurleri" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_MakinaAltTurleri2" EntityType="Self.tbl_MakinaAltTurleri2" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_MakinaEksper" EntityType="Self.tbl_MakinaEksper" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_MakinaEksperSecimi" EntityType="Self.tbl_MakinaEksperSecimi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_MakinaIhale" EntityType="Self.tbl_MakinaIhale" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_MakinaIslemler" EntityType="Self.tbl_MakinaIslemler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Makinalar" EntityType="Self.tbl_Makinalar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_MakinaMarkalari" EntityType="Self.tbl_MakinaMarkalari" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_MakinamNeEder" EntityType="Self.tbl_MakinamNeEder" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_MakinamNeEderResimler" EntityType="Self.tbl_MakinamNeEderResimler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_MakinaResimler" EntityType="Self.tbl_MakinaResimler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_MakinaTurleri" EntityType="Self.tbl_MakinaTurleri" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_MakinaYillar" EntityType="Self.tbl_MakinaYillar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_OdemeBildirimleri" EntityType="Self.tbl_OdemeBildirimleri" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ReklamAlanlari" EntityType="Self.tbl_ReklamAlanlari" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Reklamlar" EntityType="Self.tbl_Reklamlar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_SagMenu" EntityType="Self.tbl_SagMenu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Servis" EntityType="Self.tbl_Servis" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Slider" EntityType="Self.tbl_Slider" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_SosyalMedya" EntityType="Self.tbl_SosyalMedya" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_SSS" EntityType="Self.tbl_SSS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_TeknikDestek" EntityType="Self.tbl_TeknikDestek" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Ulkeler" EntityType="Self.tbl_Ulkeler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Uyeler" EntityType="Self.tbl_Uyeler" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

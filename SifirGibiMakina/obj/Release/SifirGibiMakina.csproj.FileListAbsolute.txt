@@ -1,0 +1,408 @@
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\SifirGibiMakina.dll.config
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\SifirGibiMakina.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\SifirGibiMakina.pdb
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\roslyn\csc.exe
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\roslyn\csc.exe.config
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\roslyn\csc.rsp
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\roslyn\csi.exe
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\roslyn\csi.rsp
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\roslyn\System.AppContext.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\roslyn\vbc.exe
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\roslyn\vbc.exe.config
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\roslyn\vbc.rsp
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\roslyn\VBCSCompiler.exe
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\EntityFramework.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\EntityFramework.SqlServer.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\log4net.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\MessagingToolkit.QRCode.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\Microsoft.Owin.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\Microsoft.Owin.Security.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\Newtonsoft.Json.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\Owin.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\EntityFramework.xml
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\EntityFramework.SqlServer.xml
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\log4net.xml
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\Microsoft.Owin.xml
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\Microsoft.Owin.Security.xml
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\Newtonsoft.Json.xml
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\obj\Release\SifirGibiMakina.Res.resources
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\obj\Release\SifirGibiMakina.csproj.GenerateResource.cache
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\obj\Release\SifirGibiMakina.csproj.CoreCompileInputs.cache
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\obj\Release\SifirGibiMakina.csproj.CopyComplete
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\obj\Release\SifirGibiMakina.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\obj\Release\SifirGibiMakina.pdb
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\ImageResizer.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\ImageResizer.Plugins.DiskCache.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\ImageResizer.xml
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\bin\ImageResizer.Plugins.DiskCache.xml
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\obj\Release\SifirGibiMakina.csproj.AssemblyReference.cache
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\SifirGibiMakina.dll.config
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\SifirGibiMakina.dll
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\SifirGibiMakina.pdb
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\csc.exe
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\csc.exe.config
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\csc.rsp
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\csi.exe
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\csi.rsp
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.AppContext.dll
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\vbc.exe
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\vbc.exe.config
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\vbc.rsp
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\VBCSCompiler.exe
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\EntityFramework.dll
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\EntityFramework.SqlServer.dll
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\ImageResizer.dll
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\ImageResizer.Plugins.DiskCache.dll
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\log4net.dll
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Owin.dll
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Owin.Security.dll
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Newtonsoft.Json.dll
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Owin.dll
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\EntityFramework.xml
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\EntityFramework.SqlServer.xml
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\ImageResizer.xml
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\ImageResizer.Plugins.DiskCache.xml
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\log4net.xml
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Owin.xml
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Owin.Security.xml
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Newtonsoft.Json.xml
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.csproj.AssemblyReference.cache
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.Res.resources
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.csproj.GenerateResource.cache
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.csproj.CoreCompileInputs.cache
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.csproj.CopyComplete
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.dll
+C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.pdb
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\SifirGibiMakina.dll.config
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\SifirGibiMakina.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\SifirGibiMakina.pdb
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\csc.exe
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\csc.exe.config
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\csc.rsp
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\csi.exe
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\csi.rsp
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.AppContext.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\vbc.exe
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\vbc.exe.config
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\vbc.rsp
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\VBCSCompiler.exe
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\EntityFramework.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\EntityFramework.SqlServer.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\ImageResizer.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\ImageResizer.Plugins.DiskCache.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\log4net.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Owin.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Owin.Security.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Newtonsoft.Json.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Owin.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\EntityFramework.xml
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\EntityFramework.SqlServer.xml
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\ImageResizer.xml
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\ImageResizer.Plugins.DiskCache.xml
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\log4net.xml
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Owin.xml
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Owin.Security.xml
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Newtonsoft.Json.xml
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.csproj.AssemblyReference.cache
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.Res.resources
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.csproj.GenerateResource.cache
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.csproj.CoreCompileInputs.cache
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.csproj.CopyComplete
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.dll
+C:\Users\umit.egrioglu\YandexDisk\Umit\Çalışmalar\Sifirgibimakina.com\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.pdb
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\SifirGibiMakina.dll.config
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\SifirGibiMakina.dll
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\SifirGibiMakina.pdb
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\csc.exe
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\csc.exe.config
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\csc.rsp
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\csi.exe
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\csi.rsp
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.AppContext.dll
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\vbc.exe
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\vbc.exe.config
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\vbc.rsp
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\VBCSCompiler.exe
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\EntityFramework.dll
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\EntityFramework.SqlServer.dll
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\ImageResizer.dll
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\ImageResizer.Plugins.DiskCache.dll
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\log4net.dll
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Owin.dll
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Owin.Security.dll
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Newtonsoft.Json.dll
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Owin.dll
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\EntityFramework.xml
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\EntityFramework.SqlServer.xml
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\ImageResizer.xml
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\ImageResizer.Plugins.DiskCache.xml
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\log4net.xml
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Owin.xml
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Owin.Security.xml
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Newtonsoft.Json.xml
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.csproj.AssemblyReference.cache
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.Res.resources
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.csproj.GenerateResource.cache
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.csproj.CoreCompileInputs.cache
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.csproj.CopyComplete
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.dll
+C:\Users\W10\Downloads\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.pdb
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\SifirGibiMakina.dll.config
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\SifirGibiMakina.dll
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\SifirGibiMakina.pdb
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\csc.exe
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\csc.exe.config
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\csc.rsp
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\csi.exe
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\csi.rsp
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.AppContext.dll
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\vbc.exe
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\vbc.exe.config
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\vbc.rsp
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\VBCSCompiler.exe
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\EntityFramework.dll
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\EntityFramework.SqlServer.dll
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\ImageResizer.dll
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\ImageResizer.Plugins.DiskCache.dll
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\log4net.dll
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Owin.dll
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Owin.Security.dll
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Newtonsoft.Json.dll
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Owin.dll
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\EntityFramework.xml
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\EntityFramework.SqlServer.xml
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\ImageResizer.xml
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\ImageResizer.Plugins.DiskCache.xml
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\log4net.xml
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Owin.xml
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Owin.Security.xml
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Newtonsoft.Json.xml
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.csproj.AssemblyReference.cache
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.Res.resources
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.csproj.GenerateResource.cache
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.csproj.CoreCompileInputs.cache
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.csproj.CopyComplete
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.dll
+C:\Users\W10\Desktop\sİFİR\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.pdb
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\SifirGibiMakina.dll.config
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\SifirGibiMakina.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\SifirGibiMakina.pdb
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\csc.exe
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\csc.exe.config
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\csc.rsp
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\csi.exe
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\csi.rsp
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.AppContext.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\vbc.exe
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\vbc.exe.config
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\vbc.rsp
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\VBCSCompiler.exe
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Autofac.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Autofac.Integration.Web.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\AutoMapper.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\EntityFramework.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\EntityFramework.SqlServer.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\ImageResizer.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\ImageResizer.Plugins.DiskCache.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\log4net.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.EntityFrameworkCore.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Extensions.Configuration.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Extensions.Logging.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Extensions.Options.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Owin.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Owin.Security.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Practices.Unity.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Newtonsoft.Json.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Owin.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Remotion.Linq.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\System.Buffers.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\System.Collections.Immutable.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\System.ComponentModel.Annotations.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\System.Interactive.Async.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\System.Memory.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\System.Numerics.Vectors.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\WebActivatorEx.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Autofac.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Autofac.Integration.Web.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\AutoMapper.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\EntityFramework.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\EntityFramework.SqlServer.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\ImageResizer.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\ImageResizer.Plugins.DiskCache.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\log4net.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.EntityFrameworkCore.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Extensions.Configuration.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Extensions.Logging.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Extensions.Options.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Owin.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Owin.Security.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Practices.Unity.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Newtonsoft.Json.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\Remotion.Linq.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\System.Buffers.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\System.Collections.Immutable.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\System.Interactive.Async.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\System.Memory.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\System.Numerics.Vectors.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.csproj.AssemblyReference.cache
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.Res.resources
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.csproj.GenerateResource.cache
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.csproj.CoreCompileInputs.cache
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.csproj.CopyComplete
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.dll
+C:\Users\W10\Desktop\SifirGibiDüzeltme\Yeni Yazılım 19.01.2022\Yeni Yazılım 19.01.2022\SifirGibiMakina\obj\Release\SifirGibiMakina.pdb

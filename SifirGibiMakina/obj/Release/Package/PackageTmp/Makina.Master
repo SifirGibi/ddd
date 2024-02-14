@@ -1,0 +1,488 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Makina.Master.cs" Inherits="SifirGibiMakina.Ana" %>
+
+<!DOCTYPE html>
+<!--[if IE 8]>    <html class="ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="tr" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<!--<![endif]-->
+<head runat="server">
+    <title>2. el satýlýk makine ilanlarý Sýfýr Gibi Makine</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1254">
+    <meta http-equiv="Content-Language" content="tr">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="robots" content="index, archive">
+    <meta name="robots" content="all">
+    <meta name="googlebot" content="index, follow">
+    <meta name="googlebot" content="index, archive">
+    <meta name="googlebot" content="all">
+    <meta name="description" content="Türkiye'nin ikinci el makine ilanlarý sitesi. 2.el CNC makinalarý. CNC-Torna-Dik iþlem-Abkant-Giyotin Freze, Pres, Lazer, Punch, Matkap.">
+    <meta name="author" content="FümeGri Digital Solutions">
+    <meta name="google-site-verification" content="ZdyBUARpp4bAwzrhMbkS26g64Kt0Ro2w7SL0QgOtO7w" />
+    <meta property="fb:app_id" content="">
+    <meta name="revisit-after" content="1 days">
+    <link rel="canonical" href="https://www.sifirgibimakine.com" />
+    <link rel="alternate" href="https://en.sifirgibimakine.com/" hreflang="en">
+    <link rel="alternate" href="https://de.sifirgibimakine.com/" hreflang="de">
+    <link rel="alternate" href="https://ru.sifirgibimakine.com/" hreflang="ru">
+    <meta name="ahrefs-site-verification" content="39d73b6484ef71340eacc9c7cf222c421fbad72df044336436079afc73c3b99a">
+    <meta name="twitter:card" content="summary">
+    <meta property="og:type" content="article" />
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+    <meta name="facebook-domain-verification" content="nk7bmampcv6ew1xlomde20wg1epqri" />
+    <!--[if lt IE 9]>
+    <script src="/js/html5shiv.js"></script>
+    <script src="/js/respond.min.js"></script>
+    <![endif]-->
+    <script src="/js/ckeditor/ckeditor.js"></script>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/images/ico/apple-touch-icon-57-precomposed.png">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/images/sifir-gibi-makina-fav.png">
+    <link href="/images/sifir-gibi-makina-fav.png" rel="icon">
+    <link href="/images/sifir-gibi-makina-fav.png" rel="apple-touch-icon">
+
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/owl.carousel.min.css">
+    <link rel="stylesheet" href="/styles/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="manifest" href="/Scripts/manifest.json">
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-W34M7TQ');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <!-- Google Recaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W34M7TQ"
+            height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <form id="form1" runat="server">
+
+        <div class="section bg-light">
+            <div class="mobile-bar">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <a href="/urunler">
+                                <svg xmlns="https://www.w3.org/2000/svg" class="menu-icon" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                                </svg>
+                                <p>Makine Al</p>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="/makina-sat">
+                                <svg xmlns="https://www.w3.org/2000/svg" class="menu-icon" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+                                </svg>
+                                <p>Makine Sat</p>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="/" class="active">
+                                <svg xmlns="https://www.w3.org/2000/svg" class="menu-icon" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                                </svg>
+                                <p>Anasayfa</p>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="/kategoriler">
+                                <svg xmlns="https://www.w3.org/2000/svg" class="menu-icon" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                                </svg>
+                                <p>Kategoriler</p>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a data-toggle="collapse" href="#searchBar" aria-expanded="false" aria-controls="searchBar">
+                                <svg xmlns="https://www.w3.org/2000/svg" class="menu-icon" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                </svg>
+                                <p>Arama</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="topbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a href="/ekspertiz" class="topbar-item">Sýfýr Gibi Ekspertiz</a>
+                            <a href="/servis" class="topbar-item">Sýfýr Gibi Servis</a>
+                            <a href="/hakkimizda" class="topbar-item">Hakkýmýzda</a>
+                            <a href="/blog" class="topbar-item">Blog</a>
+                            <a href="/iletisim" class="topbar-item">Ýletiþim</a>
+                            <a href="https://sifirgibimakine.com" class="topbar-item">
+                                <img src="/images/TR.gif" /></a>
+                            <a href="https://en.sifirgibimakine.com" class="topbar-item">
+                                <img src="/images/GB.gif" /></a>
+                            <a href="https://de.sifirgibimakine.com" class="topbar-item">
+                                <img src="/images/DE.gif" /></a>
+                            <a href="https://ru.sifirgibimakine.com" class="topbar-item">
+                                <img src="/images/RU.gif" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+
+                    <nav class="burger-menu" role="navigation">
+                        <div id="menuToggle">
+                            <input type="checkbox" />
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <ul id="menu">
+                                <a href="/">
+                                    <li>Anasayfa</li>
+                                </a>
+                                <a href="/urunler">
+                                    <li>Makine Al</li>
+                                </a>
+                                <a href="/makina-sat">
+                                    <li>Makine Sat</li>
+                                </a>
+                                <a href="/ekspertiz">
+                                    <li>Sýfýr Gibi Ekspertiz</li>
+                                </a>
+                                <a href="/servis">
+                                    <li>Sifir Gibi Servis</li>
+                                </a>
+                                <a href="/hakkimizda">
+                                    <li>Hakkýmýzda</li>
+                                </a>
+                                <a href="/blog">
+                                    <li>Blog</li>
+                                </a>
+                                <a href="/iletisim">
+                                    <li>Ýletiþim</li>
+                                </a>
+                                <a href="https://sifirgibimakine.com">
+                                    <img src="/images/TR.gif" /></a>
+                                <a href="https://en.sifirgibimakine.com">
+                                    <img src="/images/GB.gif" /></a>
+                                <a href="https://de.sifirgibimakine.com">
+                                    <img src="/images/DE.gif" /></a>
+                                <a href="https://ru.sifirgibimakine.com">
+                                    <img src="/images/RU.gif" /></a>
+                                <div class="social-icons">
+                                    <div>
+                                        <asp:Repeater ID="rptSosyalHamburger" runat="server">
+                                            <ItemTemplate>
+                                                <a href='<%# Eval("Link") %>' target="_blank"><i class='btn btn-light <%# Eval("FontAwasome") %>' style="margin-left: 2px"></i></a>
+                                            </ItemTemplate>
+                                        </asp:Repeater>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <a class="navbar-brand" href="/">
+                        <img src="/images/logo.png" alt="">
+                    </a>
+                    <%if (Session["Giris"] == null)
+                        {%>
+                    <div class="nav-login-success just-mobile">
+                        <a href="https://en.sifirgibimakine.com">
+                            <img src="/images/GB.gif" /></a>
+                        <a href="https://de.sifirgibimakine.com">
+                            <img src="/images/DE.gif" /></a>
+                        <a href="https://ru.sifirgibimakine.com">
+                            <img src="/images/RU.gif" /></a><br />
+                        <a href="/giris"><span class="btn btn-success" style="width: 100px; margin-bottom: 10px">Giriþ Yap</span></a><br />
+
+                        <a href="/uye-ol"><span class="btn btn-outline-secondary" style="width: 100px">Üye Ol</span></a>
+
+                        <%--<div class="dropdown">
+                        <button class="btn btn-link px-0 dropdown-toggle" type="button" id="dropdownMenuButtonUye" data-toggle="dropdown" aria-expanded="false">
+                            <div class="user-icon">
+                                <i class="far fa-user"></i>
+                            </div>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonUye">
+                            <a class="dropdown-item" href="/giris"><i class="fas fa-user"></i> Giriþ Yap</a>
+                            <a class="dropdown-item" href="/uye-ol"><i class="fas fa-question"></i> Üye Ol</a>
+                        </div>
+                    </div>--%>
+                    </div>
+                    <%}
+                        else if (Session["Giris"].ToString() == "OK")
+                        { %>
+                    <div class="nav-login-success just-mobile">
+                        <a href="https://en.sifirgibimakine.com">
+                            <img src="/images/GB.gif" /></a>
+                        <a href="https://de.sifirgibimakine.com">
+                            <img src="/images/DE.gif" /></a>
+                        <a href="https://ru.sifirgibimakine.com">
+                            <img src="/images/RU.gif" /></a><br />
+                        <div class="dropdown">
+                            <button class="btn btn-link px-0 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+                                <div class="user-icon">
+                                    <i class="far fa-user"></i>
+                                </div>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="/profilim"><i class="fas fa-user"></i>Profilim</a>
+                                <a class="dropdown-item" href="/makinam-ne-eder"><i class="fas fa-question"></i>Makinem Ne Eder?</a>
+                                <a class="dropdown-item" href="/makina-ekle"><i class="fas fa-tag"></i>Makine Sat</a>
+                                <a class="dropdown-item" href="/makinalarim"><i class="fas fa-cog"></i>Makinelerim</a>
+                                <a class="dropdown-item" href="/ihalelerim"><i class="fas fa-list-ul"></i>Ýhalelerim</a>
+                                <a class="dropdown-item" href="/odeme-bildirimi"><i class="fas fa-wallet"></i>Ödeme Bildirimi</a>
+                                <a class="dropdown-item" href="/favorilerim"><i class="fas fa-star"></i>Favorilerim</a>
+                                <a class="dropdown-item" href="/mesajlarim"><i class="fas fa-comment-alt"></i>Mesajlarým</a>
+                                <a class="dropdown-item" href="/cikis"><i class="fas fa-sign-out-alt"></i>Çýkýþ Yap</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <%} %>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <input class="form-inline my-2 my-lg-0 form-control rounded-0" type="search" placeholder="Marka, Model veya Ýlan No ile Arayýn" aria-label="Search" runat="server" id="search_input" name="search_input">
+                        <button class="btn btn-secondary rounded-0 my-2 my-sm-0" type="submit" runat="server" id="btnsearch" onserverclick="btnSearch_Click" validationgroup="arama">
+                            <i class="fas fa-search"></i>
+                        </button>
+
+                    </div>
+                    <div class="nav-login-register sm-d-none">
+                        <%if (Session["Giris"] == null)
+                            {%>
+                        <a href="/giris">
+                            <span class="btn btn-success">Giriþ Yap</span>
+                        </a>
+                        <%}
+                            else if (Session["Giris"].ToString() == "OK")
+                            { %>
+                        <div class="nav-login-success">
+                            <div class="dropdown">
+                                <button class="btn btn-link px-0 dropdown-toggle" type="button" id="dropdownMenuButtonDesktop" data-toggle="dropdown" aria-expanded="false">
+
+                                    <i class="fa fa-user text-green"></i>
+                                    <div class="user-icon">
+                                        <i class="far fa-user"></i>
+                                    </div>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonDesktop">
+                                    <a class="dropdown-item" href="/profilim"><i class="fas fa-user"></i>Profilim</a>
+                                    <a class="dropdown-item" href="/makinam-ne-eder"><i class="fas fa-question"></i>Makinem Ne Eder?</a>
+                                    <a class="dropdown-item" href="/makina-ekle"><i class="fas fa-tag"></i>Makine Sat</a>
+                                    <a class="dropdown-item" href="/makinalarim"><i class="fas fa-cog"></i>Makinelerim</a>
+                                    <a class="dropdown-item" href="/ihalelerim"><i class="fas fa-list-ul"></i>Ýhalelerim</a>
+                                    <a class="dropdown-item" href="/odeme-bildirimi"><i class="fas fa-wallet"></i>Ödeme Bildirimi</a>
+                                    <a class="dropdown-item" href="/favorilerim"><i class="fas fa-star"></i>Favorilerim</a>
+                                    <a class="dropdown-item" href="/mesajlarim"><i class="fas fa-comment-alt"></i>Mesajlarým</a>
+                                    <a class="dropdown-item" href="/cikis"><i class="fas fa-sign-out-alt"></i>Çýkýþ Yap</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <%} %>
+                        <%if (Session["Giris"] == null)
+                            {%>
+                        <a href="/uye-ol">
+                            <span class="btn btn-outline-secondary">Üye Ol</span>
+                        </a>
+                        <%} %>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="search-bar-collapse just-mobile">
+                <div class="collapse" id="searchBar">
+                    <div class="card card-body">
+                        <div class="profil my-0">
+                            <div class="profil-right-box">
+                                <input class="form-control rounded-0" type="search" placeholder="Marka, Model veya Ýlan No ile Arayýn" aria-label="Search" id="txtSearchMobil" runat="server">
+                                <button class="btn btn-secondary rounded-0" type="submit" id="btnmobilsearch" runat="server" onserverclick="btnSearchMobil_Click">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <!-- End #main -->
+    </form>
+    <!-- ======= Footer ======= -->
+
+
+
+    <footer>
+        <div class="container sm-my-0 sm-py-40px">
+            <div class="row">
+                <div class="col-md-3 left-column sm-text-center">
+                    <img src="/images/logo-footer.png" alt="">
+                    <h6>Sýfýrgibimakine.com</h6>
+                    <p>Çerkeþliosb Mah. Ýmes-17 Cad. Küçük Sanayi Sitesi D5 No: 12 Ýç Kapý No: 1 Dilovasý – Kocaeli</p>
+                </div>
+                <div class="col-md-3 footer-links sm-text-center">
+                    <h6>Satýþ</h6>
+                    <a href="/urunler">
+                        <p>Ýlanlar</p>
+                    </a>
+                    <a href="/makinalarim">
+                        <p>Ýlanlarý Yönet</p>
+                    </a>
+                    <a href="/makina-ekle">
+                        <p>Ýlan Ver</p>
+                    </a>
+                    <a href="/beni-haberdar-et">
+                        <p>Beni Haberdar Et</p>
+                    </a>
+                </div>
+                <div class="col-md-3 footer-links sm-text-center">
+                    <h6>Kurumsal</h6>
+                    <a href="/hakkimizda">
+                        <p>Hakkýmýzda</p>
+                    </a>
+                    <a href="/sayfalar/9/site-kullanim-sartlari">
+                        <p>Site Kullaným Þartlarý</p>
+                    </a>
+                    <a href="/sayfalar/11/uyelik-sozlesmesi">
+                        <p>Üyelik Sözleþmesi</p>
+                    </a>
+                    <a href="/sayfalar/13/gizlilik-sozlesmesi">
+                        <p>Gizlilik Politikasý</p>
+                    </a>
+                    <a href="/sayfalar/16/sifir-gibi-servis">
+                        <p>Sýfýr Gibi Servis</p>
+                    </a>
+                </div>
+                <div class="col-md-3 footer-links sm-text-center">
+                    <h6>Sosyal Medya</h6>
+                    <asp:Repeater ID="rptSosyalmedyaFooter" runat="server">
+                        <ItemTemplate>
+
+                            <a href='<%# Eval("Link") %>' target="_blank">
+                                <p><%# Eval("Baslik") %></p>
+                            </a>
+
+                        </ItemTemplate>
+                    </asp:Repeater>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <div class="row">
+                <div class="col-md-12">
+                     <p>Sýfýrgibimakine.com Yazýlým ve Geliþtirme  -Her Hakký Saklýdýr © , 2022  </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+
+     <script src="/js/jquery.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <%if (Session["Deger"] != null)
+        {%>
+
+    <!-- International Phone -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.8/js/intlTelInput-jquery.min.js"></script>
+
+    <script type="text/javascript">
+         $(function () {
+
+             var code = "<%= Session["Deger"].ToString() %>"; // Assigning value from model..
+
+             $('#ContentPlaceHolder1_txtTelefon').val(code);
+             $('#ContentPlaceHolder1_txtTelefon').intlTelInput({
+                 autoHideDialCode: true,
+                 autoPlaceholder: "ON",
+                 dropdownContainer: document.body,
+                 formatOnDisplay: true,
+                 //hiddenInput: "full_number",
+                 initialCountry: "auto",
+                 nationalMode: true,
+                 placeholderNumberType: "MOBILE",
+                 preferredCountries: ['TR'],
+                 separateDialCode: true,
+                 geoIpLookup: "auto"
+             });
+             $('#ContentPlaceHolder1_btnProfilSave').on('click', function () {
+                 var code = $("#ContentPlaceHolder1_txtTelefon").intlTelInput("getSelectedCountryData").dialCode;
+                 $("#ContentPlaceHolder1_txtDialCode").val(code);
+             });
+
+            
+
+         });
+    </script>
+    <% }%>
+
+    <%if (Session["Giris"] != null)
+        {%>
+
+    <script type="text/javascript">
+         $(function () {
+
+             var kod = ""; // Assigning value from model.
+             $('#ContentPlaceHolder1_txtTelefonM').val(kod);
+             $('#ContentPlaceHolder1_txtTelefonM').intlTelInput({
+                 autoHideDialCode: true,
+                 autoPlaceholder: "ON",
+                 dropdownContainer: document.body,
+                 formatOnDisplay: true,
+                 //hiddenInput: "full_number",
+                 initialCountry: "tr",
+                 nationalMode: true,
+                 placeholderNumberType: "MOBILE",
+                 preferredCountries: ['TR'],
+                 separateDialCode: true,
+                 geoIpLookup: "auto"
+             });
+             $('#ContentPlaceHolder1_btnMesaj').on('click', function () {
+                 var kod = $("#ContentPlaceHolder1_txtTelefonM").intlTelInput("getSelectedCountryData").dialCode;
+                 $("#ContentPlaceHolder1_txtDialCodeM").val(kod);
+             });
+
+         });
+    </script>
+    <% }%>
+</body>
+</html>

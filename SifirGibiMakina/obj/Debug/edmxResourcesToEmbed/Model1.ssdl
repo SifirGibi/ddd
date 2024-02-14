@@ -1,0 +1,2084 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="db_SifirGibiMakinaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.Ilceler' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Ilceler">
+    <Key>
+      <PropertyRef Name="ilceId" />
+    </Key>
+    <Property Name="ilceId" Type="int" Nullable="false" />
+    <Property Name="SehirId" Type="int" Nullable="false" />
+    <Property Name="IlceAdi" Type="nvarchar" MaxLength="60" Nullable="false" />
+    <Property Name="SehirAdi" Type="nvarchar" MaxLength="55" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.Log' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Log">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="date" Type="smalldatetime" Nullable="false" />
+    <Property Name="thread" Type="varchar" MaxLength="255" />
+    <Property Name="level" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="logger" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="message" Type="varchar" MaxLength="4000" Nullable="false" />
+    <Property Name="exception" Type="varchar" MaxLength="2000" />
+    <Property Name="host" Type="varchar" MaxLength="50" />
+    <Property Name="page" Type="varchar" MaxLength="255" />
+    <Property Name="ipaddress" Type="varchar" MaxLength="15" />
+    <Property Name="browser" Type="varchar" MaxLength="255" />
+    <Property Name="platform" Type="varchar" MaxLength="255" />
+    <Property Name="device" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.Sehirler' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Sehirler">
+    <Key>
+      <PropertyRef Name="SehirId" />
+    </Key>
+    <Property Name="SehirId" Type="int" Nullable="false" />
+    <Property Name="SehirAdi" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="PlakaNo" Type="tinyint" Nullable="false" />
+    <Property Name="TelefonKodu" Type="int" Nullable="false" />
+    <Property Name="RowNumber" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_Ayarlar' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_Ayarlar">
+    <Key>
+      <PropertyRef Name="ayar_ID" />
+    </Key>
+    <Property Name="ayar_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Site_Adi" Type="nvarchar" MaxLength="250" />
+    <Property Name="Site_Adi_EN" Type="nvarchar" MaxLength="250" />
+    <Property Name="Site_Adi_DE" Type="nvarchar" MaxLength="250" />
+    <Property Name="Site_Adi_RU" Type="nvarchar" MaxLength="250" />
+    <Property Name="Logo" Type="nvarchar" MaxLength="50" />
+    <Property Name="SMTP_Server" Type="nvarchar" MaxLength="50" />
+    <Property Name="SMTP_Port" Type="nvarchar" MaxLength="50" />
+    <Property Name="SMTP_Mail" Type="nvarchar" MaxLength="150" />
+    <Property Name="SMTP_Gonderen" Type="nvarchar" MaxLength="250" />
+    <Property Name="SMTP_Email" Type="nvarchar" MaxLength="150" />
+    <Property Name="SMTP_Sifre" Type="nvarchar" MaxLength="50" />
+    <Property Name="TeknikKisiler" Type="nvarchar" MaxLength="500" />
+    <Property Name="OzelBolumWhatsapp" Type="nvarchar" MaxLength="50" />
+    <Property Name="Adres" Type="nvarchar" MaxLength="500" />
+    <Property Name="Il" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ilce" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="GoogleMap" Type="nvarchar" MaxLength="1000" />
+    <Property Name="Email" Type="nvarchar" MaxLength="150" />
+    <Property Name="EkUyeSayisi" Type="int" />
+    <Property Name="EkAcikArtirmaSayisi" Type="int" />
+    <Property Name="EkTeklifSayisi" Type="int" />
+    <Property Name="EkSatilanMakinaSayisi" Type="int" />
+    <Property Name="SayilarPanel" Type="bit" />
+    <Property Name="SEOAnaSayfa" Type="nvarchar(max)" />
+    <Property Name="SEOAnaSayfaEN" Type="nvarchar(max)" />
+    <Property Name="SEOAnaSayfaDE" Type="nvarchar(max)" />
+    <Property Name="SEOAnaSayfaRU" Type="nvarchar(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_BeniHaberdarEt' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_BeniHaberdarEt">
+    <Key>
+      <PropertyRef Name="benihaberdaret_ID" />
+    </Key>
+    <Property Name="benihaberdaret_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AdSoyad" Type="nvarchar" MaxLength="250" />
+    <Property Name="EMail" Type="varchar" MaxLength="250" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="tur_ID" Type="int" />
+    <Property Name="Alttur_ID" Type="int" />
+    <Property Name="Alttur2_ID" Type="int" />
+    <Property Name="marka_ID" Type="int" />
+    <Property Name="yil_ID" Type="int" />
+    <Property Name="Model" Type="nvarchar" MaxLength="250" />
+    <Property Name="Fiyat" Type="nvarchar" MaxLength="50" />
+    <Property Name="Para_Birimi" Type="int" />
+    <Property Name="Aciklama" Type="nvarchar(max)" />
+    <Property Name="Rapor" Type="nvarchar(max)" />
+    <Property Name="Yanit" Type="bit" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Ekleyen" Type="int" />
+    <Property Name="IP" Type="nvarchar" MaxLength="50" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Rapor_Tarihi" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tbl_CardInfo">
+    <Key>
+      <PropertyRef Name="CardInfoID" />
+    </Key>
+    <Property Name="CardInfoID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CardToken" Type="nvarchar(max)" />
+    <Property Name="CardUserKey" Type="nvarchar(max)" />
+    <Property Name="BinNumber" Type="nvarchar" MaxLength="10" />
+    <Property Name="ConversationId" Type="nvarchar(max)" />
+    <Property Name="Locale" Type="nvarchar" MaxLength="10" />
+    <Property Name="Status" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="300" />
+    <Property Name="CardType" Type="nvarchar(max)" />
+    <Property Name="CardFamily" Type="nvarchar(max)" />
+    <Property Name="SystemTime" Type="int" />
+    <Property Name="UserID" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_ControlUnit' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_ControlUnit">
+    <Key>
+      <PropertyRef Name="ControlUnitID" />
+    </Key>
+    <Property Name="ControlUnitID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ControlUnitName" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_Diller' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_Diller">
+    <Key>
+      <PropertyRef Name="dil_ID" />
+    </Key>
+    <Property Name="dil_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Dil" Type="nvarchar" MaxLength="50" />
+    <Property Name="YaziYonu" Type="nvarchar" MaxLength="50" />
+    <Property Name="LokalKod" Type="nvarchar" MaxLength="50" />
+    <Property Name="Kod" Type="nvarchar" MaxLength="50" />
+    <Property Name="Resim" Type="nvarchar" MaxLength="50" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Durum" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_Duyurular' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_Duyurular">
+    <Key>
+      <PropertyRef Name="duy_ID" />
+    </Key>
+    <Property Name="duy_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Baslik" Type="nvarchar" MaxLength="500" />
+    <Property Name="KisaAciklama" Type="nvarchar" MaxLength="250" />
+    <Property Name="Icerik" Type="nvarchar(max)" />
+    <Property Name="Fotograf" Type="nvarchar" MaxLength="50" />
+    <Property Name="cat_ID" Type="int" />
+    <Property Name="Manset" Type="bit" />
+    <Property Name="AnaSayfaYayin" Type="bit" />
+    <Property Name="Siralama" Type="int" />
+    <Property Name="Yayin_Tarihi" Type="datetime" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Update_Tarihi" Type="datetime" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="SeoKeywords" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescription" Type="nvarchar" MaxLength="500" />
+    <Property Name="SosyalMedyaPaylasim" Type="bit" />
+    <Property Name="Yayinda" Type="bit" />
+    <Property Name="BuyukBlog" Type="bit" />
+    <Property Name="OkumaSayisi" Type="int" />
+    <Property Name="OneCikar" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_DuyurularCat' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_DuyurularCat">
+    <Key>
+      <PropertyRef Name="cat_ID" />
+    </Key>
+    <Property Name="cat_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Kategori" Type="nvarchar" MaxLength="50" />
+    <Property Name="Resim" Type="nvarchar" MaxLength="50" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="SeoKeywords" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescription" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="tbl_Expertiz">
+    <Key>
+      <PropertyRef Name="expertiz_ID" />
+    </Key>
+    <Property Name="expertiz_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ExpertizFirmasi_ID" Type="int" />
+    <Property Name="Randevu_Tarihi" Type="datetime" />
+    <Property Name="Adi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Soyadi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="EMail" Type="nvarchar" MaxLength="50" />
+    <Property Name="Baslik" Type="nvarchar" MaxLength="250" />
+    <Property Name="tur_ID" Type="int" />
+    <Property Name="Alttur_ID" Type="int" />
+    <Property Name="Alttur2_ID" Type="int" />
+    <Property Name="marka_ID" Type="int" />
+    <Property Name="yil_ID" Type="int" />
+    <Property Name="Model" Type="nvarchar" MaxLength="250" />
+    <Property Name="Aciklama" Type="nvarchar(max)" />
+    <Property Name="Rapor" Type="nvarchar(max)" />
+    <Property Name="Fotograf" Type="nvarchar" MaxLength="50" />
+    <Property Name="Yanit" Type="bit" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Ekleyen" Type="int" />
+    <Property Name="uye_ID" Type="int" />
+    <Property Name="IP" Type="nvarchar" MaxLength="50" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_Firmalar' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_Firmalar">
+    <Key>
+      <PropertyRef Name="Firma_ID" />
+    </Key>
+    <Property Name="Firma_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Firma_Adi" Type="nvarchar" MaxLength="250" />
+    <Property Name="Firma_Adi_EN" Type="nvarchar" MaxLength="250" />
+    <Property Name="Firma_Adi_DE" Type="nvarchar" MaxLength="250" />
+    <Property Name="Firma_Adi_RU" Type="nvarchar" MaxLength="250" />
+    <Property Name="EMail" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ilgili" Type="nvarchar" MaxLength="250" />
+    <Property Name="Sifre" Type="nvarchar" MaxLength="50" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Resim" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="Gonderilecek_Mailler" Type="nvarchar" MaxLength="500" />
+    <Property Name="Duzenleme" Type="int" />
+    <Property Name="Yetki_Makinalar" Type="int" />
+    <Property Name="Yetki_MakinalarDuzenleme" Type="int" />
+    <Property Name="Yetki_MakinamNeEder" Type="int" />
+    <Property Name="Yetki_MakinamNeEderDuzenleme" Type="int" />
+    <Property Name="Yetki_Uyeler" Type="int" />
+    <Property Name="Yetki_UyelerDuzenleme" Type="int" />
+    <Property Name="Yetki_Sayfalar" Type="int" />
+    <Property Name="Yetki_SayfalarDuzenleme" Type="int" />
+    <Property Name="Yetki_Kullanicilar" Type="int" />
+    <Property Name="Yetki_KullanicilarDuzenleme" Type="int" />
+    <Property Name="Yetki_MakinaTanimlari" Type="int" />
+    <Property Name="Yetki_MakinaTanimlariDuzenleme" Type="int" />
+    <Property Name="Yetki_Diger" Type="int" />
+    <Property Name="Yetki_DigerDuzenleme" Type="int" />
+    <Property Name="Yetki_GelenMesajlar" Type="int" />
+    <Property Name="Yetki_Odemeler" Type="int" />
+    <Property Name="Yetki_OdemelerDuzenleme" Type="int" />
+    <Property Name="Yetki_Ihaleler" Type="int" />
+    <Property Name="Yetki_IhalelerDuzenleme" Type="int" />
+    <Property Name="Yetki_SagMenu" Type="int" />
+    <Property Name="Yetki_DestekTalebi" Type="int" />
+    <Property Name="Yetki_SifreDegistir" Type="int" />
+    <Property Name="Yetki_SosyalMedya" Type="int" />
+    <Property Name="user_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="IsAdmin" Type="int" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_FirmaLogolari' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_FirmaLogolari">
+    <Key>
+      <PropertyRef Name="logo_ID" />
+    </Key>
+    <Property Name="logo_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Baslik" Type="nvarchar" MaxLength="250" />
+    <Property Name="uye_ID" Type="int" />
+    <Property Name="Link" Type="nvarchar" MaxLength="250" />
+    <Property Name="Fotograf" Type="nvarchar" MaxLength="50" />
+    <Property Name="Buyuk_Logo" Type="nvarchar" MaxLength="50" />
+    <Property Name="Aciklama" Type="nvarchar(max)" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="Yayinda" Type="bit" />
+    <Property Name="Siralama" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_Icerikler' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_Icerikler">
+    <Key>
+      <PropertyRef Name="icerik_ID" />
+    </Key>
+    <Property Name="icerik_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Baslik" Type="nvarchar" MaxLength="150" />
+    <Property Name="Aciklama" Type="nvarchar(max)" />
+    <Property Name="Resim" Type="nvarchar" MaxLength="50" />
+    <Property Name="icerikOrder" Type="int" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Update_Tarihi" Type="datetime" />
+    <Property Name="sagMenu_ID" Type="int" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="SeoKeywords" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescription" Type="nvarchar" MaxLength="500" />
+    <Property Name="SosyalMedyaPaylasim" Type="bit" />
+    <Property Name="Yayinda" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_Ihale' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_Ihale">
+    <Key>
+      <PropertyRef Name="ihale_ID" />
+    </Key>
+    <Property Name="ihale_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="makina_ID" Type="int" />
+    <Property Name="uye_ID" Type="int" />
+    <Property Name="Verilen_Fiyat" Type="money" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="IP" Type="nvarchar" MaxLength="50" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="SonFiyat" Type="money" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_Iletisim' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_Iletisim">
+    <Key>
+      <PropertyRef Name="iletisim_ID" />
+    </Key>
+    <Property Name="iletisim_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AdSoyad" Type="nvarchar" MaxLength="200" />
+    <Property Name="Email" Type="nvarchar" MaxLength="150" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mesaj" Type="nvarchar(max)" />
+    <Property Name="IP" Type="nvarchar" MaxLength="50" />
+    <Property Name="Konu" Type="nvarchar" MaxLength="150" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Durum" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_ilanEmail' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_ilanEmail">
+    <Key>
+      <PropertyRef Name="mesaj_ID" />
+    </Key>
+    <Property Name="mesaj_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="makina_ID" Type="int" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="GonderenAdi" Type="nvarchar" MaxLength="250" />
+    <Property Name="AliciAdi" Type="nvarchar" MaxLength="250" />
+    <Property Name="AliciMail" Type="nvarchar" MaxLength="50" />
+    <Property Name="UygunCheck" Type="int" />
+    <Property Name="GarantiCheck" Type="int" />
+    <Property Name="DurumuCheck" Type="int" />
+    <Property Name="FiyatOgreneBilirmiyimCheck" Type="int" />
+    <Property Name="PazarlikChek" Type="int" />
+    <Property Name="FiyatOneri" Type="nvarchar" MaxLength="50" />
+    <Property Name="DahaFazlaResimChek" Type="int" />
+    <Property Name="YasadigimYerCheck" Type="int" />
+    <Property Name="YasadigimYer" Type="nvarchar" MaxLength="50" />
+    <Property Name="KonusulanDillerCheck" Type="int" />
+    <Property Name="KonusulanDiller" Type="nvarchar" MaxLength="50" />
+    <Property Name="GorusmePlanlamaCheck" Type="int" />
+    <Property Name="IletimTalepCheck" Type="int" />
+    <Property Name="DahaOnceGorusmeCheck" Type="int" />
+    <Property Name="TelefonDahaOnceGorusmeTarih" Type="nvarchar" MaxLength="50" />
+    <Property Name="AyirtmaCheck" Type="int" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mesaj" Type="nvarchar(max)" />
+    <Property Name="IP" Type="nvarchar" MaxLength="50" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_ilanFavorileri' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_ilanFavorileri">
+    <Key>
+      <PropertyRef Name="favori_ID" />
+    </Key>
+    <Property Name="favori_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="makina_ID" Type="int" />
+    <Property Name="user_ID" Type="int" />
+    <Property Name="IP" Type="nvarchar" MaxLength="50" />
+    <Property Name="EklenenFiyat" Type="nvarchar" MaxLength="50" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_ilanKategoriListeleme' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_ilanKategoriListeleme">
+    <Key>
+      <PropertyRef Name="ilanKategoriListeleme_ID" />
+    </Key>
+    <Property Name="ilanKategoriListeleme_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Baslik" Type="nvarchar" MaxLength="500" />
+    <Property Name="KisaAciklama" Type="nvarchar" MaxLength="250" />
+    <Property Name="Icerik" Type="nvarchar(max)" />
+    <Property Name="Fotograf" Type="nvarchar" MaxLength="50" />
+    <Property Name="tur_ID" Type="int" />
+    <Property Name="Siralama" Type="int" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Update_Tarihi" Type="datetime" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="Yayinda" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_ilanMesajlari' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_ilanMesajlari">
+    <Key>
+      <PropertyRef Name="mesaj_ID" />
+    </Key>
+    <Property Name="mesaj_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="makina_ID" Type="int" />
+    <Property Name="UstMesaj_ID" Type="int" />
+    <Property Name="Kimden" Type="int" />
+    <Property Name="Kime" Type="int" />
+    <Property Name="Mesaj" Type="nvarchar(max)" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Okunma" Type="int" />
+    <Property Name="IP" Type="nvarchar" MaxLength="50" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="GonderenSildi" Type="int" />
+    <Property Name="AliciSildi" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_Kullanicilar' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_Kullanicilar">
+    <Key>
+      <PropertyRef Name="Kullanici_ID" />
+    </Key>
+    <Property Name="Kullanici_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Adi_Soyadi" Type="nvarchar" MaxLength="250" />
+    <Property Name="EMail" Type="nvarchar" MaxLength="50" />
+    <Property Name="Sifre" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Duzenleme" Type="int" />
+    <Property Name="Yetki_Makinalar" Type="int" />
+    <Property Name="Yetki_MakinalarDuzenleme" Type="int" />
+    <Property Name="Yetki_MakinamNeEder" Type="int" />
+    <Property Name="Yetki_MakinamNeEderDuzenleme" Type="int" />
+    <Property Name="Yetki_Uyeler" Type="int" />
+    <Property Name="Yetki_UyelerDuzenleme" Type="int" />
+    <Property Name="Yetki_Sayfalar" Type="int" />
+    <Property Name="Yetki_SayfalarDuzenleme" Type="int" />
+    <Property Name="Yetki_Kullanicilar" Type="int" />
+    <Property Name="Yetki_KullanicilarDuzenleme" Type="int" />
+    <Property Name="Yetki_MakinaTanimlari" Type="int" />
+    <Property Name="Yetki_MakinaTanimlariDuzenleme" Type="int" />
+    <Property Name="Yetki_Diger" Type="int" />
+    <Property Name="Yetki_DigerDuzenleme" Type="int" />
+    <Property Name="Yetki_GelenMesajlar" Type="int" />
+    <Property Name="Yetki_Odemeler" Type="int" />
+    <Property Name="Yetki_OdemelerDuzenleme" Type="int" />
+    <Property Name="Yetki_Ihaleler" Type="int" />
+    <Property Name="Yetki_IhalelerDuzenleme" Type="int" />
+    <Property Name="Yetki_SagMenu" Type="int" />
+    <Property Name="Yetki_DestekTalebi" Type="int" />
+    <Property Name="Yetki_SifreDegistir" Type="int" />
+    <Property Name="Yetki_SosyalMedya" Type="int" />
+    <Property Name="user_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="IsAdmin" Type="int" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tbl_MachineDetail">
+    <Key>
+      <PropertyRef Name="MachineDetailId" />
+    </Key>
+    <Property Name="MachineDetailId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MachineId" Type="int" />
+    <Property Name="MirrorSizeID" Type="int" />
+    <Property Name="ControlUnitID" Type="int" />
+    <Property Name="NumberOfAxesID" Type="int" />
+    <Property Name="SpindleRPMID" Type="int" />
+    <Property Name="SpecificType" Type="int" />
+    <Property Name="XAxisSizeID" Type="int" />
+    <Property Name="YAxisSizeID" Type="int" />
+    <Property Name="NumberOfTablesID" Type="int" />
+    <Property Name="DailyPrice" Type="int" />
+    <Property Name="WeeklyPrice" Type="int" />
+    <Property Name="MonthlyPrice" Type="int" />
+    <Property Name="CountryId" Type="int" />
+    <Property Name="CityId" Type="int" />
+    <Property Name="ProvinceId" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_MakinaAltTurleri' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_MakinaAltTurleri">
+    <Key>
+      <PropertyRef Name="Alttur_ID" />
+    </Key>
+    <Property Name="Alttur_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="tur_ID" Type="int" />
+    <Property Name="Kategori" Type="nvarchar" MaxLength="50" />
+    <Property Name="KategoriEN" Type="nvarchar" MaxLength="50" />
+    <Property Name="KategoriDE" Type="nvarchar" MaxLength="50" />
+    <Property Name="KategoriRU" Type="nvarchar" MaxLength="50" />
+    <Property Name="Resim" Type="nvarchar" MaxLength="50" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="SeoKeywords" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescription" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescriptionEN" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescriptionDE" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescriptionRU" Type="nvarchar" MaxLength="500" />
+    <Property Name="FooterAciklamaSEO" Type="nvarchar(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_MakinaAltTurleri2' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_MakinaAltTurleri2">
+    <Key>
+      <PropertyRef Name="Alttur2_ID" />
+    </Key>
+    <Property Name="Alttur2_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Alttur_ID" Type="int" />
+    <Property Name="Kategori" Type="nvarchar" MaxLength="50" />
+    <Property Name="KategoriEN" Type="nvarchar" MaxLength="50" />
+    <Property Name="KategoriDE" Type="nvarchar" MaxLength="50" />
+    <Property Name="KategoriRU" Type="nvarchar" MaxLength="50" />
+    <Property Name="Resim" Type="nvarchar" MaxLength="50" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="SeoKeywords" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescription" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescriptionEN" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescriptionDE" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescriptionRU" Type="nvarchar" MaxLength="500" />
+    <Property Name="FooterAciklamaSEO" Type="nvarchar(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_MakinaEksper' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_MakinaEksper">
+    <Key>
+      <PropertyRef Name="eksper_ID" />
+    </Key>
+    <Property Name="eksper_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Kategori" Type="nvarchar" MaxLength="50" />
+    <Property Name="KategoriEN" Type="nvarchar" MaxLength="50" />
+    <Property Name="KategoriDE" Type="nvarchar" MaxLength="50" />
+    <Property Name="KategoriRU" Type="nvarchar" MaxLength="50" />
+    <Property Name="Resim" Type="nvarchar" MaxLength="50" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="SeoKeywords" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescription" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_MakinaEksperSecimi' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_MakinaEksperSecimi">
+    <Key>
+      <PropertyRef Name="ozellik_ID" />
+    </Key>
+    <Property Name="ozellik_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="makina_ID" Type="int" />
+    <Property Name="eksper_ID" Type="int" />
+    <Property Name="Note" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_MakinaIhale' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_MakinaIhale">
+    <Key>
+      <PropertyRef Name="makinaihale_ID" />
+    </Key>
+    <Property Name="makinaihale_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="makina_ID" Type="int" />
+    <Property Name="uye_ID" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_MakinaIslemler' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_MakinaIslemler">
+    <Key>
+      <PropertyRef Name="islem_ID" />
+    </Key>
+    <Property Name="islem_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="makina_ID" Type="int" />
+    <Property Name="Tarih" Type="datetime" />
+    <Property Name="Aciklama" Type="nvarchar(max)" />
+    <Property Name="Islemi_Yapan_Firma" Type="nvarchar" MaxLength="250" />
+    <Property Name="Islemi_Yapan_Muhendis" Type="nvarchar" MaxLength="250" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Durum" Type="bit" />
+  </EntityType>
+  <EntityType Name="tbl_Makinalar">
+    <Key>
+      <PropertyRef Name="makina_ID" />
+    </Key>
+    <Property Name="makina_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Baslik" Type="nvarchar" MaxLength="250" />
+    <Property Name="BaslikEN" Type="nvarchar" MaxLength="250" />
+    <Property Name="BaslikDE" Type="nvarchar" MaxLength="250" />
+    <Property Name="BaslikRU" Type="nvarchar" MaxLength="250" />
+    <Property Name="tur_ID" Type="int" />
+    <Property Name="Alttur_ID" Type="int" />
+    <Property Name="Alttur2_ID" Type="int" />
+    <Property Name="marka_ID" Type="int" />
+    <Property Name="yil_ID" Type="int" />
+    <Property Name="Statu" Type="int" />
+    <Property Name="Kimden" Type="int" />
+    <Property Name="Slide" Type="bit" />
+    <Property Name="Ihale" Type="bit" />
+    <Property Name="Ihale_Baslangic" Type="datetime" />
+    <Property Name="Ihale_Bitis" Type="datetime" />
+    <Property Name="Ihale_Acilis_Fiyat" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Minimum_Satis_Fiyati" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="AnaVitrin" Type="bit" />
+    <Property Name="Vitrin" Type="bit" />
+    <Property Name="Model" Type="nvarchar" MaxLength="250" />
+    <Property Name="Fiyat" Type="int" />
+    <Property Name="Para_Birimi" Type="int" />
+    <Property Name="Aciklama" Type="nvarchar(max)" />
+    <Property Name="AciklamaEN" Type="nvarchar(max)" />
+    <Property Name="AciklamaDE" Type="nvarchar(max)" />
+    <Property Name="AciklamaRU" Type="nvarchar(max)" />
+    <Property Name="SeoKeywords" Type="nvarchar" MaxLength="250" />
+    <Property Name="SeoDescription" Type="nvarchar" MaxLength="250" />
+    <Property Name="SeoDescriptionEN" Type="nvarchar" MaxLength="250" />
+    <Property Name="SeoDescriptionDE" Type="nvarchar" MaxLength="250" />
+    <Property Name="SeoDescriptionRU" Type="nvarchar" MaxLength="250" />
+    <Property Name="KM" Type="nvarchar" MaxLength="50" />
+    <Property Name="Fotograf" Type="nvarchar" MaxLength="50" />
+    <Property Name="SosyalMedyaPaylasim" Type="bit" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Makina_Order" Type="int" />
+    <Property Name="Yayinda" Type="bit" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Ekleyen" Type="int" />
+    <Property Name="IP" Type="nvarchar" MaxLength="50" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Satis_Temsilcisi_Adi" Type="nvarchar" MaxLength="250" />
+    <Property Name="Satis_Temsilcisi_Telefon" Type="nvarchar" MaxLength="250" />
+    <Property Name="Satis_Temsilcisi_Email" Type="nvarchar" MaxLength="150" />
+    <Property Name="Kapora" Type="nvarchar" MaxLength="50" />
+    <Property Name="QRCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="QRCodeImage" Type="nvarchar" MaxLength="50" />
+    <Property Name="StokGelis_Tarihi" Type="datetime" />
+    <Property Name="EksperTalebi" Type="bit" />
+    <Property Name="Yayinlanma_Tarihi" Type="datetime" />
+    <Property Name="Ulke" Type="int" />
+    <Property Name="il" Type="nvarchar" MaxLength="100" />
+    <Property Name="ilce" Type="nvarchar" MaxLength="100" />
+    <Property Name="GoruntulenmeSayisi" Type="int" />
+    <Property Name="FavoriSayisi" Type="int" />
+    <Property Name="IlanNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="KaldirmaSebebi" Type="int" />
+    <Property Name="KaldirmaTarihi" Type="datetime" />
+    <Property Name="FiyatGosterilmesin" Type="bit" />
+    <Property Name="SEOUrl" Type="nvarchar" MaxLength="250" />
+    <Property Name="SEOUrlEN" Type="nvarchar" MaxLength="250" />
+    <Property Name="SEOUrlDE" Type="nvarchar" MaxLength="250" />
+    <Property Name="SEOUrlRU" Type="nvarchar" MaxLength="250" />
+    <Property Name="TelefonNumarasiGostermeSayisi" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_MakinaMarkalari' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_MakinaMarkalari">
+    <Key>
+      <PropertyRef Name="marka_ID" />
+    </Key>
+    <Property Name="marka_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Kategori" Type="nvarchar" MaxLength="50" />
+    <Property Name="Resim" Type="nvarchar" MaxLength="50" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="SeoKeywords" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescription" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescriptionEN" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescriptionDE" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescriptionRU" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_MakinamNeEder' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_MakinamNeEder">
+    <Key>
+      <PropertyRef Name="makinamneeder_ID" />
+    </Key>
+    <Property Name="makinamneeder_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="uye_ID" Type="int" />
+    <Property Name="Baslik" Type="nvarchar" MaxLength="250" />
+    <Property Name="tur_ID" Type="int" />
+    <Property Name="Alttur_ID" Type="int" />
+    <Property Name="Alttur2_ID" Type="int" />
+    <Property Name="marka_ID" Type="int" />
+    <Property Name="yil_ID" Type="int" />
+    <Property Name="Model" Type="nvarchar" MaxLength="250" />
+    <Property Name="OngorulenFiyat" Type="nvarchar" MaxLength="50" />
+    <Property Name="Fiyat" Type="nvarchar" MaxLength="50" />
+    <Property Name="Para_Birimi_Ongorulen" Type="int" />
+    <Property Name="Para_Birimi" Type="int" />
+    <Property Name="Aciklama" Type="nvarchar(max)" />
+    <Property Name="Rapor" Type="nvarchar(max)" />
+    <Property Name="Fotograf" Type="nvarchar" MaxLength="50" />
+    <Property Name="Yanit" Type="bit" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Ekleyen" Type="int" />
+    <Property Name="IP" Type="nvarchar" MaxLength="50" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_MakinamNeEderResimler' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_MakinamNeEderResimler">
+    <Key>
+      <PropertyRef Name="makinamNeEderResim_ID" />
+    </Key>
+    <Property Name="makinamNeEderResim_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="makinamneeder_ID" Type="int" />
+    <Property Name="Fotograf" Type="nvarchar" MaxLength="50" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_MakinaResimler' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_MakinaResimler">
+    <Key>
+      <PropertyRef Name="makinaResim_ID" />
+    </Key>
+    <Property Name="makinaResim_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="makina_ID" Type="int" />
+    <Property Name="Fotograf" Type="nvarchar" MaxLength="50" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Vitrin" Type="bit" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_MakinaTurleri' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_MakinaTurleri">
+    <Key>
+      <PropertyRef Name="tur_ID" />
+    </Key>
+    <Property Name="tur_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Kategori" Type="nvarchar" MaxLength="50" />
+    <Property Name="KategoriEN" Type="nvarchar" MaxLength="50" />
+    <Property Name="KategoriDE" Type="nvarchar" MaxLength="50" />
+    <Property Name="KategoriRU" Type="nvarchar" MaxLength="50" />
+    <Property Name="Resim" Type="nvarchar" MaxLength="50" />
+    <Property Name="Vitrin" Type="bit" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="SeoKeywords" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescription" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescriptionEN" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescriptionDE" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescriptionRU" Type="nvarchar" MaxLength="500" />
+    <Property Name="UstResim" Type="nvarchar" MaxLength="50" />
+    <Property Name="FooterAciklamaSEO" Type="nvarchar(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_MakinaYillar' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_MakinaYillar">
+    <Key>
+      <PropertyRef Name="yil_ID" />
+    </Key>
+    <Property Name="yil_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Kategori" Type="int" />
+    <Property Name="Resim" Type="nvarchar" MaxLength="50" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="SeoKeywords" Type="nvarchar" MaxLength="500" />
+    <Property Name="SeoDescription" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="tbl_Membership">
+    <Key>
+      <PropertyRef Name="MembershipID" />
+    </Key>
+    <Property Name="MembershipID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MembershipName" Type="nvarchar" MaxLength="100" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="UpdatedDate" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_MembershipVersion' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_MembershipVersion">
+    <Key>
+      <PropertyRef Name="MembershipVersionID" />
+    </Key>
+    <Property Name="MembershipVersionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MembershipVersion" Type="nvarchar" MaxLength="50" />
+    <Property Name="MembershipID" Type="int" />
+    <Property Name="MaxDisplayAds" Type="int" />
+    <Property Name="MaxAds" Type="int" />
+    <Property Name="DisplayOfCompanyLogo" Type="bit" />
+    <Property Name="PriceForeing" Type="int" />
+    <Property Name="PriceWeekTr" Type="int" />
+    <Property Name="PriceYearTr" Type="int" />
+    <Property Name="DiscountPrice" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="UpdatedDate" Type="datetime" />
+    <Property Name="DeletedDate" Type="datetime" />
+    <Property Name="IsAvaible" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_MirrorSize' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_MirrorSize">
+    <Key>
+      <PropertyRef Name="MirrorSizeID" />
+    </Key>
+    <Property Name="MirrorSizeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MirrorSize" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_NumberOfAxes' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_NumberOfAxes">
+    <Key>
+      <PropertyRef Name="NumberOfAxesID" />
+    </Key>
+    <Property Name="NumberOfAxesID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="NumberOfAxes" Type="nvarchar" MaxLength="50" />
+    <Property Name="NumberOfAxesEng" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_NumberOfTables' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_NumberOfTables">
+    <Key>
+      <PropertyRef Name="NumberOfTablesID" />
+    </Key>
+    <Property Name="NumberOfTablesID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="NumberOfTables" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_OdemeBildirimleri' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_OdemeBildirimleri">
+    <Key>
+      <PropertyRef Name="odeme_ID" />
+    </Key>
+    <Property Name="odeme_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="makina_ID" Type="int" />
+    <Property Name="uye_ID" Type="int" />
+    <Property Name="Verilen_Fiyat" Type="money" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="IP" Type="nvarchar" MaxLength="50" />
+    <Property Name="Banka" Type="nvarchar" MaxLength="50" />
+    <Property Name="DekontNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="Dekont" Type="nvarchar" MaxLength="50" />
+    <Property Name="Aciklama" Type="nvarchar" MaxLength="250" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tbl_PaymentInfo">
+    <Key>
+      <PropertyRef Name="PaymentInfoID" />
+    </Key>
+    <Property Name="PaymentInfoID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PaymentId" Type="int" />
+    <Property Name="ConversationId" Type="nvarchar(max)" />
+    <Property Name="Status" Type="nvarchar(max)" />
+    <Property Name="UserId" Type="int" />
+    <Property Name="BinNumber" Type="nvarchar" MaxLength="15" />
+    <Property Name="PaidPrice" Type="nvarchar(max)" />
+    <Property Name="PaymentTransactionId" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_PaymentLog">
+    <Key>
+      <PropertyRef Name="PaymentLogID" />
+    </Key>
+    <Property Name="PaymentLogID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PaymentConversationId" Type="nvarchar(max)" />
+    <Property Name="MerchantId" Type="int" />
+    <Property Name="Token" Type="nvarchar(max)" />
+    <Property Name="Status" Type="nvarchar(max)" />
+    <Property Name="IyziReferenceCode" Type="nvarchar(max)" />
+    <Property Name="IyziEventType" Type="nvarchar(max)" />
+    <Property Name="IyziEventTime" Type="nvarchar(max)" />
+    <Property Name="IyziPaymentId" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_PaymentPlan">
+    <Key>
+      <PropertyRef Name="PaymentPlanID" />
+    </Key>
+    <Property Name="PaymentPlanID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PaymentPlanName" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tbl_PaymentProdcutPayPlan">
+    <Key>
+      <PropertyRef Name="PaymentProdcutPayPlanId" />
+    </Key>
+    <Property Name="PaymentProdcutPayPlanId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PaymentProdcutPayPlanName" Type="nvarchar" MaxLength="150" />
+    <Property Name="PaymentProdcutPayPlanReferenceCode" Type="nvarchar(max)" />
+    <Property Name="PaymentProdcutPayPlanPrice" Type="int" />
+    <Property Name="PaymentProdcutPayCurrencyCode" Type="nchar" MaxLength="10" />
+    <Property Name="PaymentProdcutPayPaymentInterval" Type="nvarchar" MaxLength="50" />
+    <Property Name="PaymentProdcutPayPaymentIntervalCount" Type="int" />
+    <Property Name="PaymentProdcutPayRecurrenceCount" Type="int" />
+    <Property Name="PaymentProdcutPayIsActive" Type="bit" />
+    <Property Name="PaymentProdcutPayPlanCreatedDate" Type="datetime" />
+    <Property Name="PaymentProdcutPayPlanUpdatedDate" Type="datetime" />
+    <Property Name="PaymentProdcutPayPlanDeletedDate" Type="datetime" />
+    <Property Name="PaymentProductPayPlanVersionID" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_PaymentProduct">
+    <Key>
+      <PropertyRef Name="PaymentProductId" />
+    </Key>
+    <Property Name="PaymentProductId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PaymentProductStatus" Type="nvarchar" MaxLength="50" />
+    <Property Name="PaymnetProductReferenceCode" Type="nvarchar(max)" />
+    <Property Name="PaymentProductCreatedDate" Type="datetime" />
+    <Property Name="PaymentProductName" Type="nvarchar" MaxLength="100" />
+    <Property Name="PaymentVersionId" Type="int" />
+    <Property Name="PaymentProductUpdatedDate" Type="datetime" />
+    <Property Name="PaymentProductDeletedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tbl_PaymentSubscriber">
+    <Key>
+      <PropertyRef Name="SubscriberId" />
+    </Key>
+    <Property Name="SubscriberId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SubscriberUserId" Type="int" />
+    <Property Name="SubscriberRefenceCode" Type="nvarchar(max)" />
+    <Property Name="SubscriberParentReferenceCode" Type="nvarchar(max)" />
+    <Property Name="SubscriberPricingPlanReferenceCode" Type="nvarchar(max)" />
+    <Property Name="SubscriberCustomerReferenceCode" Type="nvarchar(max)" />
+    <Property Name="SubscriberSubscriptionStatus" Type="nvarchar" MaxLength="50" />
+    <Property Name="SubscriberCreatedDate" Type="datetime" />
+    <Property Name="SubscriberStartDate" Type="datetime" />
+    <Property Name="SubscriberEndDate" Type="datetime" />
+    <Property Name="SubscriberPaymentProdcutPayPlanId" Type="int" />
+    <Property Name="SubscriberUserCode" Type="nvarchar(max)" />
+    <Property Name="SubscriberIsActive" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_ReklamAlanlari' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_ReklamAlanlari">
+    <Key>
+      <PropertyRef Name="reklamAlan_ID" />
+    </Key>
+    <Property Name="reklamAlan_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Adi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_Reklamlar' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_Reklamlar">
+    <Key>
+      <PropertyRef Name="reklam_ID" />
+    </Key>
+    <Property Name="reklam_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Adi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Url" Type="nvarchar" MaxLength="250" />
+    <Property Name="logo_ID" Type="int" />
+    <Property Name="TiklamaSayisi" Type="int" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="Yayinda" Type="bit" />
+    <Property Name="Dosya" Type="nvarchar" MaxLength="50" />
+    <Property Name="reklamAlan_ID" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_SagMenu' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_SagMenu">
+    <Key>
+      <PropertyRef Name="sagMenu_ID" />
+    </Key>
+    <Property Name="sagMenu_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Baslik" Type="nvarchar" MaxLength="250" />
+    <Property Name="Aciklama" Type="nvarchar(max)" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="Yayinda" Type="bit" />
+  </EntityType>
+  <EntityType Name="tbl_ServiceDescription">
+    <Key>
+      <PropertyRef Name="ServiceDescriptionID" />
+    </Key>
+    <Property Name="ServiceDescriptionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ServiceUserID" Type="int" />
+    <Property Name="ServiceDescriptionTr" Type="nvarchar(max)" />
+    <Property Name="ServiceDescriptionEng" Type="nvarchar(max)" />
+    <Property Name="ServiceDescriptionDe" Type="nvarchar(max)" />
+    <Property Name="ServiceDescriptionRu" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_ServiceEquipmentDetail">
+    <Key>
+      <PropertyRef Name="ServiceEquipmentDetailID" />
+    </Key>
+    <Property Name="ServiceEquipmentDetailID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ServiceEquipmentDetailName" Type="nvarchar(max)" />
+    <Property Name="ServiceUserID" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="UpdatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tbl_ServiceUserComment">
+    <Key>
+      <PropertyRef Name="ServiceUserCommentID" />
+    </Key>
+    <Property Name="ServiceUserCommentID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ServiceTargetUserID" Type="int" />
+    <Property Name="ServiceCommenterUserID" Type="int" />
+    <Property Name="CommentText" Type="nvarchar" MaxLength="2500" />
+    <Property Name="CommentRating" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="UpdatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tbl_ServiceUserDetail">
+    <Key>
+      <PropertyRef Name="ServiceUserDetailID" />
+    </Key>
+    <Property Name="ServiceUserDetailID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ServiceUserID" Type="int" />
+    <Property Name="ServiceUserLogo" Type="nvarchar(max)" />
+    <Property Name="ServiceUserBigLogo" Type="nvarchar(max)" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="UpdatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tbl_ServiceUsersCategory">
+    <Key>
+      <PropertyRef Name="UserCategoriesID" />
+    </Key>
+    <Property Name="UserCategoriesID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="int" />
+    <Property Name="CategoryID" Type="int" />
+    <Property Name="SubCategoryID" Type="int" />
+    <Property Name="SubSubCategoryID" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="UpdatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tbl_ServiceWorkZone">
+    <Key>
+      <PropertyRef Name="ServiceWorkZoneID" />
+    </Key>
+    <Property Name="ServiceWorkZoneID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ServiceUserID" Type="int" />
+    <Property Name="ServiceWorkZonceCountyID" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_Servis' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_Servis">
+    <Key>
+      <PropertyRef Name="servis_ID" />
+    </Key>
+    <Property Name="servis_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ServisFirmasi_ID" Type="int" />
+    <Property Name="Randevu_Tarihi" Type="datetime" />
+    <Property Name="Adi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Soyadi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="EMail" Type="nvarchar" MaxLength="50" />
+    <Property Name="Baslik" Type="nvarchar" MaxLength="250" />
+    <Property Name="tur_ID" Type="int" />
+    <Property Name="Alttur_ID" Type="int" />
+    <Property Name="Alttur2_ID" Type="int" />
+    <Property Name="marka_ID" Type="int" />
+    <Property Name="yil_ID" Type="int" />
+    <Property Name="Model" Type="nvarchar" MaxLength="250" />
+    <Property Name="Aciklama" Type="nvarchar(max)" />
+    <Property Name="Rapor" Type="nvarchar(max)" />
+    <Property Name="Fotograf" Type="nvarchar" MaxLength="50" />
+    <Property Name="Yanit" Type="bit" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Ekleyen" Type="int" />
+    <Property Name="uye_ID" Type="int" />
+    <Property Name="IP" Type="nvarchar" MaxLength="50" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_Slider' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_Slider">
+    <Key>
+      <PropertyRef Name="slider_ID" />
+    </Key>
+    <Property Name="slider_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Baslik" Type="nvarchar" MaxLength="250" />
+    <Property Name="UstBilgi" Type="nvarchar" MaxLength="250" />
+    <Property Name="AltBilgi" Type="nvarchar" MaxLength="250" />
+    <Property Name="ButonYazi" Type="nvarchar" MaxLength="250" />
+    <Property Name="Link" Type="nvarchar" MaxLength="250" />
+    <Property Name="Resim" Type="nvarchar" MaxLength="250" />
+    <Property Name="UstBilgiMobil" Type="nvarchar" MaxLength="250" />
+    <Property Name="AltBilgiMobil" Type="nvarchar" MaxLength="250" />
+    <Property Name="ButonYaziMobil" Type="nvarchar" MaxLength="250" />
+    <Property Name="ResimMobil" Type="nvarchar" MaxLength="250" />
+    <Property Name="LinkMobil" Type="nvarchar" MaxLength="250" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="Yayinda" Type="bit" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Siralama" Type="int" />
+    <Property Name="makina_ID" Type="int" />
+    <Property Name="blog_ID" Type="int" />
+    <Property Name="Fiyat" Type="nvarchar" MaxLength="50" />
+    <Property Name="ButonYazi1" Type="nvarchar" MaxLength="250" />
+    <Property Name="Link1" Type="nvarchar" MaxLength="250" />
+    <Property Name="ButonGorunmesin" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_SosyalMedya' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_SosyalMedya">
+    <Key>
+      <PropertyRef Name="sosyalmedya_ID" />
+    </Key>
+    <Property Name="sosyalmedya_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Baslik" Type="nvarchar" MaxLength="50" />
+    <Property Name="FontAwasome" Type="nvarchar" MaxLength="50" />
+    <Property Name="Resim" Type="nvarchar" MaxLength="50" />
+    <Property Name="Link" Type="nvarchar" MaxLength="250" />
+    <Property Name="Siralama" Type="int" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Update_Tarihi" Type="datetime" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="Footer_Yayinda" Type="bit" />
+    <Property Name="Header_Yayinda" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_SpindleRPM' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_SpindleRPM">
+    <Key>
+      <PropertyRef Name="SpindleRPMID" />
+    </Key>
+    <Property Name="SpindleRPMID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SpindleRPMSize" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_SSS' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_SSS">
+    <Key>
+      <PropertyRef Name="sss_ID" />
+    </Key>
+    <Property Name="sss_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Baslik" Type="nvarchar" MaxLength="150" />
+    <Property Name="Aciklama" Type="nvarchar(max)" />
+    <Property Name="icerikOrder" Type="int" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="Update_Tarihi" Type="datetime" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Firma_ID" Type="int" />
+    <Property Name="Ust_FirmaID" Type="int" />
+    <Property Name="dil_ID" Type="int" />
+    <Property Name="Yayinda" Type="bit" />
+  </EntityType>
+  <EntityType Name="tbl_SubsReturnPaymentLog">
+    <Key>
+      <PropertyRef Name="SubsReturnPaymentLogID" />
+    </Key>
+    <Property Name="SubsReturnPaymentLogID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SubsLogOrderReferenceCode" Type="nvarchar(max)" />
+    <Property Name="SubsLogCustomerReferenceCode" Type="nvarchar(max)" />
+    <Property Name="SubsLogSubscriptionReferenceCode" Type="nvarchar(max)" />
+    <Property Name="SubsLogIyziReferenceCode" Type="nvarchar(max)" />
+    <Property Name="SubsLogIyziEventType" Type="nvarchar(max)" />
+    <Property Name="SubsLogIyziEventTime" Type="nvarchar(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_TeknikDestek' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_TeknikDestek">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AdSoyad" Type="nvarchar" MaxLength="200" />
+    <Property Name="Email" Type="nvarchar" MaxLength="150" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="OnemDerecesi" Type="nvarchar" MaxLength="50" />
+    <Property Name="EkranGoruntusu" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mesaj" Type="nvarchar(max)" />
+    <Property Name="Durum" Type="nvarchar" MaxLength="50" />
+    <Property Name="IP" Type="nvarchar" MaxLength="50" />
+    <Property Name="Tarih" Type="datetime" />
+    <Property Name="Sayfa" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_Ulkeler' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_Ulkeler">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="iso" Type="char" MaxLength="2" />
+    <Property Name="name" Type="nvarchar" MaxLength="80" />
+    <Property Name="nicename" Type="nvarchar" MaxLength="80" />
+    <Property Name="iso3" Type="char" MaxLength="3" />
+    <Property Name="GoogleTranslateCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="numcode" Type="smallint" />
+    <Property Name="phonecode" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_UserMembership">
+    <Key>
+      <PropertyRef Name="UserMembershipID" />
+    </Key>
+    <Property Name="UserMembershipID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="MembershipID" Type="int" />
+    <Property Name="PaymentPlanID" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="EndDate" Type="datetime" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="IsPaid" Type="bit" />
+    <Property Name="UpdatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tbl_Uyeler">
+    <Key>
+      <PropertyRef Name="uye_ID" />
+    </Key>
+    <Property Name="uye_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirmaAdi" Type="nvarchar" MaxLength="250" />
+    <Property Name="Adi" Type="nvarchar" MaxLength="250" />
+    <Property Name="Soyadi" Type="nvarchar" MaxLength="250" />
+    <Property Name="EMail" Type="nvarchar" MaxLength="150" />
+    <Property Name="Hesap_Turu" Type="nvarchar" MaxLength="50" />
+    <Property Name="Cinsiyet" Type="nvarchar" MaxLength="50" />
+    <Property Name="Sifre" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="Kayit_Tarihi" Type="datetime" />
+    <Property Name="IP" Type="nvarchar" MaxLength="50" />
+    <Property Name="TCK" Type="nvarchar" MaxLength="50" />
+    <Property Name="DogumTarihi" Type="datetime" />
+    <Property Name="Il" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ilce" Type="nvarchar" MaxLength="50" />
+    <Property Name="Adres" Type="nvarchar" MaxLength="250" />
+    <Property Name="Aktif" Type="bit" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="Code" Type="nvarchar" MaxLength="50" />
+    <Property Name="KayitOlunanSite" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ulke" Type="nvarchar" MaxLength="50" />
+    <Property Name="CountryID" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_XAxisSize' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_XAxisSize">
+    <Key>
+      <PropertyRef Name="XAxisSizeID" />
+    </Key>
+    <Property Name="XAxisSizeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="XAxisSize" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_preprod_sifirgibimakina.com.dbo.tbl_YAxisSize' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_YAxisSize">
+    <Key>
+      <PropertyRef Name="YAxisSizeID" />
+    </Key>
+    <Property Name="YAxisSizeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="YAxisSize" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityContainer Name="db_SifirGibiMakinaModelStoreContainer">
+    <EntitySet Name="tbl_CardInfo" EntityType="Self.tbl_CardInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Expertiz" EntityType="Self.tbl_Expertiz" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_MachineDetail" EntityType="Self.tbl_MachineDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Makinalar" EntityType="Self.tbl_Makinalar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Membership" EntityType="Self.tbl_Membership" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_PaymentInfo" EntityType="Self.tbl_PaymentInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_PaymentLog" EntityType="Self.tbl_PaymentLog" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_PaymentPlan" EntityType="Self.tbl_PaymentPlan" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_PaymentProdcutPayPlan" EntityType="Self.tbl_PaymentProdcutPayPlan" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_PaymentProduct" EntityType="Self.tbl_PaymentProduct" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_PaymentSubscriber" EntityType="Self.tbl_PaymentSubscriber" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ServiceDescription" EntityType="Self.tbl_ServiceDescription" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ServiceEquipmentDetail" EntityType="Self.tbl_ServiceEquipmentDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ServiceUserComment" EntityType="Self.tbl_ServiceUserComment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ServiceUserDetail" EntityType="Self.tbl_ServiceUserDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ServiceUsersCategory" EntityType="Self.tbl_ServiceUsersCategory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ServiceWorkZone" EntityType="Self.tbl_ServiceWorkZone" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_SubsReturnPaymentLog" EntityType="Self.tbl_SubsReturnPaymentLog" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_UserMembership" EntityType="Self.tbl_UserMembership" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Uyeler" EntityType="Self.tbl_Uyeler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ilceler" EntityType="Self.Ilceler" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Ilceler].[ilceId] AS [ilceId], 
+    [Ilceler].[SehirId] AS [SehirId], 
+    [Ilceler].[IlceAdi] AS [IlceAdi], 
+    [Ilceler].[SehirAdi] AS [SehirAdi]
+    FROM [dbo].[Ilceler] AS [Ilceler]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Log" EntityType="Self.Log" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Log].[id] AS [id], 
+    [Log].[date] AS [date], 
+    [Log].[thread] AS [thread], 
+    [Log].[level] AS [level], 
+    [Log].[logger] AS [logger], 
+    [Log].[message] AS [message], 
+    [Log].[exception] AS [exception], 
+    [Log].[host] AS [host], 
+    [Log].[page] AS [page], 
+    [Log].[ipaddress] AS [ipaddress], 
+    [Log].[browser] AS [browser], 
+    [Log].[platform] AS [platform], 
+    [Log].[device] AS [device]
+    FROM [dbo].[Log] AS [Log]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Sehirler" EntityType="Self.Sehirler" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Sehirler].[SehirId] AS [SehirId], 
+    [Sehirler].[SehirAdi] AS [SehirAdi], 
+    [Sehirler].[PlakaNo] AS [PlakaNo], 
+    [Sehirler].[TelefonKodu] AS [TelefonKodu], 
+    [Sehirler].[RowNumber] AS [RowNumber]
+    FROM [dbo].[Sehirler] AS [Sehirler]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_Ayarlar" EntityType="Self.tbl_Ayarlar" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_Ayarlar].[ayar_ID] AS [ayar_ID], 
+    [tbl_Ayarlar].[Site_Adi] AS [Site_Adi], 
+    [tbl_Ayarlar].[Site_Adi_EN] AS [Site_Adi_EN], 
+    [tbl_Ayarlar].[Site_Adi_DE] AS [Site_Adi_DE], 
+    [tbl_Ayarlar].[Site_Adi_RU] AS [Site_Adi_RU], 
+    [tbl_Ayarlar].[Logo] AS [Logo], 
+    [tbl_Ayarlar].[SMTP_Server] AS [SMTP_Server], 
+    [tbl_Ayarlar].[SMTP_Port] AS [SMTP_Port], 
+    [tbl_Ayarlar].[SMTP_Mail] AS [SMTP_Mail], 
+    [tbl_Ayarlar].[SMTP_Gonderen] AS [SMTP_Gonderen], 
+    [tbl_Ayarlar].[SMTP_Email] AS [SMTP_Email], 
+    [tbl_Ayarlar].[SMTP_Sifre] AS [SMTP_Sifre], 
+    [tbl_Ayarlar].[TeknikKisiler] AS [TeknikKisiler], 
+    [tbl_Ayarlar].[OzelBolumWhatsapp] AS [OzelBolumWhatsapp], 
+    [tbl_Ayarlar].[Adres] AS [Adres], 
+    [tbl_Ayarlar].[Il] AS [Il], 
+    [tbl_Ayarlar].[Ilce] AS [Ilce], 
+    [tbl_Ayarlar].[Telefon] AS [Telefon], 
+    [tbl_Ayarlar].[GoogleMap] AS [GoogleMap], 
+    [tbl_Ayarlar].[Email] AS [Email], 
+    [tbl_Ayarlar].[EkUyeSayisi] AS [EkUyeSayisi], 
+    [tbl_Ayarlar].[EkAcikArtirmaSayisi] AS [EkAcikArtirmaSayisi], 
+    [tbl_Ayarlar].[EkTeklifSayisi] AS [EkTeklifSayisi], 
+    [tbl_Ayarlar].[EkSatilanMakinaSayisi] AS [EkSatilanMakinaSayisi], 
+    [tbl_Ayarlar].[SayilarPanel] AS [SayilarPanel], 
+    [tbl_Ayarlar].[SEOAnaSayfa] AS [SEOAnaSayfa], 
+    [tbl_Ayarlar].[SEOAnaSayfaEN] AS [SEOAnaSayfaEN], 
+    [tbl_Ayarlar].[SEOAnaSayfaDE] AS [SEOAnaSayfaDE], 
+    [tbl_Ayarlar].[SEOAnaSayfaRU] AS [SEOAnaSayfaRU]
+    FROM [dbo].[tbl_Ayarlar] AS [tbl_Ayarlar]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_BeniHaberdarEt" EntityType="Self.tbl_BeniHaberdarEt" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_BeniHaberdarEt].[benihaberdaret_ID] AS [benihaberdaret_ID], 
+    [tbl_BeniHaberdarEt].[AdSoyad] AS [AdSoyad], 
+    [tbl_BeniHaberdarEt].[EMail] AS [EMail], 
+    [tbl_BeniHaberdarEt].[Telefon] AS [Telefon], 
+    [tbl_BeniHaberdarEt].[tur_ID] AS [tur_ID], 
+    [tbl_BeniHaberdarEt].[Alttur_ID] AS [Alttur_ID], 
+    [tbl_BeniHaberdarEt].[Alttur2_ID] AS [Alttur2_ID], 
+    [tbl_BeniHaberdarEt].[marka_ID] AS [marka_ID], 
+    [tbl_BeniHaberdarEt].[yil_ID] AS [yil_ID], 
+    [tbl_BeniHaberdarEt].[Model] AS [Model], 
+    [tbl_BeniHaberdarEt].[Fiyat] AS [Fiyat], 
+    [tbl_BeniHaberdarEt].[Para_Birimi] AS [Para_Birimi], 
+    [tbl_BeniHaberdarEt].[Aciklama] AS [Aciklama], 
+    [tbl_BeniHaberdarEt].[Rapor] AS [Rapor], 
+    [tbl_BeniHaberdarEt].[Yanit] AS [Yanit], 
+    [tbl_BeniHaberdarEt].[Durum] AS [Durum], 
+    [tbl_BeniHaberdarEt].[Ekleyen] AS [Ekleyen], 
+    [tbl_BeniHaberdarEt].[IP] AS [IP], 
+    [tbl_BeniHaberdarEt].[Kayit_Tarihi] AS [Kayit_Tarihi], 
+    [tbl_BeniHaberdarEt].[Rapor_Tarihi] AS [Rapor_Tarihi]
+    FROM [dbo].[tbl_BeniHaberdarEt] AS [tbl_BeniHaberdarEt]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_ControlUnit" EntityType="Self.tbl_ControlUnit" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_ControlUnit].[ControlUnitID] AS [ControlUnitID], 
+    [tbl_ControlUnit].[ControlUnitName] AS [ControlUnitName]
+    FROM [dbo].[tbl_ControlUnit] AS [tbl_ControlUnit]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_Diller" EntityType="Self.tbl_Diller" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_Diller].[dil_ID] AS [dil_ID], 
+    [tbl_Diller].[Dil] AS [Dil], 
+    [tbl_Diller].[YaziYonu] AS [YaziYonu], 
+    [tbl_Diller].[LokalKod] AS [LokalKod], 
+    [tbl_Diller].[Kod] AS [Kod], 
+    [tbl_Diller].[Resim] AS [Resim], 
+    [tbl_Diller].[Kayit_Tarihi] AS [Kayit_Tarihi], 
+    [tbl_Diller].[Durum] AS [Durum]
+    FROM [dbo].[tbl_Diller] AS [tbl_Diller]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_Duyurular" EntityType="Self.tbl_Duyurular" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_Duyurular].[duy_ID] AS [duy_ID], 
+    [tbl_Duyurular].[Baslik] AS [Baslik], 
+    [tbl_Duyurular].[KisaAciklama] AS [KisaAciklama], 
+    [tbl_Duyurular].[Icerik] AS [Icerik], 
+    [tbl_Duyurular].[Fotograf] AS [Fotograf], 
+    [tbl_Duyurular].[cat_ID] AS [cat_ID], 
+    [tbl_Duyurular].[Manset] AS [Manset], 
+    [tbl_Duyurular].[AnaSayfaYayin] AS [AnaSayfaYayin], 
+    [tbl_Duyurular].[Siralama] AS [Siralama], 
+    [tbl_Duyurular].[Yayin_Tarihi] AS [Yayin_Tarihi], 
+    [tbl_Duyurular].[Kayit_Tarihi] AS [Kayit_Tarihi], 
+    [tbl_Duyurular].[Update_Tarihi] AS [Update_Tarihi], 
+    [tbl_Duyurular].[Durum] AS [Durum], 
+    [tbl_Duyurular].[Firma_ID] AS [Firma_ID], 
+    [tbl_Duyurular].[Ust_FirmaID] AS [Ust_FirmaID], 
+    [tbl_Duyurular].[dil_ID] AS [dil_ID], 
+    [tbl_Duyurular].[SeoKeywords] AS [SeoKeywords], 
+    [tbl_Duyurular].[SeoDescription] AS [SeoDescription], 
+    [tbl_Duyurular].[SosyalMedyaPaylasim] AS [SosyalMedyaPaylasim], 
+    [tbl_Duyurular].[Yayinda] AS [Yayinda], 
+    [tbl_Duyurular].[BuyukBlog] AS [BuyukBlog], 
+    [tbl_Duyurular].[OkumaSayisi] AS [OkumaSayisi], 
+    [tbl_Duyurular].[OneCikar] AS [OneCikar]
+    FROM [dbo].[tbl_Duyurular] AS [tbl_Duyurular]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_DuyurularCat" EntityType="Self.tbl_DuyurularCat" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_DuyurularCat].[cat_ID] AS [cat_ID], 
+    [tbl_DuyurularCat].[Kategori] AS [Kategori], 
+    [tbl_DuyurularCat].[Resim] AS [Resim], 
+    [tbl_DuyurularCat].[Durum] AS [Durum], 
+    [tbl_DuyurularCat].[Kayit_Tarihi] AS [Kayit_Tarihi], 
+    [tbl_DuyurularCat].[Firma_ID] AS [Firma_ID], 
+    [tbl_DuyurularCat].[Ust_FirmaID] AS [Ust_FirmaID], 
+    [tbl_DuyurularCat].[dil_ID] AS [dil_ID], 
+    [tbl_DuyurularCat].[SeoKeywords] AS [SeoKeywords], 
+    [tbl_DuyurularCat].[SeoDescription] AS [SeoDescription]
+    FROM [dbo].[tbl_DuyurularCat] AS [tbl_DuyurularCat]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_Firmalar" EntityType="Self.tbl_Firmalar" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_Firmalar].[Firma_ID] AS [Firma_ID], 
+    [tbl_Firmalar].[Firma_Adi] AS [Firma_Adi], 
+    [tbl_Firmalar].[Firma_Adi_EN] AS [Firma_Adi_EN], 
+    [tbl_Firmalar].[Firma_Adi_DE] AS [Firma_Adi_DE], 
+    [tbl_Firmalar].[Firma_Adi_RU] AS [Firma_Adi_RU], 
+    [tbl_Firmalar].[EMail] AS [EMail], 
+    [tbl_Firmalar].[Ilgili] AS [Ilgili], 
+    [tbl_Firmalar].[Sifre] AS [Sifre], 
+    [tbl_Firmalar].[Durum] AS [Durum], 
+    [tbl_Firmalar].[Resim] AS [Resim], 
+    [tbl_Firmalar].[Telefon] AS [Telefon], 
+    [tbl_Firmalar].[Gonderilecek_Mailler] AS [Gonderilecek_Mailler], 
+    [tbl_Firmalar].[Duzenleme] AS [Duzenleme], 
+    [tbl_Firmalar].[Yetki_Makinalar] AS [Yetki_Makinalar], 
+    [tbl_Firmalar].[Yetki_MakinalarDuzenleme] AS [Yetki_MakinalarDuzenleme], 
+    [tbl_Firmalar].[Yetki_MakinamNeEder] AS [Yetki_MakinamNeEder], 
+    [tbl_Firmalar].[Yetki_MakinamNeEderDuzenleme] AS [Yetki_MakinamNeEderDuzenleme], 
+    [tbl_Firmalar].[Yetki_Uyeler] AS [Yetki_Uyeler], 
+    [tbl_Firmalar].[Yetki_UyelerDuzenleme] AS [Yetki_UyelerDuzenleme], 
+    [tbl_Firmalar].[Yetki_Sayfalar] AS [Yetki_Sayfalar], 
+    [tbl_Firmalar].[Yetki_SayfalarDuzenleme] AS [Yetki_SayfalarDuzenleme], 
+    [tbl_Firmalar].[Yetki_Kullanicilar] AS [Yetki_Kullanicilar], 
+    [tbl_Firmalar].[Yetki_KullanicilarDuzenleme] AS [Yetki_KullanicilarDuzenleme], 
+    [tbl_Firmalar].[Yetki_MakinaTanimlari] AS [Yetki_MakinaTanimlari], 
+    [tbl_Firmalar].[Yetki_MakinaTanimlariDuzenleme] AS [Yetki_MakinaTanimlariDuzenleme], 
+    [tbl_Firmalar].[Yetki_Diger] AS [Yetki_Diger], 
+    [tbl_Firmalar].[Yetki_DigerDuzenleme] AS [Yetki_DigerDuzenleme], 
+    [tbl_Firmalar].[Yetki_GelenMesajlar] AS [Yetki_GelenMesajlar], 
+    [tbl_Firmalar].[Yetki_Odemeler] AS [Yetki_Odemeler], 
+    [tbl_Firmalar].[Yetki_OdemelerDuzenleme] AS [Yetki_OdemelerDuzenleme], 
+    [tbl_Firmalar].[Yetki_Ihaleler] AS [Yetki_Ihaleler], 
+    [tbl_Firmalar].[Yetki_IhalelerDuzenleme] AS [Yetki_IhalelerDuzenleme], 
+    [tbl_Firmalar].[Yetki_SagMenu] AS [Yetki_SagMenu], 
+    [tbl_Firmalar].[Yetki_DestekTalebi] AS [Yetki_DestekTalebi], 
+    [tbl_Firmalar].[Yetki_SifreDegistir] AS [Yetki_SifreDegistir], 
+    [tbl_Firmalar].[Yetki_SosyalMedya] AS [Yetki_SosyalMedya], 
+    [tbl_Firmalar].[user_ID] AS [user_ID], 
+    [tbl_Firmalar].[Ust_FirmaID] AS [Ust_FirmaID], 
+    [tbl_Firmalar].[IsAdmin] AS [IsAdmin], 
+    [tbl_Firmalar].[Kayit_Tarihi] AS [Kayit_Tarihi]
+    FROM [dbo].[tbl_Firmalar] AS [tbl_Firmalar]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_FirmaLogolari" EntityType="Self.tbl_FirmaLogolari" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_FirmaLogolari].[logo_ID] AS [logo_ID], 
+    [tbl_FirmaLogolari].[Baslik] AS [Baslik], 
+    [tbl_FirmaLogolari].[uye_ID] AS [uye_ID], 
+    [tbl_FirmaLogolari].[Link] AS [Link], 
+    [tbl_FirmaLogolari].[Fotograf] AS [Fotograf], 
+    [tbl_FirmaLogolari].[Buyuk_Logo] AS [Buyuk_Logo], 
+    [tbl_FirmaLogolari].[Aciklama] AS [Aciklama], 
+    [tbl_FirmaLogolari].[Kayit_Tarihi] AS [Kayit_Tarihi], 
+    [tbl_FirmaLogolari].[Durum] AS [Durum], 
+    [tbl_FirmaLogolari].[Firma_ID] AS [Firma_ID], 
+    [tbl_FirmaLogolari].[Ust_FirmaID] AS [Ust_FirmaID], 
+    [tbl_FirmaLogolari].[dil_ID] AS [dil_ID], 
+    [tbl_FirmaLogolari].[Yayinda] AS [Yayinda], 
+    [tbl_FirmaLogolari].[Siralama] AS [Siralama]
+    FROM [dbo].[tbl_FirmaLogolari] AS [tbl_FirmaLogolari]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_Icerikler" EntityType="Self.tbl_Icerikler" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_Icerikler].[icerik_ID] AS [icerik_ID], 
+    [tbl_Icerikler].[Baslik] AS [Baslik], 
+    [tbl_Icerikler].[Aciklama] AS [Aciklama], 
+    [tbl_Icerikler].[Resim] AS [Resim], 
+    [tbl_Icerikler].[icerikOrder] AS [icerikOrder], 
+    [tbl_Icerikler].[Kayit_Tarihi] AS [Kayit_Tarihi], 
+    [tbl_Icerikler].[Update_Tarihi] AS [Update_Tarihi], 
+    [tbl_Icerikler].[sagMenu_ID] AS [sagMenu_ID], 
+    [tbl_Icerikler].[Durum] AS [Durum], 
+    [tbl_Icerikler].[Firma_ID] AS [Firma_ID], 
+    [tbl_Icerikler].[Ust_FirmaID] AS [Ust_FirmaID], 
+    [tbl_Icerikler].[dil_ID] AS [dil_ID], 
+    [tbl_Icerikler].[SeoKeywords] AS [SeoKeywords], 
+    [tbl_Icerikler].[SeoDescription] AS [SeoDescription], 
+    [tbl_Icerikler].[SosyalMedyaPaylasim] AS [SosyalMedyaPaylasim], 
+    [tbl_Icerikler].[Yayinda] AS [Yayinda]
+    FROM [dbo].[tbl_Icerikler] AS [tbl_Icerikler]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_Ihale" EntityType="Self.tbl_Ihale" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_Ihale].[ihale_ID] AS [ihale_ID], 
+    [tbl_Ihale].[makina_ID] AS [makina_ID], 
+    [tbl_Ihale].[uye_ID] AS [uye_ID], 
+    [tbl_Ihale].[Verilen_Fiyat] AS [Verilen_Fiyat], 
+    [tbl_Ihale].[Durum] AS [Durum], 
+    [tbl_Ihale].[IP] AS [IP], 
+    [tbl_Ihale].[Kayit_Tarihi] AS [Kayit_Tarihi], 
+    [tbl_Ihale].[SonFiyat] AS [SonFiyat]
+    FROM [dbo].[tbl_Ihale] AS [tbl_Ihale]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_Iletisim" EntityType="Self.tbl_Iletisim" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_Iletisim].[iletisim_ID] AS [iletisim_ID], 
+    [tbl_Iletisim].[AdSoyad] AS [AdSoyad], 
+    [tbl_Iletisim].[Email] AS [Email], 
+    [tbl_Iletisim].[Telefon] AS [Telefon], 
+    [tbl_Iletisim].[Mesaj] AS [Mesaj], 
+    [tbl_Iletisim].[IP] AS [IP], 
+    [tbl_Iletisim].[Konu] AS [Konu], 
+    [tbl_Iletisim].[Kayit_Tarihi] AS [Kayit_Tarihi], 
+    [tbl_Iletisim].[Durum] AS [Durum]
+    FROM [dbo].[tbl_Iletisim] AS [tbl_Iletisim]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_ilanEmail" EntityType="Self.tbl_ilanEmail" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_ilanEmail].[mesaj_ID] AS [mesaj_ID], 
+    [tbl_ilanEmail].[makina_ID] AS [makina_ID], 
+    [tbl_ilanEmail].[Durum] AS [Durum], 
+    [tbl_ilanEmail].[GonderenAdi] AS [GonderenAdi], 
+    [tbl_ilanEmail].[AliciAdi] AS [AliciAdi], 
+    [tbl_ilanEmail].[AliciMail] AS [AliciMail], 
+    [tbl_ilanEmail].[UygunCheck] AS [UygunCheck], 
+    [tbl_ilanEmail].[GarantiCheck] AS [GarantiCheck], 
+    [tbl_ilanEmail].[DurumuCheck] AS [DurumuCheck], 
+    [tbl_ilanEmail].[FiyatOgreneBilirmiyimCheck] AS [FiyatOgreneBilirmiyimCheck], 
+    [tbl_ilanEmail].[PazarlikChek] AS [PazarlikChek], 
+    [tbl_ilanEmail].[FiyatOneri] AS [FiyatOneri], 
+    [tbl_ilanEmail].[DahaFazlaResimChek] AS [DahaFazlaResimChek], 
+    [tbl_ilanEmail].[YasadigimYerCheck] AS [YasadigimYerCheck], 
+    [tbl_ilanEmail].[YasadigimYer] AS [YasadigimYer], 
+    [tbl_ilanEmail].[KonusulanDillerCheck] AS [KonusulanDillerCheck], 
+    [tbl_ilanEmail].[KonusulanDiller] AS [KonusulanDiller], 
+    [tbl_ilanEmail].[GorusmePlanlamaCheck] AS [GorusmePlanlamaCheck], 
+    [tbl_ilanEmail].[IletimTalepCheck] AS [IletimTalepCheck], 
+    [tbl_ilanEmail].[DahaOnceGorusmeCheck] AS [DahaOnceGorusmeCheck], 
+    [tbl_ilanEmail].[TelefonDahaOnceGorusmeTarih] AS [TelefonDahaOnceGorusmeTarih], 
+    [tbl_ilanEmail].[AyirtmaCheck] AS [AyirtmaCheck], 
+    [tbl_ilanEmail].[Email] AS [Email], 
+    [tbl_ilanEmail].[Telefon] AS [Telefon], 
+    [tbl_ilanEmail].[Mesaj] AS [Mesaj], 
+    [tbl_ilanEmail].[IP] AS [IP], 
+    [tbl_ilanEmail].[Kayit_Tarihi] AS [Kayit_Tarihi]
+    FROM [dbo].[tbl_ilanEmail] AS [tbl_ilanEmail]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_ilanFavorileri" EntityType="Self.tbl_ilanFavorileri" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_ilanFavorileri].[favori_ID] AS [favori_ID], 
+    [tbl_ilanFavorileri].[makina_ID] AS [makina_ID], 
+    [tbl_ilanFavorileri].[user_ID] AS [user_ID], 
+    [tbl_ilanFavorileri].[IP] AS [IP], 
+    [tbl_ilanFavorileri].[EklenenFiyat] AS [EklenenFiyat], 
+    [tbl_ilanFavorileri].[Kayit_Tarihi] AS [Kayit_Tarihi]
+    FROM [dbo].[tbl_ilanFavorileri] AS [tbl_ilanFavorileri]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_ilanKategoriListeleme" EntityType="Self.tbl_ilanKategoriListeleme" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_ilanKategoriListeleme].[ilanKategoriListeleme_ID] AS [ilanKategoriListeleme_ID], 
+    [tbl_ilanKategoriListeleme].[Baslik] AS [Baslik], 
+    [tbl_ilanKategoriListeleme].[KisaAciklama] AS [KisaAciklama], 
+    [tbl_ilanKategoriListeleme].[Icerik] AS [Icerik], 
+    [tbl_ilanKategoriListeleme].[Fotograf] AS [Fotograf], 
+    [tbl_ilanKategoriListeleme].[tur_ID] AS [tur_ID], 
+    [tbl_ilanKategoriListeleme].[Siralama] AS [Siralama], 
+    [tbl_ilanKategoriListeleme].[Kayit_Tarihi] AS [Kayit_Tarihi], 
+    [tbl_ilanKategoriListeleme].[Update_Tarihi] AS [Update_Tarihi], 
+    [tbl_ilanKategoriListeleme].[Durum] AS [Durum], 
+    [tbl_ilanKategoriListeleme].[Firma_ID] AS [Firma_ID], 
+    [tbl_ilanKategoriListeleme].[Ust_FirmaID] AS [Ust_FirmaID], 
+    [tbl_ilanKategoriListeleme].[dil_ID] AS [dil_ID], 
+    [tbl_ilanKategoriListeleme].[Yayinda] AS [Yayinda]
+    FROM [dbo].[tbl_ilanKategoriListeleme] AS [tbl_ilanKategoriListeleme]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_ilanMesajlari" EntityType="Self.tbl_ilanMesajlari" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_ilanMesajlari].[mesaj_ID] AS [mesaj_ID], 
+    [tbl_ilanMesajlari].[makina_ID] AS [makina_ID], 
+    [tbl_ilanMesajlari].[UstMesaj_ID] AS [UstMesaj_ID], 
+    [tbl_ilanMesajlari].[Kimden] AS [Kimden], 
+    [tbl_ilanMesajlari].[Kime] AS [Kime], 
+    [tbl_ilanMesajlari].[Mesaj] AS [Mesaj], 
+    [tbl_ilanMesajlari].[Durum] AS [Durum], 
+    [tbl_ilanMesajlari].[Okunma] AS [Okunma], 
+    [tbl_ilanMesajlari].[IP] AS [IP], 
+    [tbl_ilanMesajlari].[Kayit_Tarihi] AS [Kayit_Tarihi], 
+    [tbl_ilanMesajlari].[GonderenSildi] AS [GonderenSildi], 
+    [tbl_ilanMesajlari].[AliciSildi] AS [AliciSildi]
+    FROM [dbo].[tbl_ilanMesajlari] AS [tbl_ilanMesajlari]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_Kullanicilar" EntityType="Self.tbl_Kullanicilar" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_Kullanicilar].[Kullanici_ID] AS [Kullanici_ID], 
+    [tbl_Kullanicilar].[Firma_ID] AS [Firma_ID], 
+    [tbl_Kullanicilar].[Adi_Soyadi] AS [Adi_Soyadi], 
+    [tbl_Kullanicilar].[EMail] AS [EMail], 
+    [tbl_Kullanicilar].[Sifre] AS [Sifre], 
+    [tbl_Kullanicilar].[Telefon] AS [Telefon], 
+    [tbl_Kullanicilar].[Durum] AS [Durum], 
+    [tbl_Kullanicilar].[Duzenleme] AS [Duzenleme], 
+    [tbl_Kullanicilar].[Yetki_Makinalar] AS [Yetki_Makinalar], 
+    [tbl_Kullanicilar].[Yetki_MakinalarDuzenleme] AS [Yetki_MakinalarDuzenleme], 
+    [tbl_Kullanicilar].[Yetki_MakinamNeEder] AS [Yetki_MakinamNeEder], 
+    [tbl_Kullanicilar].[Yetki_MakinamNeEderDuzenleme] AS [Yetki_MakinamNeEderDuzenleme], 
+    [tbl_Kullanicilar].[Yetki_Uyeler] AS [Yetki_Uyeler], 
+    [tbl_Kullanicilar].[Yetki_UyelerDuzenleme] AS [Yetki_UyelerDuzenleme], 
+    [tbl_Kullanicilar].[Yetki_Sayfalar] AS [Yetki_Sayfalar], 
+    [tbl_Kullanicilar].[Yetki_SayfalarDuzenleme] AS [Yetki_SayfalarDuzenleme], 
+    [tbl_Kullanicilar].[Yetki_Kullanicilar] AS [Yetki_Kullanicilar], 
+    [tbl_Kullanicilar].[Yetki_KullanicilarDuzenleme] AS [Yetki_KullanicilarDuzenleme], 
+    [tbl_Kullanicilar].[Yetki_MakinaTanimlari] AS [Yetki_MakinaTanimlari], 
+    [tbl_Kullanicilar].[Yetki_MakinaTanimlariDuzenleme] AS [Yetki_MakinaTanimlariDuzenleme], 
+    [tbl_Kullanicilar].[Yetki_Diger] AS [Yetki_Diger], 
+    [tbl_Kullanicilar].[Yetki_DigerDuzenleme] AS [Yetki_DigerDuzenleme], 
+    [tbl_Kullanicilar].[Yetki_GelenMesajlar] AS [Yetki_GelenMesajlar], 
+    [tbl_Kullanicilar].[Yetki_Odemeler] AS [Yetki_Odemeler], 
+    [tbl_Kullanicilar].[Yetki_OdemelerDuzenleme] AS [Yetki_OdemelerDuzenleme], 
+    [tbl_Kullanicilar].[Yetki_Ihaleler] AS [Yetki_Ihaleler], 
+    [tbl_Kullanicilar].[Yetki_IhalelerDuzenleme] AS [Yetki_IhalelerDuzenleme], 
+    [tbl_Kullanicilar].[Yetki_SagMenu] AS [Yetki_SagMenu], 
+    [tbl_Kullanicilar].[Yetki_DestekTalebi] AS [Yetki_DestekTalebi], 
+    [tbl_Kullanicilar].[Yetki_SifreDegistir] AS [Yetki_SifreDegistir], 
+    [tbl_Kullanicilar].[Yetki_SosyalMedya] AS [Yetki_SosyalMedya], 
+    [tbl_Kullanicilar].[user_ID] AS [user_ID], 
+    [tbl_Kullanicilar].[Ust_FirmaID] AS [Ust_FirmaID], 
+    [tbl_Kullanicilar].[IsAdmin] AS [IsAdmin], 
+    [tbl_Kullanicilar].[Kayit_Tarihi] AS [Kayit_Tarihi]
+    FROM [dbo].[tbl_Kullanicilar] AS [tbl_Kullanicilar]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_MakinaAltTurleri" EntityType="Self.tbl_MakinaAltTurleri" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_MakinaAltTurleri].[Alttur_ID] AS [Alttur_ID], 
+    [tbl_MakinaAltTurleri].[tur_ID] AS [tur_ID], 
+    [tbl_MakinaAltTurleri].[Kategori] AS [Kategori], 
+    [tbl_MakinaAltTurleri].[KategoriEN] AS [KategoriEN], 
+    [tbl_MakinaAltTurleri].[KategoriDE] AS [KategoriDE], 
+    [tbl_MakinaAltTurleri].[KategoriRU] AS [KategoriRU], 
+    [tbl_MakinaAltTurleri].[Resim] AS [Resim], 
+    [tbl_MakinaAltTurleri].[Durum] AS [Durum], 
+    [tbl_MakinaAltTurleri].[Kayit_Tarihi] AS [Kayit_Tarihi], 
+    [tbl_MakinaAltTurleri].[Firma_ID] AS [Firma_ID], 
+    [tbl_MakinaAltTurleri].[Ust_FirmaID] AS [Ust_FirmaID], 
+    [tbl_MakinaAltTurleri].[dil_ID] AS [dil_ID], 
+    [tbl_MakinaAltTurleri].[SeoKeywords] AS [SeoKeywords], 
+    [tbl_MakinaAltTurleri].[SeoDescription] AS [SeoDescription], 
+    [tbl_MakinaAltTurleri].[SeoDescriptionEN] AS [SeoDescriptionEN], 
+    [tbl_MakinaAltTurleri].[SeoDescriptionDE] AS [SeoDescriptionDE], 
+    [tbl_MakinaAltTurleri].[SeoDescriptionRU] AS [SeoDescriptionRU], 
+    [tbl_MakinaAltTurleri].[FooterAciklamaSEO] AS [FooterAciklamaSEO]
+    FROM [dbo].[tbl_MakinaAltTurleri] AS [tbl_MakinaAltTurleri]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_MakinaAltTurleri2" EntityType="Self.tbl_MakinaAltTurleri2" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_MakinaAltTurleri2].[Alttur2_ID] AS [Alttur2_ID], 
+    [tbl_MakinaAltTurleri2].[Alttur_ID] AS [Alttur_ID], 
+    [tbl_MakinaAltTurleri2].[Kategori] AS [Kategori], 
+    [tbl_MakinaAltTurleri2].[KategoriEN] AS [KategoriEN], 
+    [tbl_MakinaAltTurleri2].[KategoriDE] AS [KategoriDE], 
+    [tbl_MakinaAltTurleri2].[KategoriRU] AS [KategoriRU], 
+    [tbl_MakinaAltTurleri2].[Resim] AS [Resim], 
+    [tbl_MakinaAltTurleri2].[Durum] AS [Durum], 
+    [tbl_MakinaAltTurleri2].[Kayit_Tarihi] AS [Kayit_Tarihi], 
+    [tbl_MakinaAltTurleri2].[Firma_ID] AS [Firma_ID], 
+    [tbl_MakinaAltTurleri2].[Ust_FirmaID] AS [Ust_FirmaID], 
+    [tbl_MakinaAltTurleri2].[dil_ID] AS [dil_ID], 
+    [tbl_MakinaAltTurleri2].[SeoKeywords] AS [SeoKeywords], 
+    [tbl_MakinaAltTurleri2].[SeoDescription] AS [SeoDescription], 
+    [tbl_MakinaAltTurleri2].[SeoDescriptionEN] AS [SeoDescriptionEN], 
+    [tbl_MakinaAltTurleri2].[SeoDescriptionDE] AS [SeoDescriptionDE], 
+    [tbl_MakinaAltTurleri2].[SeoDescriptionRU] AS [SeoDescriptionRU], 
+    [tbl_MakinaAltTurleri2].[FooterAciklamaSEO] AS [FooterAciklamaSEO]
+    FROM [dbo].[tbl_MakinaAltTurleri2] AS [tbl_MakinaAltTurleri2]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_MakinaEksper" EntityType="Self.tbl_MakinaEksper" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_MakinaEksper].[eksper_ID] AS [eksper_ID], 
+    [tbl_MakinaEksper].[Kategori] AS [Kategori], 
+    [tbl_MakinaEksper].[KategoriEN] AS [KategoriEN], 
+    [tbl_MakinaEksper].[KategoriDE] AS [KategoriDE], 
+    [tbl_MakinaEksper].[KategoriRU] AS [KategoriRU], 
+    [tbl_MakinaEksper].[Resim] AS [Resim], 
+    [tbl_MakinaEksper].[Durum] AS [Durum], 
+    [tbl_MakinaEksper].[Kayit_Tarihi] AS [Kayit_Tarihi], 
+    [tbl_MakinaEksper].[Firma_ID] AS [Firma_ID], 
+    [tbl_MakinaEksper].[Ust_FirmaID] AS [Ust_FirmaID], 
+    [tbl_MakinaEksper].[dil_ID] AS [dil_ID], 
+    [tbl_MakinaEksper].[SeoKeywords] AS [SeoKeywords], 
+    [tbl_MakinaEksper].[SeoDescription] AS [SeoDescription]
+    FROM [dbo].[tbl_MakinaEksper] AS [tbl_MakinaEksper]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_MakinaEksperSecimi" EntityType="Self.tbl_MakinaEksperSecimi" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_MakinaEksperSecimi].[ozellik_ID] AS [ozellik_ID], 
+    [tbl_MakinaEksperSecimi].[makina_ID] AS [makina_ID], 
+    [tbl_MakinaEksperSecimi].[eksper_ID] AS [eksper_ID], 
+    [tbl_MakinaEksperSecimi].[Note] AS [Note]
+    FROM [dbo].[tbl_MakinaEksperSecimi] AS [tbl_MakinaEksperSecimi]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_MakinaIhale" EntityType="Self.tbl_MakinaIhale" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_MakinaIhale].[makinaihale_ID] AS [makinaihale_ID], 
+    [tbl_MakinaIhale].[makina_ID] AS [makina_ID], 
+    [tbl_MakinaIhale].[uye_ID] AS [uye_ID]
+    FROM [dbo].[tbl_MakinaIhale] AS [tbl_MakinaIhale]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_MakinaIslemler" EntityType="Self.tbl_MakinaIslemler" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_MakinaIslemler].[islem_ID] AS [islem_ID], 
+    [tbl_MakinaIslemler].[makina_ID] AS [makina_ID], 
+    [tbl_MakinaIslemler].[Tarih] AS [Tarih], 
+    [tbl_MakinaIslemler].[Aciklama] AS [Aciklama], 
+    [tbl_MakinaIslemler].[Islemi_Yapan_Firma] AS [Islemi_Yapan_Firma], 
+    [tbl_MakinaIslemler].[Islemi_Yapan_Muhendis] AS [Islemi_Yapan_Muhendis], 
+    [tbl_MakinaIslemler].[Kayit_Tarihi] AS [Kayit_Tarihi], 
+    [tbl_MakinaIslemler].[Durum] AS [Durum]
+    FROM [dbo].[tbl_MakinaIslemler] AS [tbl_MakinaIslemler]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_MakinaMarkalari" EntityType="Self.tbl_MakinaMarkalari" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_MakinaMarkalari].[marka_ID] AS [marka_ID], 
+    [tbl_MakinaMarkalari].[Kategori] AS [Kategori], 
+    [tbl_MakinaMarkalari].[Resim] AS [Resim], 
+    [tbl_MakinaMarkalari].[Durum] AS [Durum], 
+    [tbl_MakinaMarkalari].[Kayit_Tarihi] AS [Kayit_Tarihi], 
+    [tbl_MakinaMarkalari].[Firma_ID] AS [Firma_ID], 
+    [tbl_MakinaMarkalari].[Ust_FirmaID] AS [Ust_FirmaID], 
+    [tbl_MakinaMarkalari].[dil_ID] AS [dil_ID], 
+    [tbl_MakinaMarkalari].[SeoKeywords] AS [SeoKeywords], 
+    [tbl_MakinaMarkalari].[SeoDescription] AS [SeoDescription], 
+    [tbl_MakinaMarkalari].[SeoDescriptionEN] AS [SeoDescriptionEN], 
+    [tbl_MakinaMarkalari].[SeoDescriptionDE] AS [SeoDescriptionDE], 
+    [tbl_MakinaMarkalari].[SeoDescriptionRU] AS [SeoDescriptionRU]
+    FROM [dbo].[tbl_MakinaMarkalari] AS [tbl_MakinaMarkalari]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_MakinamNeEder" EntityType="Self.tbl_MakinamNeEder" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_MakinamNeEder].[makinamneeder_ID] AS [makinamneeder_ID], 
+    [tbl_MakinamNeEder].[uye_ID] AS [uye_ID], 
+    [tbl_MakinamNeEder].[Baslik] AS [Baslik], 
+    [tbl_MakinamNeEder].[tur_ID] AS [tur_ID], 
+    [tbl_MakinamNeEder].[Alttur_ID] AS [Alttur_ID], 
+    [tbl_MakinamNeEder].[Alttur2_ID] AS [Alttur2_ID], 
+    [tbl_MakinamNeEder].[marka_ID] AS [marka_ID], 
+    [tbl_MakinamNeEder].[yil_ID] AS [yil_ID], 
+    [tbl_MakinamNeEder].[Model] AS [Model], 
+    [tbl_MakinamNeEder].[OngorulenFiyat] AS [OngorulenFiyat], 
+    [tbl_MakinamNeEder].[Fiyat] AS [Fiyat], 
+    [tbl_MakinamNeEder].[Para_Birimi_Ongorulen] AS [Para_Birimi_Ongorulen], 
+    [tbl_MakinamNeEder].[Para_Birimi] AS [Para_Birimi], 
+    [tbl_MakinamNeEder].[Aciklama] AS [Aciklama], 
+    [tbl_MakinamNeEder].[Rapor] AS [Rapor], 
+    [tbl_MakinamNeEder].[Fotograf] AS [Fotograf], 
+    [tbl_MakinamNeEder].[Yanit] AS [Yanit], 
+    [tbl_MakinamNeEder].[Durum] AS [Durum], 
+    [tbl_MakinamNeEder].[Ekleyen] AS [Ekleyen], 
+    [tbl_MakinamNeEder].[IP] AS [IP], 
+    [tbl_MakinamNeEder].[Kayit_Tarihi] AS [Kayit_Tarihi]
+    FROM [dbo].[tbl_MakinamNeEder] AS [tbl_MakinamNeEder]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_MakinamNeEderResimler" EntityType="Self.tbl_MakinamNeEderResimler" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_MakinamNeEderResimler].[makinamNeEderResim_ID] AS [makinamNeEderResim_ID], 
+    [tbl_MakinamNeEderResimler].[makinamneeder_ID] AS [makinamneeder_ID], 
+    [tbl_MakinamNeEderResimler].[Fotograf] AS [Fotograf], 
+    [tbl_MakinamNeEderResimler].[Durum] AS [Durum], 
+    [tbl_MakinamNeEderResimler].[Kayit_Tarihi] AS [Kayit_Tarihi]
+    FROM [dbo].[tbl_MakinamNeEderResimler] AS [tbl_MakinamNeEderResimler]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_MakinaResimler" EntityType="Self.tbl_MakinaResimler" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_MakinaResimler].[makinaResim_ID] AS [makinaResim_ID], 
+    [tbl_MakinaResimler].[makina_ID] AS [makina_ID], 
+    [tbl_MakinaResimler].[Fotograf] AS [Fotograf], 
+    [tbl_MakinaResimler].[Durum] AS [Durum], 
+    [tbl_MakinaResimler].[Vitrin] AS [Vitrin], 
+    [tbl_MakinaResimler].[Kayit_Tarihi] AS [Kayit_Tarihi]
+    FROM [dbo].[tbl_MakinaResimler] AS [tbl_MakinaResimler]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_MakinaTurleri" EntityType="Self.tbl_MakinaTurleri" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_MakinaTurleri].[tur_ID] AS [tur_ID], 
+    [tbl_MakinaTurleri].[Kategori] AS [Kategori], 
+    [tbl_MakinaTurleri].[KategoriEN] AS [KategoriEN], 
+    [tbl_MakinaTurleri].[KategoriDE] AS [KategoriDE], 
+    [tbl_MakinaTurleri].[KategoriRU] AS [KategoriRU], 
+    [tbl_MakinaTurleri].[Resim] AS [Resim], 
+    [tbl_MakinaTurleri].[Vitrin] AS [Vitrin], 
+    [tbl_MakinaTurleri].[Durum] AS [Durum], 
+    [tbl_MakinaTurleri].[Kayit_Tarihi] AS [Kayit_Tarihi], 
+    [tbl_MakinaTurleri].[Firma_ID] AS [Firma_ID], 
+    [tbl_MakinaTurleri].[Ust_FirmaID] AS [Ust_FirmaID], 
+    [tbl_MakinaTurleri].[dil_ID] AS [dil_ID], 
+    [tbl_MakinaTurleri].[SeoKeywords] AS [SeoKeywords], 
+    [tbl_MakinaTurleri].[SeoDescription] AS [SeoDescription], 
+    [tbl_MakinaTurleri].[SeoDescriptionEN] AS [SeoDescriptionEN], 
+    [tbl_MakinaTurleri].[SeoDescriptionDE] AS [SeoDescriptionDE], 
+    [tbl_MakinaTurleri].[SeoDescriptionRU] AS [SeoDescriptionRU], 
+    [tbl_MakinaTurleri].[UstResim] AS [UstResim], 
+    [tbl_MakinaTurleri].[FooterAciklamaSEO] AS [FooterAciklamaSEO]
+    FROM [dbo].[tbl_MakinaTurleri] AS [tbl_MakinaTurleri]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_MakinaYillar" EntityType="Self.tbl_MakinaYillar" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_MakinaYillar].[yil_ID] AS [yil_ID], 
+    [tbl_MakinaYillar].[Kategori] AS [Kategori], 
+    [tbl_MakinaYillar].[Resim] AS [Resim], 
+    [tbl_MakinaYillar].[Durum] AS [Durum], 
+    [tbl_MakinaYillar].[Kayit_Tarihi] AS [Kayit_Tarihi], 
+    [tbl_MakinaYillar].[Firma_ID] AS [Firma_ID], 
+    [tbl_MakinaYillar].[Ust_FirmaID] AS [Ust_FirmaID], 
+    [tbl_MakinaYillar].[dil_ID] AS [dil_ID], 
+    [tbl_MakinaYillar].[SeoKeywords] AS [SeoKeywords], 
+    [tbl_MakinaYillar].[SeoDescription] AS [SeoDescription]
+    FROM [dbo].[tbl_MakinaYillar] AS [tbl_MakinaYillar]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_MembershipVersion" EntityType="Self.tbl_MembershipVersion" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_MembershipVersion].[MembershipVersionID] AS [MembershipVersionID], 
+    [tbl_MembershipVersion].[MembershipVersion] AS [MembershipVersion], 
+    [tbl_MembershipVersion].[MembershipID] AS [MembershipID], 
+    [tbl_MembershipVersion].[MaxDisplayAds] AS [MaxDisplayAds], 
+    [tbl_MembershipVersion].[MaxAds] AS [MaxAds], 
+    [tbl_MembershipVersion].[DisplayOfCompanyLogo] AS [DisplayOfCompanyLogo], 
+    [tbl_MembershipVersion].[PriceForeing] AS [PriceForeing], 
+    [tbl_MembershipVersion].[PriceWeekTr] AS [PriceWeekTr], 
+    [tbl_MembershipVersion].[PriceYearTr] AS [PriceYearTr], 
+    [tbl_MembershipVersion].[DiscountPrice] AS [DiscountPrice], 
+    [tbl_MembershipVersion].[CreatedDate] AS [CreatedDate], 
+    [tbl_MembershipVersion].[UpdatedDate] AS [UpdatedDate], 
+    [tbl_MembershipVersion].[DeletedDate] AS [DeletedDate], 
+    [tbl_MembershipVersion].[IsAvaible] AS [IsAvaible]
+    FROM [dbo].[tbl_MembershipVersion] AS [tbl_MembershipVersion]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_MirrorSize" EntityType="Self.tbl_MirrorSize" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_MirrorSize].[MirrorSizeID] AS [MirrorSizeID], 
+    [tbl_MirrorSize].[MirrorSize] AS [MirrorSize]
+    FROM [dbo].[tbl_MirrorSize] AS [tbl_MirrorSize]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_NumberOfAxes" EntityType="Self.tbl_NumberOfAxes" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_NumberOfAxes].[NumberOfAxesID] AS [NumberOfAxesID], 
+    [tbl_NumberOfAxes].[NumberOfAxes] AS [NumberOfAxes], 
+    [tbl_NumberOfAxes].[NumberOfAxesEng] AS [NumberOfAxesEng]
+    FROM [dbo].[tbl_NumberOfAxes] AS [tbl_NumberOfAxes]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_NumberOfTables" EntityType="Self.tbl_NumberOfTables" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_NumberOfTables].[NumberOfTablesID] AS [NumberOfTablesID], 
+    [tbl_NumberOfTables].[NumberOfTables] AS [NumberOfTables]
+    FROM [dbo].[tbl_NumberOfTables] AS [tbl_NumberOfTables]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_OdemeBildirimleri" EntityType="Self.tbl_OdemeBildirimleri" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_OdemeBildirimleri].[odeme_ID] AS [odeme_ID], 
+    [tbl_OdemeBildirimleri].[makina_ID] AS [makina_ID], 
+    [tbl_OdemeBildirimleri].[uye_ID] AS [uye_ID], 
+    [tbl_OdemeBildirimleri].[Verilen_Fiyat] AS [Verilen_Fiyat], 
+    [tbl_OdemeBildirimleri].[Durum] AS [Durum], 
+    [tbl_OdemeBildirimleri].[IP] AS [IP], 
+    [tbl_OdemeBildirimleri].[Banka] AS [Banka], 
+    [tbl_OdemeBildirimleri].[DekontNo] AS [DekontNo], 
+    [tbl_OdemeBildirimleri].[Dekont] AS [Dekont], 
+    [tbl_OdemeBildirimleri].[Aciklama] AS [Aciklama], 
+    [tbl_OdemeBildirimleri].[Kayit_Tarihi] AS [Kayit_Tarihi]
+    FROM [dbo].[tbl_OdemeBildirimleri] AS [tbl_OdemeBildirimleri]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_ReklamAlanlari" EntityType="Self.tbl_ReklamAlanlari" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_ReklamAlanlari].[reklamAlan_ID] AS [reklamAlan_ID], 
+    [tbl_ReklamAlanlari].[Adi] AS [Adi], 
+    [tbl_ReklamAlanlari].[Durum] AS [Durum], 
+    [tbl_ReklamAlanlari].[Kayit_Tarihi] AS [Kayit_Tarihi], 
+    [tbl_ReklamAlanlari].[Firma_ID] AS [Firma_ID], 
+    [tbl_ReklamAlanlari].[Ust_FirmaID] AS [Ust_FirmaID], 
+    [tbl_ReklamAlanlari].[dil_ID] AS [dil_ID]
+    FROM [dbo].[tbl_ReklamAlanlari] AS [tbl_ReklamAlanlari]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_Reklamlar" EntityType="Self.tbl_Reklamlar" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_Reklamlar].[reklam_ID] AS [reklam_ID], 
+    [tbl_Reklamlar].[Adi] AS [Adi], 
+    [tbl_Reklamlar].[Url] AS [Url], 
+    [tbl_Reklamlar].[logo_ID] AS [logo_ID], 
+    [tbl_Reklamlar].[TiklamaSayisi] AS [TiklamaSayisi], 
+    [tbl_Reklamlar].[Durum] AS [Durum], 
+    [tbl_Reklamlar].[Kayit_Tarihi] AS [Kayit_Tarihi], 
+    [tbl_Reklamlar].[Firma_ID] AS [Firma_ID], 
+    [tbl_Reklamlar].[Ust_FirmaID] AS [Ust_FirmaID], 
+    [tbl_Reklamlar].[dil_ID] AS [dil_ID], 
+    [tbl_Reklamlar].[Yayinda] AS [Yayinda], 
+    [tbl_Reklamlar].[Dosya] AS [Dosya], 
+    [tbl_Reklamlar].[reklamAlan_ID] AS [reklamAlan_ID]
+    FROM [dbo].[tbl_Reklamlar] AS [tbl_Reklamlar]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_SagMenu" EntityType="Self.tbl_SagMenu" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_SagMenu].[sagMenu_ID] AS [sagMenu_ID], 
+    [tbl_SagMenu].[Baslik] AS [Baslik], 
+    [tbl_SagMenu].[Aciklama] AS [Aciklama], 
+    [tbl_SagMenu].[Kayit_Tarihi] AS [Kayit_Tarihi], 
+    [tbl_SagMenu].[Durum] AS [Durum], 
+    [tbl_SagMenu].[Firma_ID] AS [Firma_ID], 
+    [tbl_SagMenu].[Ust_FirmaID] AS [Ust_FirmaID], 
+    [tbl_SagMenu].[dil_ID] AS [dil_ID], 
+    [tbl_SagMenu].[Yayinda] AS [Yayinda]
+    FROM [dbo].[tbl_SagMenu] AS [tbl_SagMenu]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_Servis" EntityType="Self.tbl_Servis" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_Servis].[servis_ID] AS [servis_ID], 
+    [tbl_Servis].[ServisFirmasi_ID] AS [ServisFirmasi_ID], 
+    [tbl_Servis].[Randevu_Tarihi] AS [Randevu_Tarihi], 
+    [tbl_Servis].[Adi] AS [Adi], 
+    [tbl_Servis].[Soyadi] AS [Soyadi], 
+    [tbl_Servis].[Telefon] AS [Telefon], 
+    [tbl_Servis].[EMail] AS [EMail], 
+    [tbl_Servis].[Baslik] AS [Baslik], 
+    [tbl_Servis].[tur_ID] AS [tur_ID], 
+    [tbl_Servis].[Alttur_ID] AS [Alttur_ID], 
+    [tbl_Servis].[Alttur2_ID] AS [Alttur2_ID], 
+    [tbl_Servis].[marka_ID] AS [marka_ID], 
+    [tbl_Servis].[yil_ID] AS [yil_ID], 
+    [tbl_Servis].[Model] AS [Model], 
+    [tbl_Servis].[Aciklama] AS [Aciklama], 
+    [tbl_Servis].[Rapor] AS [Rapor], 
+    [tbl_Servis].[Fotograf] AS [Fotograf], 
+    [tbl_Servis].[Yanit] AS [Yanit], 
+    [tbl_Servis].[Durum] AS [Durum], 
+    [tbl_Servis].[Ekleyen] AS [Ekleyen], 
+    [tbl_Servis].[uye_ID] AS [uye_ID], 
+    [tbl_Servis].[IP] AS [IP], 
+    [tbl_Servis].[Kayit_Tarihi] AS [Kayit_Tarihi]
+    FROM [dbo].[tbl_Servis] AS [tbl_Servis]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_Slider" EntityType="Self.tbl_Slider" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_Slider].[slider_ID] AS [slider_ID], 
+    [tbl_Slider].[Baslik] AS [Baslik], 
+    [tbl_Slider].[UstBilgi] AS [UstBilgi], 
+    [tbl_Slider].[AltBilgi] AS [AltBilgi], 
+    [tbl_Slider].[ButonYazi] AS [ButonYazi], 
+    [tbl_Slider].[Link] AS [Link], 
+    [tbl_Slider].[Resim] AS [Resim], 
+    [tbl_Slider].[UstBilgiMobil] AS [UstBilgiMobil], 
+    [tbl_Slider].[AltBilgiMobil] AS [AltBilgiMobil], 
+    [tbl_Slider].[ButonYaziMobil] AS [ButonYaziMobil], 
+    [tbl_Slider].[ResimMobil] AS [ResimMobil], 
+    [tbl_Slider].[LinkMobil] AS [LinkMobil], 
+    [tbl_Slider].[Durum] AS [Durum], 
+    [tbl_Slider].[Firma_ID] AS [Firma_ID], 
+    [tbl_Slider].[dil_ID] AS [dil_ID], 
+    [tbl_Slider].[Yayinda] AS [Yayinda], 
+    [tbl_Slider].[Kayit_Tarihi] AS [Kayit_Tarihi], 
+    [tbl_Slider].[Siralama] AS [Siralama], 
+    [tbl_Slider].[makina_ID] AS [makina_ID], 
+    [tbl_Slider].[blog_ID] AS [blog_ID], 
+    [tbl_Slider].[Fiyat] AS [Fiyat], 
+    [tbl_Slider].[ButonYazi1] AS [ButonYazi1], 
+    [tbl_Slider].[Link1] AS [Link1], 
+    [tbl_Slider].[ButonGorunmesin] AS [ButonGorunmesin]
+    FROM [dbo].[tbl_Slider] AS [tbl_Slider]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_SosyalMedya" EntityType="Self.tbl_SosyalMedya" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_SosyalMedya].[sosyalmedya_ID] AS [sosyalmedya_ID], 
+    [tbl_SosyalMedya].[Baslik] AS [Baslik], 
+    [tbl_SosyalMedya].[FontAwasome] AS [FontAwasome], 
+    [tbl_SosyalMedya].[Resim] AS [Resim], 
+    [tbl_SosyalMedya].[Link] AS [Link], 
+    [tbl_SosyalMedya].[Siralama] AS [Siralama], 
+    [tbl_SosyalMedya].[Kayit_Tarihi] AS [Kayit_Tarihi], 
+    [tbl_SosyalMedya].[Update_Tarihi] AS [Update_Tarihi], 
+    [tbl_SosyalMedya].[Durum] AS [Durum], 
+    [tbl_SosyalMedya].[Firma_ID] AS [Firma_ID], 
+    [tbl_SosyalMedya].[Ust_FirmaID] AS [Ust_FirmaID], 
+    [tbl_SosyalMedya].[dil_ID] AS [dil_ID], 
+    [tbl_SosyalMedya].[Footer_Yayinda] AS [Footer_Yayinda], 
+    [tbl_SosyalMedya].[Header_Yayinda] AS [Header_Yayinda]
+    FROM [dbo].[tbl_SosyalMedya] AS [tbl_SosyalMedya]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_SpindleRPM" EntityType="Self.tbl_SpindleRPM" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_SpindleRPM].[SpindleRPMID] AS [SpindleRPMID], 
+    [tbl_SpindleRPM].[SpindleRPMSize] AS [SpindleRPMSize]
+    FROM [dbo].[tbl_SpindleRPM] AS [tbl_SpindleRPM]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_SSS" EntityType="Self.tbl_SSS" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_SSS].[sss_ID] AS [sss_ID], 
+    [tbl_SSS].[Baslik] AS [Baslik], 
+    [tbl_SSS].[Aciklama] AS [Aciklama], 
+    [tbl_SSS].[icerikOrder] AS [icerikOrder], 
+    [tbl_SSS].[Kayit_Tarihi] AS [Kayit_Tarihi], 
+    [tbl_SSS].[Update_Tarihi] AS [Update_Tarihi], 
+    [tbl_SSS].[Durum] AS [Durum], 
+    [tbl_SSS].[Firma_ID] AS [Firma_ID], 
+    [tbl_SSS].[Ust_FirmaID] AS [Ust_FirmaID], 
+    [tbl_SSS].[dil_ID] AS [dil_ID], 
+    [tbl_SSS].[Yayinda] AS [Yayinda]
+    FROM [dbo].[tbl_SSS] AS [tbl_SSS]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_TeknikDestek" EntityType="Self.tbl_TeknikDestek" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_TeknikDestek].[ID] AS [ID], 
+    [tbl_TeknikDestek].[AdSoyad] AS [AdSoyad], 
+    [tbl_TeknikDestek].[Email] AS [Email], 
+    [tbl_TeknikDestek].[Telefon] AS [Telefon], 
+    [tbl_TeknikDestek].[OnemDerecesi] AS [OnemDerecesi], 
+    [tbl_TeknikDestek].[EkranGoruntusu] AS [EkranGoruntusu], 
+    [tbl_TeknikDestek].[Mesaj] AS [Mesaj], 
+    [tbl_TeknikDestek].[Durum] AS [Durum], 
+    [tbl_TeknikDestek].[IP] AS [IP], 
+    [tbl_TeknikDestek].[Tarih] AS [Tarih], 
+    [tbl_TeknikDestek].[Sayfa] AS [Sayfa]
+    FROM [dbo].[tbl_TeknikDestek] AS [tbl_TeknikDestek]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_Ulkeler" EntityType="Self.tbl_Ulkeler" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_Ulkeler].[id] AS [id], 
+    [tbl_Ulkeler].[iso] AS [iso], 
+    [tbl_Ulkeler].[name] AS [name], 
+    [tbl_Ulkeler].[nicename] AS [nicename], 
+    [tbl_Ulkeler].[iso3] AS [iso3], 
+    [tbl_Ulkeler].[GoogleTranslateCode] AS [GoogleTranslateCode], 
+    [tbl_Ulkeler].[numcode] AS [numcode], 
+    [tbl_Ulkeler].[phonecode] AS [phonecode]
+    FROM [dbo].[tbl_Ulkeler] AS [tbl_Ulkeler]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_XAxisSize" EntityType="Self.tbl_XAxisSize" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_XAxisSize].[XAxisSizeID] AS [XAxisSizeID], 
+    [tbl_XAxisSize].[XAxisSize] AS [XAxisSize]
+    FROM [dbo].[tbl_XAxisSize] AS [tbl_XAxisSize]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbl_YAxisSize" EntityType="Self.tbl_YAxisSize" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_YAxisSize].[YAxisSizeID] AS [YAxisSizeID], 
+    [tbl_YAxisSize].[YAxisSize] AS [YAxisSize]
+    FROM [dbo].[tbl_YAxisSize] AS [tbl_YAxisSize]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

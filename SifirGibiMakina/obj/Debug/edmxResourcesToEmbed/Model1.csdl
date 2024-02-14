@@ -1,0 +1,1271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="db_SifirGibiMakinaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="db_SifirGibiMakinaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Log" EntityType="db_SifirGibiMakinaModel.Log" />
+    <EntitySet Name="tbl_Ayarlar" EntityType="db_SifirGibiMakinaModel.tbl_Ayarlar" />
+    <EntitySet Name="tbl_BeniHaberdarEt" EntityType="db_SifirGibiMakinaModel.tbl_BeniHaberdarEt" />
+    <EntitySet Name="tbl_Diller" EntityType="db_SifirGibiMakinaModel.tbl_Diller" />
+    <EntitySet Name="tbl_Duyurular" EntityType="db_SifirGibiMakinaModel.tbl_Duyurular" />
+    <EntitySet Name="tbl_DuyurularCat" EntityType="db_SifirGibiMakinaModel.tbl_DuyurularCat" />
+    <EntitySet Name="tbl_Expertiz" EntityType="db_SifirGibiMakinaModel.tbl_Expertiz" />
+    <EntitySet Name="tbl_Firmalar" EntityType="db_SifirGibiMakinaModel.tbl_Firmalar" />
+    <EntitySet Name="tbl_FirmaLogolari" EntityType="db_SifirGibiMakinaModel.tbl_FirmaLogolari" />
+    <EntitySet Name="tbl_Icerikler" EntityType="db_SifirGibiMakinaModel.tbl_Icerikler" />
+    <EntitySet Name="tbl_Ihale" EntityType="db_SifirGibiMakinaModel.tbl_Ihale" />
+    <EntitySet Name="tbl_Iletisim" EntityType="db_SifirGibiMakinaModel.tbl_Iletisim" />
+    <EntitySet Name="tbl_ilanFavorileri" EntityType="db_SifirGibiMakinaModel.tbl_ilanFavorileri" />
+    <EntitySet Name="tbl_ilanKategoriListeleme" EntityType="db_SifirGibiMakinaModel.tbl_ilanKategoriListeleme" />
+    <EntitySet Name="tbl_ilanMesajlari" EntityType="db_SifirGibiMakinaModel.tbl_ilanMesajlari" />
+    <EntitySet Name="tbl_Kullanicilar" EntityType="db_SifirGibiMakinaModel.tbl_Kullanicilar" />
+    <EntitySet Name="tbl_MakinaAltTurleri" EntityType="db_SifirGibiMakinaModel.tbl_MakinaAltTurleri" />
+    <EntitySet Name="tbl_MakinaAltTurleri2" EntityType="db_SifirGibiMakinaModel.tbl_MakinaAltTurleri2" />
+    <EntitySet Name="tbl_MakinaEksper" EntityType="db_SifirGibiMakinaModel.tbl_MakinaEksper" />
+    <EntitySet Name="tbl_MakinaEksperSecimi" EntityType="db_SifirGibiMakinaModel.tbl_MakinaEksperSecimi" />
+    <EntitySet Name="tbl_MakinaIhale" EntityType="db_SifirGibiMakinaModel.tbl_MakinaIhale" />
+    <EntitySet Name="tbl_MakinaIslemler" EntityType="db_SifirGibiMakinaModel.tbl_MakinaIslemler" />
+    <EntitySet Name="tbl_MakinaMarkalari" EntityType="db_SifirGibiMakinaModel.tbl_MakinaMarkalari" />
+    <EntitySet Name="tbl_MakinamNeEder" EntityType="db_SifirGibiMakinaModel.tbl_MakinamNeEder" />
+    <EntitySet Name="tbl_MakinamNeEderResimler" EntityType="db_SifirGibiMakinaModel.tbl_MakinamNeEderResimler" />
+    <EntitySet Name="tbl_MakinaResimler" EntityType="db_SifirGibiMakinaModel.tbl_MakinaResimler" />
+    <EntitySet Name="tbl_MakinaTurleri" EntityType="db_SifirGibiMakinaModel.tbl_MakinaTurleri" />
+    <EntitySet Name="tbl_MakinaYillar" EntityType="db_SifirGibiMakinaModel.tbl_MakinaYillar" />
+    <EntitySet Name="tbl_OdemeBildirimleri" EntityType="db_SifirGibiMakinaModel.tbl_OdemeBildirimleri" />
+    <EntitySet Name="tbl_SagMenu" EntityType="db_SifirGibiMakinaModel.tbl_SagMenu" />
+    <EntitySet Name="tbl_Servis" EntityType="db_SifirGibiMakinaModel.tbl_Servis" />
+    <EntitySet Name="tbl_Slider" EntityType="db_SifirGibiMakinaModel.tbl_Slider" />
+    <EntitySet Name="tbl_SosyalMedya" EntityType="db_SifirGibiMakinaModel.tbl_SosyalMedya" />
+    <EntitySet Name="tbl_SSS" EntityType="db_SifirGibiMakinaModel.tbl_SSS" />
+    <EntitySet Name="tbl_TeknikDestek" EntityType="db_SifirGibiMakinaModel.tbl_TeknikDestek" />
+    <EntitySet Name="tbl_Makinalar" EntityType="db_SifirGibiMakinaModel.tbl_Makinalar" />
+    <EntitySet Name="tbl_Ulkeler" EntityType="db_SifirGibiMakinaModel.tbl_Ulkeler" />
+    <EntitySet Name="tbl_ReklamAlanlari" EntityType="db_SifirGibiMakinaModel.tbl_ReklamAlanlari" />
+    <EntitySet Name="tbl_Reklamlar" EntityType="db_SifirGibiMakinaModel.tbl_Reklamlar" />
+    <EntitySet Name="tbl_ilanEmail" EntityType="db_SifirGibiMakinaModel.tbl_ilanEmail" />
+    <EntitySet Name="Sehirler" EntityType="db_SifirGibiMakinaModel.Sehirler" />
+    <EntitySet Name="Ilceler" EntityType="db_SifirGibiMakinaModel.Ilceler" />
+    <AssociationSet Name="FK_Ilceler_Sehirler" Association="db_SifirGibiMakinaModel.FK_Ilceler_Sehirler">
+      <End Role="Sehirler" EntitySet="Sehirler" />
+      <End Role="Ilceler" EntitySet="Ilceler" />
+    </AssociationSet>
+    <EntitySet Name="tbl_ServiceDescription" EntityType="db_SifirGibiMakinaModel.tbl_ServiceDescription" />
+    <EntitySet Name="tbl_ServiceUserComment" EntityType="db_SifirGibiMakinaModel.tbl_ServiceUserComment" />
+    <EntitySet Name="tbl_ServiceUserDetail" EntityType="db_SifirGibiMakinaModel.tbl_ServiceUserDetail" />
+    <EntitySet Name="tbl_ServiceUsersCategory" EntityType="db_SifirGibiMakinaModel.tbl_ServiceUsersCategory" />
+    <EntitySet Name="tbl_ServiceWorkZone" EntityType="db_SifirGibiMakinaModel.tbl_ServiceWorkZone" />
+    <EntitySet Name="tbl_ControlUnit" EntityType="db_SifirGibiMakinaModel.tbl_ControlUnit" />
+    <EntitySet Name="tbl_MirrorSize" EntityType="db_SifirGibiMakinaModel.tbl_MirrorSize" />
+    <EntitySet Name="tbl_NumberOfAxes" EntityType="db_SifirGibiMakinaModel.tbl_NumberOfAxes" />
+    <EntitySet Name="tbl_NumberOfTables" EntityType="db_SifirGibiMakinaModel.tbl_NumberOfTables" />
+    <EntitySet Name="tbl_SpindleRPM" EntityType="db_SifirGibiMakinaModel.tbl_SpindleRPM" />
+    <EntitySet Name="tbl_XAxisSize" EntityType="db_SifirGibiMakinaModel.tbl_XAxisSize" />
+    <EntitySet Name="tbl_YAxisSize" EntityType="db_SifirGibiMakinaModel.tbl_YAxisSize" />
+    <EntitySet Name="tbl_MachineDetail" EntityType="db_SifirGibiMakinaModel.tbl_MachineDetail" />
+    <EntitySet Name="tbl_ServiceEquipmentDetail" EntityType="db_SifirGibiMakinaModel.tbl_ServiceEquipmentDetail" />
+    <EntitySet Name="tbl_Membership" EntityType="db_SifirGibiMakinaModel.tbl_Membership" />
+    <EntitySet Name="tbl_PaymentPlan" EntityType="db_SifirGibiMakinaModel.tbl_PaymentPlan" />
+    <EntitySet Name="tbl_CardInfo" EntityType="db_SifirGibiMakinaModel.tbl_CardInfo" />
+    <EntitySet Name="tbl_PaymentInfo" EntityType="db_SifirGibiMakinaModel.tbl_PaymentInfo" />
+    <EntitySet Name="tbl_PaymentProduct" EntityType="db_SifirGibiMakinaModel.tbl_PaymentProduct" />
+    <EntitySet Name="tbl_PaymentProdcutPayPlan" EntityType="db_SifirGibiMakinaModel.tbl_PaymentProdcutPayPlan" />
+    <EntitySet Name="tbl_PaymentSubscriber" EntityType="db_SifirGibiMakinaModel.tbl_PaymentSubscriber" />
+    <EntitySet Name="tbl_PaymentLog" EntityType="db_SifirGibiMakinaModel.tbl_PaymentLog" />
+    <EntitySet Name="tbl_MembershipVersion" EntityType="db_SifirGibiMakinaModel.tbl_MembershipVersion" />
+    <EntitySet Name="tbl_Uyeler" EntityType="db_SifirGibiMakinaModel.tbl_Uyeler" />
+    <EntitySet Name="tbl_SubsReturnPaymentLog" EntityType="db_SifirGibiMakinaModel.tbl_SubsReturnPaymentLog" />
+    <EntitySet Name="tbl_UserMembership" EntityType="db_SifirGibiMakinaModel.tbl_UserMembership" />
+  </EntityContainer>
+  <EntityType Name="Log">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="thread" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="level" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="logger" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="message" Type="String" Nullable="false" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="exception" Type="String" MaxLength="2000" FixedLength="false" Unicode="false" />
+    <Property Name="host" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="page" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="ipaddress" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="browser" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="platform" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="device" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tbl_Ayarlar">
+    <Key>
+      <PropertyRef Name="ayar_ID" />
+    </Key>
+    <Property Name="ayar_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Site_Adi" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Logo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SMTP_Server" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SMTP_Port" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SMTP_Mail" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="SMTP_Gonderen" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="SMTP_Email" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="SMTP_Sifre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TeknikKisiler" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="OzelBolumWhatsapp" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Adres" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Il" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Ilce" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Telefon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GoogleMap" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="EkUyeSayisi" Type="Int32" />
+    <Property Name="EkAcikArtirmaSayisi" Type="Int32" />
+    <Property Name="EkTeklifSayisi" Type="Int32" />
+    <Property Name="EkSatilanMakinaSayisi" Type="Int32" />
+    <Property Name="SayilarPanel" Type="Boolean" />
+    <Property Name="Site_Adi_EN" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Site_Adi_DE" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Site_Adi_RU" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="SEOAnaSayfa" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SEOAnaSayfaEN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SEOAnaSayfaDE" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SEOAnaSayfaRU" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_BeniHaberdarEt">
+    <Key>
+      <PropertyRef Name="benihaberdaret_ID" />
+    </Key>
+    <Property Name="benihaberdaret_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AdSoyad" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="EMail" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="Telefon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="tur_ID" Type="Int32" />
+    <Property Name="Alttur_ID" Type="Int32" />
+    <Property Name="Alttur2_ID" Type="Int32" />
+    <Property Name="marka_ID" Type="Int32" />
+    <Property Name="yil_ID" Type="Int32" />
+    <Property Name="Model" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Fiyat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Para_Birimi" Type="Int32" />
+    <Property Name="Aciklama" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Rapor" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Yanit" Type="Boolean" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="Ekleyen" Type="Int32" />
+    <Property Name="IP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Rapor_Tarihi" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tbl_Diller">
+    <Key>
+      <PropertyRef Name="dil_ID" />
+    </Key>
+    <Property Name="dil_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Dil" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="YaziYonu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LokalKod" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Kod" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Resim" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Durum" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tbl_Duyurular">
+    <Key>
+      <PropertyRef Name="duy_ID" />
+    </Key>
+    <Property Name="duy_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Baslik" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="KisaAciklama" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Icerik" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Fotograf" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="cat_ID" Type="Int32" />
+    <Property Name="Manset" Type="Boolean" />
+    <Property Name="AnaSayfaYayin" Type="Boolean" />
+    <Property Name="Siralama" Type="Int32" />
+    <Property Name="Yayin_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Update_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="Firma_ID" Type="Int32" />
+    <Property Name="Ust_FirmaID" Type="Int32" />
+    <Property Name="dil_ID" Type="Int32" />
+    <Property Name="SeoKeywords" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SeoDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SosyalMedyaPaylasim" Type="Boolean" />
+    <Property Name="Yayinda" Type="Boolean" />
+    <Property Name="BuyukBlog" Type="Boolean" />
+    <Property Name="OkumaSayisi" Type="Int32" />
+    <Property Name="OneCikar" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tbl_DuyurularCat">
+    <Key>
+      <PropertyRef Name="cat_ID" />
+    </Key>
+    <Property Name="cat_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Kategori" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Resim" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Firma_ID" Type="Int32" />
+    <Property Name="Ust_FirmaID" Type="Int32" />
+    <Property Name="dil_ID" Type="Int32" />
+    <Property Name="SeoKeywords" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SeoDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_Expertiz">
+    <Key>
+      <PropertyRef Name="expertiz_ID" />
+    </Key>
+    <Property Name="expertiz_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ExpertizFirmasi_ID" Type="Int32" />
+    <Property Name="Randevu_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Adi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Soyadi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Telefon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="EMail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Baslik" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="tur_ID" Type="Int32" />
+    <Property Name="Alttur_ID" Type="Int32" />
+    <Property Name="Alttur2_ID" Type="Int32" />
+    <Property Name="marka_ID" Type="Int32" />
+    <Property Name="yil_ID" Type="Int32" />
+    <Property Name="Model" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Aciklama" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Rapor" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Fotograf" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Yanit" Type="Boolean" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="Ekleyen" Type="Int32" />
+    <Property Name="uye_ID" Type="Int32" />
+    <Property Name="IP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tbl_Firmalar">
+    <Key>
+      <PropertyRef Name="Firma_ID" />
+    </Key>
+    <Property Name="Firma_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Firma_Adi" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="EMail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Ilgili" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Sifre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="Resim" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Telefon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Gonderilecek_Mailler" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Duzenleme" Type="Int32" />
+    <Property Name="Yetki_Makinalar" Type="Int32" />
+    <Property Name="Yetki_MakinalarDuzenleme" Type="Int32" />
+    <Property Name="Yetki_MakinamNeEder" Type="Int32" />
+    <Property Name="Yetki_MakinamNeEderDuzenleme" Type="Int32" />
+    <Property Name="Yetki_Uyeler" Type="Int32" />
+    <Property Name="Yetki_UyelerDuzenleme" Type="Int32" />
+    <Property Name="Yetki_Sayfalar" Type="Int32" />
+    <Property Name="Yetki_SayfalarDuzenleme" Type="Int32" />
+    <Property Name="Yetki_Kullanicilar" Type="Int32" />
+    <Property Name="Yetki_KullanicilarDuzenleme" Type="Int32" />
+    <Property Name="Yetki_MakinaTanimlari" Type="Int32" />
+    <Property Name="Yetki_MakinaTanimlariDuzenleme" Type="Int32" />
+    <Property Name="Yetki_Diger" Type="Int32" />
+    <Property Name="Yetki_DigerDuzenleme" Type="Int32" />
+    <Property Name="Yetki_GelenMesajlar" Type="Int32" />
+    <Property Name="Yetki_Odemeler" Type="Int32" />
+    <Property Name="Yetki_OdemelerDuzenleme" Type="Int32" />
+    <Property Name="Yetki_Ihaleler" Type="Int32" />
+    <Property Name="Yetki_IhalelerDuzenleme" Type="Int32" />
+    <Property Name="Yetki_SagMenu" Type="Int32" />
+    <Property Name="Yetki_DestekTalebi" Type="Int32" />
+    <Property Name="Yetki_SifreDegistir" Type="Int32" />
+    <Property Name="Yetki_SosyalMedya" Type="Int32" />
+    <Property Name="user_ID" Type="Int32" />
+    <Property Name="Ust_FirmaID" Type="Int32" />
+    <Property Name="IsAdmin" Type="Int32" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Firma_Adi_EN" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Firma_Adi_DE" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Firma_Adi_RU" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_FirmaLogolari">
+    <Key>
+      <PropertyRef Name="logo_ID" />
+    </Key>
+    <Property Name="logo_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Baslik" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="uye_ID" Type="Int32" />
+    <Property Name="Link" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Fotograf" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Buyuk_Logo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Aciklama" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="Firma_ID" Type="Int32" />
+    <Property Name="Ust_FirmaID" Type="Int32" />
+    <Property Name="dil_ID" Type="Int32" />
+    <Property Name="Yayinda" Type="Boolean" />
+    <Property Name="Siralama" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tbl_Icerikler">
+    <Key>
+      <PropertyRef Name="icerik_ID" />
+    </Key>
+    <Property Name="icerik_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Baslik" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Aciklama" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Resim" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="icerikOrder" Type="Int32" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Update_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="sagMenu_ID" Type="Int32" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="Firma_ID" Type="Int32" />
+    <Property Name="Ust_FirmaID" Type="Int32" />
+    <Property Name="dil_ID" Type="Int32" />
+    <Property Name="SeoKeywords" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SeoDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SosyalMedyaPaylasim" Type="Boolean" />
+    <Property Name="Yayinda" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tbl_Ihale">
+    <Key>
+      <PropertyRef Name="ihale_ID" />
+    </Key>
+    <Property Name="ihale_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="makina_ID" Type="Int32" />
+    <Property Name="uye_ID" Type="Int32" />
+    <Property Name="Verilen_Fiyat" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="IP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="SonFiyat" Type="Decimal" Precision="19" Scale="4" />
+  </EntityType>
+  <EntityType Name="tbl_Iletisim">
+    <Key>
+      <PropertyRef Name="iletisim_ID" />
+    </Key>
+    <Property Name="iletisim_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AdSoyad" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Telefon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Mesaj" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Konu" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Durum" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tbl_ilanFavorileri">
+    <Key>
+      <PropertyRef Name="favori_ID" />
+    </Key>
+    <Property Name="favori_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="makina_ID" Type="Int32" />
+    <Property Name="user_ID" Type="Int32" />
+    <Property Name="IP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="EklenenFiyat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tbl_ilanKategoriListeleme">
+    <Key>
+      <PropertyRef Name="ilanKategoriListeleme_ID" />
+    </Key>
+    <Property Name="ilanKategoriListeleme_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Baslik" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="KisaAciklama" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Icerik" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Fotograf" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="tur_ID" Type="Int32" />
+    <Property Name="Siralama" Type="Int32" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Update_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="Firma_ID" Type="Int32" />
+    <Property Name="Ust_FirmaID" Type="Int32" />
+    <Property Name="dil_ID" Type="Int32" />
+    <Property Name="Yayinda" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tbl_ilanMesajlari">
+    <Key>
+      <PropertyRef Name="mesaj_ID" />
+    </Key>
+    <Property Name="mesaj_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="makina_ID" Type="Int32" />
+    <Property Name="UstMesaj_ID" Type="Int32" />
+    <Property Name="Kimden" Type="Int32" />
+    <Property Name="Kime" Type="Int32" />
+    <Property Name="Mesaj" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="Okunma" Type="Int32" />
+    <Property Name="IP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="GonderenSildi" Type="Int32" />
+    <Property Name="AliciSildi" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tbl_Kullanicilar">
+    <Key>
+      <PropertyRef Name="Kullanici_ID" />
+    </Key>
+    <Property Name="Kullanici_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Firma_ID" Type="Int32" />
+    <Property Name="Adi_Soyadi" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="EMail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sifre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Telefon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="Duzenleme" Type="Int32" />
+    <Property Name="Yetki_Makinalar" Type="Int32" />
+    <Property Name="Yetki_MakinalarDuzenleme" Type="Int32" />
+    <Property Name="Yetki_MakinamNeEder" Type="Int32" />
+    <Property Name="Yetki_MakinamNeEderDuzenleme" Type="Int32" />
+    <Property Name="Yetki_Uyeler" Type="Int32" />
+    <Property Name="Yetki_UyelerDuzenleme" Type="Int32" />
+    <Property Name="Yetki_Sayfalar" Type="Int32" />
+    <Property Name="Yetki_SayfalarDuzenleme" Type="Int32" />
+    <Property Name="Yetki_Kullanicilar" Type="Int32" />
+    <Property Name="Yetki_KullanicilarDuzenleme" Type="Int32" />
+    <Property Name="Yetki_MakinaTanimlari" Type="Int32" />
+    <Property Name="Yetki_MakinaTanimlariDuzenleme" Type="Int32" />
+    <Property Name="Yetki_Diger" Type="Int32" />
+    <Property Name="Yetki_DigerDuzenleme" Type="Int32" />
+    <Property Name="Yetki_GelenMesajlar" Type="Int32" />
+    <Property Name="Yetki_Odemeler" Type="Int32" />
+    <Property Name="Yetki_OdemelerDuzenleme" Type="Int32" />
+    <Property Name="Yetki_Ihaleler" Type="Int32" />
+    <Property Name="Yetki_IhalelerDuzenleme" Type="Int32" />
+    <Property Name="Yetki_SagMenu" Type="Int32" />
+    <Property Name="Yetki_DestekTalebi" Type="Int32" />
+    <Property Name="Yetki_SifreDegistir" Type="Int32" />
+    <Property Name="Yetki_SosyalMedya" Type="Int32" />
+    <Property Name="user_ID" Type="Int32" />
+    <Property Name="Ust_FirmaID" Type="Int32" />
+    <Property Name="IsAdmin" Type="Int32" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tbl_MakinaAltTurleri">
+    <Key>
+      <PropertyRef Name="Alttur_ID" />
+    </Key>
+    <Property Name="Alttur_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tur_ID" Type="Int32" />
+    <Property Name="Kategori" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Resim" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Firma_ID" Type="Int32" />
+    <Property Name="Ust_FirmaID" Type="Int32" />
+    <Property Name="dil_ID" Type="Int32" />
+    <Property Name="SeoKeywords" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SeoDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="KategoriEN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="KategoriDE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="KategoriRU" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SeoDescriptionEN" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SeoDescriptionDE" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SeoDescriptionRU" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="FooterAciklamaSEO" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_MakinaAltTurleri2">
+    <Key>
+      <PropertyRef Name="Alttur2_ID" />
+    </Key>
+    <Property Name="Alttur2_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Alttur_ID" Type="Int32" />
+    <Property Name="Kategori" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Resim" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Firma_ID" Type="Int32" />
+    <Property Name="Ust_FirmaID" Type="Int32" />
+    <Property Name="dil_ID" Type="Int32" />
+    <Property Name="SeoKeywords" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SeoDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="KategoriEN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="KategoriDE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="KategoriRU" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SeoDescriptionEN" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SeoDescriptionDE" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SeoDescriptionRU" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="FooterAciklamaSEO" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_MakinaEksper">
+    <Key>
+      <PropertyRef Name="eksper_ID" />
+    </Key>
+    <Property Name="eksper_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Kategori" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Resim" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Firma_ID" Type="Int32" />
+    <Property Name="Ust_FirmaID" Type="Int32" />
+    <Property Name="dil_ID" Type="Int32" />
+    <Property Name="SeoKeywords" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SeoDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="KategoriEN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="KategoriDE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="KategoriRU" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_MakinaEksperSecimi">
+    <Key>
+      <PropertyRef Name="ozellik_ID" />
+    </Key>
+    <Property Name="ozellik_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="makina_ID" Type="Int32" />
+    <Property Name="eksper_ID" Type="Int32" />
+    <Property Name="Note" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tbl_MakinaIhale">
+    <Key>
+      <PropertyRef Name="makinaihale_ID" />
+    </Key>
+    <Property Name="makinaihale_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="makina_ID" Type="Int32" />
+    <Property Name="uye_ID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tbl_MakinaIslemler">
+    <Key>
+      <PropertyRef Name="islem_ID" />
+    </Key>
+    <Property Name="islem_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="makina_ID" Type="Int32" />
+    <Property Name="Tarih" Type="DateTime" Precision="3" />
+    <Property Name="Aciklama" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Islemi_Yapan_Firma" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Islemi_Yapan_Muhendis" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Durum" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tbl_MakinaMarkalari">
+    <Key>
+      <PropertyRef Name="marka_ID" />
+    </Key>
+    <Property Name="marka_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Kategori" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Resim" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Firma_ID" Type="Int32" />
+    <Property Name="Ust_FirmaID" Type="Int32" />
+    <Property Name="dil_ID" Type="Int32" />
+    <Property Name="SeoKeywords" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SeoDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SeoDescriptionEN" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SeoDescriptionDE" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SeoDescriptionRU" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_MakinamNeEder">
+    <Key>
+      <PropertyRef Name="makinamneeder_ID" />
+    </Key>
+    <Property Name="makinamneeder_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="uye_ID" Type="Int32" />
+    <Property Name="Baslik" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="tur_ID" Type="Int32" />
+    <Property Name="Alttur_ID" Type="Int32" />
+    <Property Name="Alttur2_ID" Type="Int32" />
+    <Property Name="marka_ID" Type="Int32" />
+    <Property Name="yil_ID" Type="Int32" />
+    <Property Name="Model" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="OngorulenFiyat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Fiyat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Para_Birimi_Ongorulen" Type="Int32" />
+    <Property Name="Para_Birimi" Type="Int32" />
+    <Property Name="Aciklama" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Rapor" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Fotograf" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Yanit" Type="Boolean" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="Ekleyen" Type="Int32" />
+    <Property Name="IP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tbl_MakinamNeEderResimler">
+    <Key>
+      <PropertyRef Name="makinamNeEderResim_ID" />
+    </Key>
+    <Property Name="makinamNeEderResim_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="makinamneeder_ID" Type="Int32" />
+    <Property Name="Fotograf" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tbl_MakinaResimler">
+    <Key>
+      <PropertyRef Name="makinaResim_ID" />
+    </Key>
+    <Property Name="makinaResim_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="makina_ID" Type="Int32" />
+    <Property Name="Fotograf" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="Vitrin" Type="Boolean" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tbl_MakinaTurleri">
+    <Key>
+      <PropertyRef Name="tur_ID" />
+    </Key>
+    <Property Name="tur_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Kategori" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Resim" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Vitrin" Type="Boolean" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Firma_ID" Type="Int32" />
+    <Property Name="Ust_FirmaID" Type="Int32" />
+    <Property Name="dil_ID" Type="Int32" />
+    <Property Name="SeoKeywords" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SeoDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="UstResim" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="KategoriEN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="KategoriDE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="KategoriRU" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SeoDescriptionEN" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SeoDescriptionDE" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SeoDescriptionRU" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="FooterAciklamaSEO" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_MakinaYillar">
+    <Key>
+      <PropertyRef Name="yil_ID" />
+    </Key>
+    <Property Name="yil_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Kategori" Type="Int32" />
+    <Property Name="Resim" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Firma_ID" Type="Int32" />
+    <Property Name="Ust_FirmaID" Type="Int32" />
+    <Property Name="dil_ID" Type="Int32" />
+    <Property Name="SeoKeywords" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SeoDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_OdemeBildirimleri">
+    <Key>
+      <PropertyRef Name="odeme_ID" />
+    </Key>
+    <Property Name="odeme_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="makina_ID" Type="Int32" />
+    <Property Name="uye_ID" Type="Int32" />
+    <Property Name="Verilen_Fiyat" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="IP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Banka" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DekontNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Dekont" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Aciklama" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tbl_SagMenu">
+    <Key>
+      <PropertyRef Name="sagMenu_ID" />
+    </Key>
+    <Property Name="sagMenu_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Baslik" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Aciklama" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="Firma_ID" Type="Int32" />
+    <Property Name="Ust_FirmaID" Type="Int32" />
+    <Property Name="dil_ID" Type="Int32" />
+    <Property Name="Yayinda" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tbl_Servis">
+    <Key>
+      <PropertyRef Name="servis_ID" />
+    </Key>
+    <Property Name="servis_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ServisFirmasi_ID" Type="Int32" />
+    <Property Name="Randevu_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Adi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Soyadi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Telefon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="EMail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Baslik" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="tur_ID" Type="Int32" />
+    <Property Name="Alttur_ID" Type="Int32" />
+    <Property Name="Alttur2_ID" Type="Int32" />
+    <Property Name="marka_ID" Type="Int32" />
+    <Property Name="yil_ID" Type="Int32" />
+    <Property Name="Model" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Aciklama" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Rapor" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Fotograf" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Yanit" Type="Boolean" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="Ekleyen" Type="Int32" />
+    <Property Name="uye_ID" Type="Int32" />
+    <Property Name="IP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tbl_Slider">
+    <Key>
+      <PropertyRef Name="slider_ID" />
+    </Key>
+    <Property Name="slider_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Baslik" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="UstBilgi" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="AltBilgi" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ButonYazi" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Link" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Resim" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="UstBilgiMobil" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="AltBilgiMobil" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ButonYaziMobil" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ResimMobil" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="LinkMobil" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="Firma_ID" Type="Int32" />
+    <Property Name="dil_ID" Type="Int32" />
+    <Property Name="Yayinda" Type="Boolean" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Siralama" Type="Int32" />
+    <Property Name="makina_ID" Type="Int32" />
+    <Property Name="blog_ID" Type="Int32" />
+    <Property Name="Fiyat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ButonYazi1" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Link1" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ButonGorunmesin" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tbl_SosyalMedya">
+    <Key>
+      <PropertyRef Name="sosyalmedya_ID" />
+    </Key>
+    <Property Name="sosyalmedya_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Baslik" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FontAwasome" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Resim" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Link" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Siralama" Type="Int32" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Update_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="Firma_ID" Type="Int32" />
+    <Property Name="Ust_FirmaID" Type="Int32" />
+    <Property Name="dil_ID" Type="Int32" />
+    <Property Name="Footer_Yayinda" Type="Boolean" />
+    <Property Name="Header_Yayinda" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tbl_SSS">
+    <Key>
+      <PropertyRef Name="sss_ID" />
+    </Key>
+    <Property Name="sss_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Baslik" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Aciklama" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="icerikOrder" Type="Int32" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Update_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="Firma_ID" Type="Int32" />
+    <Property Name="Ust_FirmaID" Type="Int32" />
+    <Property Name="dil_ID" Type="Int32" />
+    <Property Name="Yayinda" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tbl_TeknikDestek">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AdSoyad" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Telefon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="OnemDerecesi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="EkranGoruntusu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Mesaj" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Durum" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Tarih" Type="DateTime" Precision="3" />
+    <Property Name="Sayfa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_Makinalar">
+    <Key>
+      <PropertyRef Name="makina_ID" />
+    </Key>
+    <Property Name="makina_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Baslik" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="tur_ID" Type="Int32" />
+    <Property Name="Alttur_ID" Type="Int32" />
+    <Property Name="Alttur2_ID" Type="Int32" />
+    <Property Name="marka_ID" Type="Int32" />
+    <Property Name="yil_ID" Type="Int32" />
+    <Property Name="Statu" Type="Int32" />
+    <Property Name="Kimden" Type="Int32" />
+    <Property Name="Slide" Type="Boolean" />
+    <Property Name="Ihale" Type="Boolean" />
+    <Property Name="Ihale_Baslangic" Type="DateTime" Precision="3" />
+    <Property Name="Ihale_Bitis" Type="DateTime" Precision="3" />
+    <Property Name="Ihale_Acilis_Fiyat" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Minimum_Satis_Fiyati" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="AnaVitrin" Type="Boolean" />
+    <Property Name="Vitrin" Type="Boolean" />
+    <Property Name="Model" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Fiyat" Type="Int32" />
+    <Property Name="Para_Birimi" Type="Int32" />
+    <Property Name="Aciklama" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SeoKeywords" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="SeoDescription" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="KM" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Fotograf" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SosyalMedyaPaylasim" Type="Boolean" />
+    <Property Name="dil_ID" Type="Int32" />
+    <Property Name="Ust_FirmaID" Type="Int32" />
+    <Property Name="Firma_ID" Type="Int32" />
+    <Property Name="Makina_Order" Type="Int32" />
+    <Property Name="Yayinda" Type="Boolean" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="Ekleyen" Type="Int32" />
+    <Property Name="IP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Satis_Temsilcisi_Adi" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Satis_Temsilcisi_Telefon" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Satis_Temsilcisi_Email" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Kapora" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="QRCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="QRCodeImage" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="StokGelis_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="EksperTalebi" Type="Boolean" />
+    <Property Name="Yayinlanma_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="il" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ilce" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="GoruntulenmeSayisi" Type="Int32" />
+    <Property Name="FavoriSayisi" Type="Int32" />
+    <Property Name="IlanNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="KaldirmaSebebi" Type="Int32" />
+    <Property Name="KaldirmaTarihi" Type="DateTime" Precision="3" />
+    <Property Name="FiyatGosterilmesin" Type="Boolean" />
+    <Property Name="BaslikEN" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="BaslikDE" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="BaslikRU" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="AciklamaEN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="AciklamaDE" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="AciklamaRU" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SeoDescriptionEN" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="SeoDescriptionDE" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="SeoDescriptionRU" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Ulke" Type="Int32" />
+    <Property Name="SEOUrl" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="SEOUrlEN" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="SEOUrlDE" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="SEOUrlRU" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TelefonNumarasiGostermeSayisi" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tbl_Ulkeler">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="iso" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="name" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+    <Property Name="nicename" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+    <Property Name="iso3" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="numcode" Type="Int16" />
+    <Property Name="phonecode" Type="Int32" />
+    <Property Name="GoogleTranslateCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_ReklamAlanlari">
+    <Key>
+      <PropertyRef Name="reklamAlan_ID" />
+    </Key>
+    <Property Name="reklamAlan_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Adi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Firma_ID" Type="Int32" />
+    <Property Name="Ust_FirmaID" Type="Int32" />
+    <Property Name="dil_ID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tbl_Reklamlar">
+    <Key>
+      <PropertyRef Name="reklam_ID" />
+    </Key>
+    <Property Name="reklam_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Adi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Url" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="logo_ID" Type="Int32" />
+    <Property Name="TiklamaSayisi" Type="Int32" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Firma_ID" Type="Int32" />
+    <Property Name="Ust_FirmaID" Type="Int32" />
+    <Property Name="dil_ID" Type="Int32" />
+    <Property Name="Yayinda" Type="Boolean" />
+    <Property Name="Dosya" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="reklamAlan_ID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tbl_ilanEmail">
+    <Key>
+      <PropertyRef Name="mesaj_ID" />
+    </Key>
+    <Property Name="mesaj_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="makina_ID" Type="Int32" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="GonderenAdi" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="AliciAdi" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="AliciMail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="UygunCheck" Type="Int32" />
+    <Property Name="GarantiCheck" Type="Int32" />
+    <Property Name="DurumuCheck" Type="Int32" />
+    <Property Name="PazarlikChek" Type="Int32" />
+    <Property Name="FiyatOneri" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DahaFazlaResimChek" Type="Int32" />
+    <Property Name="YasadigimYerCheck" Type="Int32" />
+    <Property Name="YasadigimYer" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="KonusulanDillerCheck" Type="Int32" />
+    <Property Name="KonusulanDiller" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GorusmePlanlamaCheck" Type="Int32" />
+    <Property Name="IletimTalepCheck" Type="Int32" />
+    <Property Name="DahaOnceGorusmeCheck" Type="Int32" />
+    <Property Name="TelefonDahaOnceGorusmeTarih" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AyirtmaCheck" Type="Int32" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Telefon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Mesaj" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="FiyatOgreneBilirmiyimCheck" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Sehirler">
+    <Key>
+      <PropertyRef Name="SehirId" />
+    </Key>
+    <Property Name="SehirId" Type="Int32" Nullable="false" />
+    <Property Name="SehirAdi" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="PlakaNo" Type="Byte" Nullable="false" />
+    <Property Name="TelefonKodu" Type="Int32" Nullable="false" />
+    <Property Name="RowNumber" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Ilceler" Relationship="db_SifirGibiMakinaModel.FK_Ilceler_Sehirler" FromRole="Sehirler" ToRole="Ilceler" />
+  </EntityType>
+  <EntityType Name="Ilceler">
+    <Key>
+      <PropertyRef Name="ilceId" />
+    </Key>
+    <Property Name="ilceId" Type="Int32" Nullable="false" />
+    <Property Name="SehirId" Type="Int32" Nullable="false" />
+    <Property Name="IlceAdi" Type="String" Nullable="false" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="SehirAdi" Type="String" Nullable="false" MaxLength="55" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Sehirler" Relationship="db_SifirGibiMakinaModel.FK_Ilceler_Sehirler" FromRole="Ilceler" ToRole="Sehirler" />
+  </EntityType>
+  <Association Name="FK_Ilceler_Sehirler">
+    <End Type="db_SifirGibiMakinaModel.Sehirler" Role="Sehirler" Multiplicity="1" />
+    <End Type="db_SifirGibiMakinaModel.Ilceler" Role="Ilceler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sehirler">
+        <PropertyRef Name="SehirId" />
+      </Principal>
+      <Dependent Role="Ilceler">
+        <PropertyRef Name="SehirId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="tbl_ServiceDescription">
+    <Key>
+      <PropertyRef Name="ServiceDescriptionID" />
+    </Key>
+    <Property Name="ServiceDescriptionID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ServiceDescriptionTr" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ServiceDescriptionEng" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ServiceDescriptionDe" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ServiceDescriptionRu" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ServiceUserID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tbl_ServiceUserComment">
+    <Key>
+      <PropertyRef Name="ServiceUserCommentID" />
+    </Key>
+    <Property Name="ServiceUserCommentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ServiceTargetUserID" Type="Int32" />
+    <Property Name="ServiceCommenterUserID" Type="Int32" />
+    <Property Name="CommentText" Type="String" MaxLength="2500" FixedLength="false" Unicode="true" />
+    <Property Name="CommentRating" Type="Int32" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="UpdatedDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tbl_ServiceUserDetail">
+    <Key>
+      <PropertyRef Name="ServiceUserDetailID" />
+    </Key>
+    <Property Name="ServiceUserDetailID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ServiceUserID" Type="Int32" />
+    <Property Name="ServiceUserLogo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ServiceUserBigLogo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="UpdatedDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tbl_ServiceUsersCategory">
+    <Key>
+      <PropertyRef Name="UserCategoriesID" />
+    </Key>
+    <Property Name="UserCategoriesID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="CategoryID" Type="Int32" />
+    <Property Name="SubCategoryID" Type="Int32" />
+    <Property Name="SubSubCategoryID" Type="Int32" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="UpdatedDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tbl_ServiceWorkZone">
+    <Key>
+      <PropertyRef Name="ServiceWorkZoneID" />
+    </Key>
+    <Property Name="ServiceWorkZoneID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ServiceUserID" Type="Int32" />
+    <Property Name="ServiceWorkZonceCountyID" Type="Int32" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="UpdateDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tbl_ControlUnit">
+    <Key>
+      <PropertyRef Name="ControlUnitID" />
+    </Key>
+    <Property Name="ControlUnitID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ControlUnitName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_MirrorSize">
+    <Key>
+      <PropertyRef Name="MirrorSizeID" />
+    </Key>
+    <Property Name="MirrorSizeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MirrorSize" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_NumberOfAxes">
+    <Key>
+      <PropertyRef Name="NumberOfAxesID" />
+    </Key>
+    <Property Name="NumberOfAxesID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NumberOfAxes" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NumberOfAxesEng" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_NumberOfTables">
+    <Key>
+      <PropertyRef Name="NumberOfTablesID" />
+    </Key>
+    <Property Name="NumberOfTablesID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NumberOfTables" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_SpindleRPM">
+    <Key>
+      <PropertyRef Name="SpindleRPMID" />
+    </Key>
+    <Property Name="SpindleRPMID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SpindleRPMSize" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_XAxisSize">
+    <Key>
+      <PropertyRef Name="XAxisSizeID" />
+    </Key>
+    <Property Name="XAxisSizeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="XAxisSize" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_YAxisSize">
+    <Key>
+      <PropertyRef Name="YAxisSizeID" />
+    </Key>
+    <Property Name="YAxisSizeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="YAxisSize" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_MachineDetail">
+    <Key>
+      <PropertyRef Name="MachineDetailId" />
+    </Key>
+    <Property Name="MachineDetailId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MachineId" Type="Int32" />
+    <Property Name="MirrorSizeID" Type="Int32" />
+    <Property Name="ControlUnitID" Type="Int32" />
+    <Property Name="NumberOfAxesID" Type="Int32" />
+    <Property Name="SpindleRPMID" Type="Int32" />
+    <Property Name="SpecificType" Type="Int32" />
+    <Property Name="XAxisSizeID" Type="Int32" />
+    <Property Name="YAxisSizeID" Type="Int32" />
+    <Property Name="NumberOfTablesID" Type="Int32" />
+    <Property Name="DailyPrice" Type="Int32" />
+    <Property Name="WeeklyPrice" Type="Int32" />
+    <Property Name="MonthlyPrice" Type="Int32" />
+    <Property Name="CountryId" Type="Int32" />
+    <Property Name="CityId" Type="Int32" />
+    <Property Name="ProvinceId" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tbl_ServiceEquipmentDetail">
+    <Key>
+      <PropertyRef Name="ServiceEquipmentDetailID" />
+    </Key>
+    <Property Name="ServiceEquipmentDetailID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ServiceEquipmentDetailName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ServiceUserID" Type="Int32" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="UpdatedDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tbl_Membership">
+    <Key>
+      <PropertyRef Name="MembershipID" />
+    </Key>
+    <Property Name="MembershipID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MembershipName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="UpdatedDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tbl_PaymentPlan">
+    <Key>
+      <PropertyRef Name="PaymentPlanID" />
+    </Key>
+    <Property Name="PaymentPlanID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PaymentPlanName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_CardInfo">
+    <Key>
+      <PropertyRef Name="CardInfoID" />
+    </Key>
+    <Property Name="CardInfoID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CardToken" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CardUserKey" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="BinNumber" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="ConversationId" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Locale" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="CardType" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CardFamily" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SystemTime" Type="Int32" />
+    <Property Name="UserID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tbl_PaymentInfo">
+    <Key>
+      <PropertyRef Name="PaymentInfoID" />
+    </Key>
+    <Property Name="PaymentInfoID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PaymentId" Type="Int32" />
+    <Property Name="ConversationId" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="UserId" Type="Int32" />
+    <Property Name="BinNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="PaidPrice" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PaymentTransactionId" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_PaymentProduct">
+    <Key>
+      <PropertyRef Name="PaymentProductId" />
+    </Key>
+    <Property Name="PaymentProductId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PaymentProductStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PaymnetProductReferenceCode" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PaymentProductCreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="PaymentProductName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PaymentVersionId" Type="Int32" />
+    <Property Name="PaymentProductUpdatedDate" Type="DateTime" Precision="3" />
+    <Property Name="PaymentProductDeletedDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tbl_PaymentProdcutPayPlan">
+    <Key>
+      <PropertyRef Name="PaymentProdcutPayPlanId" />
+    </Key>
+    <Property Name="PaymentProdcutPayPlanId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PaymentProdcutPayPlanName" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="PaymentProdcutPayPlanReferenceCode" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PaymentProdcutPayPlanPrice" Type="Int32" />
+    <Property Name="PaymentProdcutPayCurrencyCode" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="PaymentProdcutPayPaymentInterval" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PaymentProdcutPayPaymentIntervalCount" Type="Int32" />
+    <Property Name="PaymentProdcutPayRecurrenceCount" Type="Int32" />
+    <Property Name="PaymentProdcutPayIsActive" Type="Boolean" />
+    <Property Name="PaymentProdcutPayPlanCreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="PaymentProdcutPayPlanUpdatedDate" Type="DateTime" Precision="3" />
+    <Property Name="PaymentProdcutPayPlanDeletedDate" Type="DateTime" Precision="3" />
+    <Property Name="PaymentProductPayPlanVersionID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tbl_PaymentSubscriber">
+    <Key>
+      <PropertyRef Name="SubscriberId" />
+    </Key>
+    <Property Name="SubscriberId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SubscriberUserId" Type="Int32" />
+    <Property Name="SubscriberRefenceCode" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SubscriberParentReferenceCode" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SubscriberPricingPlanReferenceCode" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SubscriberCustomerReferenceCode" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SubscriberSubscriptionStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SubscriberCreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="SubscriberStartDate" Type="DateTime" Precision="3" />
+    <Property Name="SubscriberEndDate" Type="DateTime" Precision="3" />
+    <Property Name="SubscriberPaymentProdcutPayPlanId" Type="Int32" />
+    <Property Name="SubscriberUserCode" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SubscriberIsActive" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tbl_PaymentLog">
+    <Key>
+      <PropertyRef Name="PaymentLogID" />
+    </Key>
+    <Property Name="PaymentLogID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PaymentConversationId" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="MerchantId" Type="Int32" />
+    <Property Name="Token" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IyziReferenceCode" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IyziEventType" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IyziEventTime" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IyziPaymentId" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_MembershipVersion">
+    <Key>
+      <PropertyRef Name="MembershipVersionID" />
+    </Key>
+    <Property Name="MembershipVersionID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MembershipVersion" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MembershipID" Type="Int32" />
+    <Property Name="MaxDisplayAds" Type="Int32" />
+    <Property Name="MaxAds" Type="Int32" />
+    <Property Name="DisplayOfCompanyLogo" Type="Boolean" />
+    <Property Name="PriceForeing" Type="Int32" />
+    <Property Name="PriceWeekTr" Type="Int32" />
+    <Property Name="PriceYearTr" Type="Int32" />
+    <Property Name="DiscountPrice" Type="Int32" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="UpdatedDate" Type="DateTime" Precision="3" />
+    <Property Name="DeletedDate" Type="DateTime" Precision="3" />
+    <Property Name="IsAvaible" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tbl_Uyeler">
+    <Key>
+      <PropertyRef Name="uye_ID" />
+    </Key>
+    <Property Name="uye_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirmaAdi" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Adi" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Soyadi" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="EMail" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Hesap_Turu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Cinsiyet" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sifre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Telefon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Kayit_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="IP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TCK" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DogumTarihi" Type="DateTime" Precision="3" />
+    <Property Name="Il" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Ilce" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Adres" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Aktif" Type="Boolean" />
+    <Property Name="Durum" Type="Boolean" />
+    <Property Name="Code" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="KayitOlunanSite" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Ulke" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CountryID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tbl_SubsReturnPaymentLog">
+    <Key>
+      <PropertyRef Name="SubsReturnPaymentLogID" />
+    </Key>
+    <Property Name="SubsReturnPaymentLogID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SubsLogOrderReferenceCode" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SubsLogCustomerReferenceCode" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SubsLogSubscriptionReferenceCode" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SubsLogIyziReferenceCode" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SubsLogIyziEventType" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SubsLogIyziEventTime" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_UserMembership">
+    <Key>
+      <PropertyRef Name="UserMembershipID" />
+    </Key>
+    <Property Name="UserMembershipID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <Property Name="MembershipID" Type="Int32" />
+    <Property Name="PaymentPlanID" Type="Int32" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="EndDate" Type="DateTime" Precision="3" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="IsPaid" Type="Boolean" />
+    <Property Name="UpdatedDate" Type="DateTime" Precision="3" />
+  </EntityType>
+</Schema>

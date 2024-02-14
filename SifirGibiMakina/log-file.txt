@@ -1,0 +1,213 @@
+2020-08-06 17:20:25,024 [6] INFO  SifirGibiMakina.Giris [(null)] - Ödeme Bildirimi Eklendi-Üye Adý:ÜMÝT EÐRÝOÐLU-Ýþlemi Yapan:ÜMÝT EÐRÝOÐLU
+2020-08-11 08:19:54,461 [6] INFO  SifirGibiMakina.Giris [(null)] - Ödeme Bildirimi Eklendi-Üye Adý:MÝA1 EGRÝOGLU1-Ýþlemi Yapan:MÝA1 EGRÝOGLU1
+2020-11-12 23:03:49,405 [5] INFO  SifirGibiMakina.Makinalarim [(null)] - Makina Yayýndan Kaldýrýldý-Makina ID:54-Ýþlemi Yapan:13
+2020-11-18 18:00:49,312 [6] INFO  SifirGibiMakina.Makinalarim [(null)] - Makina Yayýndan Kaldýrýldý-Makina ID:53-Ýþlemi Yapan:13
+2020-11-18 18:14:52,678 [8] INFO  SifirGibiMakina.Makinalarim [(null)] - Makina Yayýndan Kaldýrýldý-Makina ID:53-Ýþlemi Yapan:13
+2020-11-18 18:45:24,921 [9] INFO  SifirGibiMakina.Makinalarim [(null)] - Makina Düzenlendi-Makina Adý:ÜMÝT-Ýþlemi Yapan:13
+2020-11-18 18:46:40,238 [6] INFO  SifirGibiMakina.Makinalarim [(null)] - Makina Düzenlendi-Makina Adý:ÜMÝT1-Ýþlemi Yapan:13
+2020-11-18 18:48:33,197 [8] ERROR SifirGibiMakina.Makinalarim [(null)] - System.IO.DirectoryNotFoundException: 'C:\Users\umit.egrioglu\YandexDisk\Umit\Çalýþmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\admin\Uploads\ce71adcf764c42eeb84930c499fa7f1a.PNG' yolunun bir parçasý bulunamadý.
+   konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   konum: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   konum: System.IO.FileStream..ctor(String path, FileMode mode)
+   konum: System.Web.HttpPostedFile.SaveAs(String filename)
+   konum: SifirGibiMakina.Makinalarim.btnSave_Click(Object sender, EventArgs e) C:\Users\umit.egrioglu\YandexDisk\Umit\Çalýþmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\Makinalarim.aspx.cs içinde: satýr 557
+2020-12-15 14:58:18,300 [6] INFO  SifirGibiMakina.MesajGonder [(null)] - Mesaj Eklendi-Kimden:13Kime:15-Ýþlemi Yapan:13
+2020-12-15 14:58:29,203 [6] ERROR SifirGibiMakina.MesajGonder [(null)] - System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: SifirGibiMakina.MesajGonder.btnSave_Click(Object sender, EventArgs e) C:\Users\umit.egrioglu\YandexDisk\Umit\Çalýþmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\MesajGonder.aspx.cs içinde: satýr 101
+2020-12-15 15:00:13,356 [6] INFO  SifirGibiMakina.MesajGonder [(null)] - Mesaj Eklendi-Kimden:13Kime:1043-Ýþlemi Yapan:13
+2020-12-15 15:11:58,839 [8] INFO  SifirGibiMakina.MesajGonder [(null)] - Mesaj Eklendi-Kimden:13Kime:1043-Ýþlemi Yapan:13
+2020-12-15 15:12:56,050 [6] INFO  SifirGibiMakina.MesajGonder [(null)] - Mesaj Eklendi-Kimden:13Kime:15-Ýþlemi Yapan:13
+2020-12-15 18:00:59,223 [11] INFO  SifirGibiMakina.MesajGonder [(null)] - Mesaj Eklendi-Kimden:15Kime:15-Ýþlemi Yapan:15
+2020-12-16 14:04:24,053 [6] INFO  SifirGibiMakina.MesajGonder [(null)] - Mesaj Eklendi-Kimden:13Kime:15-Ýþlemi Yapan:13
+2020-12-16 15:57:31,427 [5] INFO  SifirGibiMakina.MesajGonder [(null)] - Mesaj Eklendi-Kimden:13Kime:15-Ýþlemi Yapan:13
+2020-12-16 15:58:59,423 [5] ERROR SifirGibiMakina.Giris [(null)] -  / System.Threading.ThreadAbortException: Ýþ parçacýðý durduruluyordu.
+   konum: System.Threading.Thread.AbortInternal()
+   konum: System.Threading.Thread.Abort(Object stateInfo)
+   konum: System.Web.HttpResponse.AbortCurrentThread()
+   konum: System.Web.HttpResponse.End()
+   konum: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   konum: System.Web.HttpResponse.Redirect(String url)
+   konum: SifirGibiMakina.Giris.btnGiris_Click(Object sender, EventArgs e) C:\Users\umit.egrioglu\YandexDisk\Umit\Çalýþmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\Giris.aspx.cs içinde: satýr 113
+2020-12-16 17:36:04,491 [7] INFO  SifirGibiMakina.MesajCevapla [(null)] - Mesaj Eklendi-Kimden:15Kime:13-Ýþlemi Yapan:15
+2020-12-16 17:36:46,432 [6] INFO  SifirGibiMakina.MesajCevapla [(null)] - Mesaj Eklendi-Kimden:15Kime:13-Ýþlemi Yapan:15
+2020-12-16 17:38:03,490 [6] ERROR SifirGibiMakina.Giris [(null)] -  / System.Threading.ThreadAbortException: Ýþ parçacýðý durduruluyordu.
+   konum: System.Threading.Thread.AbortInternal()
+   konum: System.Threading.Thread.Abort(Object stateInfo)
+   konum: System.Web.HttpResponse.AbortCurrentThread()
+   konum: System.Web.HttpResponse.End()
+   konum: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   konum: System.Web.HttpResponse.Redirect(String url)
+   konum: SifirGibiMakina.Giris.btnGiris_Click(Object sender, EventArgs e) C:\Users\umit.egrioglu\YandexDisk\Umit\Çalýþmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\Giris.aspx.cs içinde: satýr 113
+2020-12-16 17:38:32,956 [8] ERROR SifirGibiMakina.MesajCevapla [(null)] - System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: SifirGibiMakina.MesajCevapla.Page_Load(Object sender, EventArgs e) C:\Users\umit.egrioglu\YandexDisk\Umit\Çalýþmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\MesajCevapla.aspx.cs içinde: satýr 75
+2020-12-16 17:38:54,817 [9] INFO  SifirGibiMakina.MesajGonder [(null)] - Mesaj Eklendi-Kimden:26Kime:15-Ýþlemi Yapan:26
+2020-12-16 17:39:26,521 [8] ERROR SifirGibiMakina.Giris [(null)] -  / System.Threading.ThreadAbortException: Ýþ parçacýðý durduruluyordu.
+   konum: System.Threading.Thread.AbortInternal()
+   konum: System.Threading.Thread.Abort(Object stateInfo)
+   konum: System.Web.HttpResponse.AbortCurrentThread()
+   konum: System.Web.HttpResponse.End()
+   konum: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   konum: System.Web.HttpResponse.Redirect(String url)
+   konum: SifirGibiMakina.Giris.btnGiris_Click(Object sender, EventArgs e) C:\Users\umit.egrioglu\YandexDisk\Umit\Çalýþmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\Giris.aspx.cs içinde: satýr 113
+2020-12-16 17:42:14,130 [8] INFO  SifirGibiMakina.MesajCevapla [(null)] - Mesaj Eklendi-Kimden:13Kime:15-Ýþlemi Yapan:13
+2020-12-16 17:44:04,731 [8] ERROR SifirGibiMakina.Giris [(null)] -  / System.Threading.ThreadAbortException: Ýþ parçacýðý durduruluyordu.
+   konum: System.Threading.Thread.AbortInternal()
+   konum: System.Threading.Thread.Abort(Object stateInfo)
+   konum: System.Web.HttpResponse.AbortCurrentThread()
+   konum: System.Web.HttpResponse.End()
+   konum: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   konum: System.Web.HttpResponse.Redirect(String url)
+   konum: SifirGibiMakina.Giris.btnGiris_Click(Object sender, EventArgs e) C:\Users\umit.egrioglu\YandexDisk\Umit\Çalýþmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\Giris.aspx.cs içinde: satýr 113
+2020-12-16 17:44:30,663 [8] INFO  SifirGibiMakina.MesajCevapla [(null)] - Mesaj Eklendi-Kimden:15Kime:13-Ýþlemi Yapan:15
+2020-12-16 17:45:49,998 [8] ERROR SifirGibiMakina.Giris [(null)] -  / System.Threading.ThreadAbortException: Ýþ parçacýðý durduruluyordu.
+   konum: System.Threading.Thread.AbortInternal()
+   konum: System.Threading.Thread.Abort(Object stateInfo)
+   konum: System.Web.HttpResponse.AbortCurrentThread()
+   konum: System.Web.HttpResponse.End()
+   konum: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   konum: System.Web.HttpResponse.Redirect(String url)
+   konum: SifirGibiMakina.Giris.btnGiris_Click(Object sender, EventArgs e) C:\Users\umit.egrioglu\YandexDisk\Umit\Çalýþmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\Giris.aspx.cs içinde: satýr 113
+2020-12-16 17:46:35,090 [9] ERROR SifirGibiMakina.Giris [(null)] -  / System.Threading.ThreadAbortException: Ýþ parçacýðý durduruluyordu.
+   konum: System.Threading.Thread.AbortInternal()
+   konum: System.Threading.Thread.Abort(Object stateInfo)
+   konum: System.Web.HttpResponse.AbortCurrentThread()
+   konum: System.Web.HttpResponse.End()
+   konum: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   konum: System.Web.HttpResponse.Redirect(String url)
+   konum: SifirGibiMakina.Giris.btnGiris_Click(Object sender, EventArgs e) C:\Users\umit.egrioglu\YandexDisk\Umit\Çalýþmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\Giris.aspx.cs içinde: satýr 113
+2020-12-16 17:46:53,581 [14] INFO  SifirGibiMakina.MesajCevapla [(null)] - Mesaj Eklendi-Kimden:15Kime:26-Ýþlemi Yapan:15
+2020-12-16 17:47:12,671 [9] ERROR SifirGibiMakina.Giris [(null)] -  / System.Threading.ThreadAbortException: Ýþ parçacýðý durduruluyordu.
+   konum: System.Threading.Thread.AbortInternal()
+   konum: System.Threading.Thread.Abort(Object stateInfo)
+   konum: System.Web.HttpResponse.AbortCurrentThread()
+   konum: System.Web.HttpResponse.End()
+   konum: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   konum: System.Web.HttpResponse.Redirect(String url)
+   konum: SifirGibiMakina.Giris.btnGiris_Click(Object sender, EventArgs e) C:\Users\umit.egrioglu\YandexDisk\Umit\Çalýþmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\Giris.aspx.cs içinde: satýr 113
+2020-12-16 19:16:58,199 [6] INFO  SifirGibiMakina.MesajGonder [(null)] - Mesaj Eklendi-Kimden:13Kime:15-Ýþlemi Yapan:13
+2020-12-16 19:55:51,008 [18] INFO  SifirGibiMakina.MesajGonder [(null)] - Mesaj Eklendi-Kimden:13Kime:15-Ýþlemi Yapan:13
+2020-12-16 19:56:21,207 [6] ERROR SifirGibiMakina.Giris [(null)] -  / System.Threading.ThreadAbortException: Ýþ parçacýðý durduruluyordu.
+   konum: System.Threading.Thread.AbortInternal()
+   konum: System.Threading.Thread.Abort(Object stateInfo)
+   konum: System.Web.HttpResponse.AbortCurrentThread()
+   konum: System.Web.HttpResponse.End()
+   konum: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   konum: System.Web.HttpResponse.Redirect(String url)
+   konum: SifirGibiMakina.Giris.btnGiris_Click(Object sender, EventArgs e) C:\Users\umit.egrioglu\YandexDisk\Umit\Çalýþmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\Giris.aspx.cs içinde: satýr 113
+2020-12-16 19:58:47,530 [6] INFO  SifirGibiMakina.MesajGonder [(null)] - Mesaj Eklendi-Kimden:26Kime:15-Ýþlemi Yapan:26
+2020-12-16 19:59:20,709 [6] INFO  SifirGibiMakina.MesajGonder [(null)] - Mesaj Eklendi-Kimden:26Kime:15-Ýþlemi Yapan:26
+2020-12-16 20:00:16,931 [6] ERROR SifirGibiMakina.Giris [(null)] -  / System.Threading.ThreadAbortException: Ýþ parçacýðý durduruluyordu.
+   konum: System.Threading.Thread.AbortInternal()
+   konum: System.Threading.Thread.Abort(Object stateInfo)
+   konum: System.Web.HttpResponse.AbortCurrentThread()
+   konum: System.Web.HttpResponse.End()
+   konum: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   konum: System.Web.HttpResponse.Redirect(String url)
+   konum: SifirGibiMakina.Giris.btnGiris_Click(Object sender, EventArgs e) C:\Users\umit.egrioglu\YandexDisk\Umit\Çalýþmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\Giris.aspx.cs içinde: satýr 113
+2020-12-16 20:00:42,005 [6] INFO  SifirGibiMakina.MesajCevapla [(null)] - Mesaj Eklendi-Kimden:15Kime:26-Ýþlemi Yapan:15
+2020-12-16 20:07:23,961 [8] INFO  SifirGibiMakina.MesajCevapla [(null)] - Mesaj Eklendi-Kimden:26Kime:15-Ýþlemi Yapan:26
+2020-12-16 20:07:55,983 [6] INFO  SifirGibiMakina.MesajGonder [(null)] - Mesaj Eklendi-Kimden:26Kime:15-Ýþlemi Yapan:26
+2020-12-16 20:44:31,501 [6] INFO  SifirGibiMakina.MesajGonder [(null)] - Mesaj Eklendi-Kimden:13Kime:1049-Ýþlemi Yapan:13
+2020-12-16 20:44:57,477 [8] INFO  SifirGibiMakina.MesajCevapla [(null)] - Mesaj Eklendi-Kimden:13Kime:1049-Ýþlemi Yapan:13
+2020-12-16 20:46:01,844 [6] ERROR SifirGibiMakina.Giris [(null)] -  / System.Threading.ThreadAbortException: Ýþ parçacýðý durduruluyordu.
+   konum: System.Threading.Thread.AbortInternal()
+   konum: System.Threading.Thread.Abort(Object stateInfo)
+   konum: System.Web.HttpResponse.AbortCurrentThread()
+   konum: System.Web.HttpResponse.End()
+   konum: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   konum: System.Web.HttpResponse.Redirect(String url)
+   konum: SifirGibiMakina.Giris.btnGiris_Click(Object sender, EventArgs e) C:\Users\umit.egrioglu\YandexDisk\Umit\Çalýþmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\Giris.aspx.cs içinde: satýr 113
+2020-12-16 20:46:12,214 [6] INFO  SifirGibiMakina.MesajCevapla [(null)] - Mesaj Eklendi-Kimden:1049Kime:13-Ýþlemi Yapan:1049
+2020-12-16 22:07:48,780 [5] INFO  SifirGibiMakina.Mesajlarim [(null)] - Mesaj Silindi-Üst Mesaj ID:31-Ýþlemi Yapan:13
+2020-12-25 00:23:12,707 [7] INFO  SifirGibiMakina.MesajGonder [(null)] - Mesaj Eklendi-Kimden:13Kime:23-Ýþlemi Yapan:13
+2020-12-25 00:23:33,302 [6] INFO  SifirGibiMakina.MesajCevapla [(null)] - Mesaj Eklendi-Kimden:13Kime:23-Ýþlemi Yapan:13
+2020-12-25 00:24:19,978 [6] ERROR SifirGibiMakina.Giris [(null)] -  / System.Threading.ThreadAbortException: Ýþ parçacýðý durduruluyordu.
+   konum: System.Threading.Thread.AbortInternal()
+   konum: System.Threading.Thread.Abort(Object stateInfo)
+   konum: System.Web.HttpResponse.AbortCurrentThread()
+   konum: System.Web.HttpResponse.End()
+   konum: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   konum: System.Web.HttpResponse.Redirect(String url)
+   konum: SifirGibiMakina.Giris.btnGiris_Click(Object sender, EventArgs e) C:\Users\umit.egrioglu\YandexDisk\Umit\Çalýþmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\Giris.aspx.cs içinde: satýr 104
+2020-12-25 00:25:14,473 [6] INFO  SifirGibiMakina.MesajCevapla [(null)] - Mesaj Eklendi-Kimden:23Kime:13-Ýþlemi Yapan:23
+2020-12-25 00:25:31,173 [6] ERROR SifirGibiMakina.Giris [(null)] -  / System.Threading.ThreadAbortException: Ýþ parçacýðý durduruluyordu.
+   konum: System.Threading.Thread.AbortInternal()
+   konum: System.Threading.Thread.Abort(Object stateInfo)
+   konum: System.Web.HttpResponse.AbortCurrentThread()
+   konum: System.Web.HttpResponse.End()
+   konum: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   konum: System.Web.HttpResponse.Redirect(String url)
+   konum: SifirGibiMakina.Giris.btnGiris_Click(Object sender, EventArgs e) C:\Users\umit.egrioglu\YandexDisk\Umit\Çalýþmalar\Sifirgibimakina.com\Main Code\SifirGibiMakina\SifirGibiMakina\Giris.aspx.cs içinde: satýr 104
+2022-02-15 11:29:48,050 [9] INFO  SifirGibiMakina.Favorilerim [(null)] - Favori Silindi-Favori ID:32-Ýþlemi Yapan:13
+2022-03-28 12:45:38,501 [9] INFO  SifirGibiMakina.MesajGonder [(null)] - Mesaj Eklendi-Kimden:13Kime:15-Ýþlemi Yapan:13
+2022-04-04 14:22:46,787 [5] INFO  SifirGibiMakina.OdemeBildirimi [(null)] - Ödeme Bildirimi Eklendi-Üye Adý:ÜMÝT EÐRÝOÐLU-Ýþlemi Yapan:ÜMÝT EÐRÝOÐLU
+2022-04-04 14:28:35,525 [15] ERROR SifirGibiMakina.MakinaEkle [(null)] - System.Web.HttpException (0x80004005): 'https:/admin.sifirgibimakina.com/Uploads/QR/1085.png', geçerli bir sanal yol deðil.
+   konum: System.Web.Util.UrlPath.CheckValidVirtualPath(String path)
+   konum: System.Web.Util.UrlPath.Combine(String appPath, String basepath, String relative)
+   konum: System.Web.VirtualPath.Combine(VirtualPath relativePath)
+   konum: System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   konum: System.Web.HttpServerUtility.MapPath(String path)
+   konum: SifirGibiMakina.MakinaEkle.btnSave_Click(Object sender, EventArgs e) C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalýþmalar\Sifirgibimakina.com\Yeni Yazýlým 19.01.2022\SifirGibiMakina\MakinaEkle.aspx.cs içinde: satýr 267
+2022-04-04 14:28:58,834 [15] ERROR SifirGibiMakina.MakinaEkle [(null)] - System.Web.HttpException (0x80004005): 'https:/admin.sifirgibimakina.com/Uploads/QR/1086.png', geçerli bir sanal yol deðil.
+   konum: System.Web.Util.UrlPath.CheckValidVirtualPath(String path)
+   konum: System.Web.Util.UrlPath.Combine(String appPath, String basepath, String relative)
+   konum: System.Web.VirtualPath.Combine(VirtualPath relativePath)
+   konum: System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   konum: System.Web.HttpServerUtility.MapPath(String path)
+   konum: SifirGibiMakina.MakinaEkle.btnSave_Click(Object sender, EventArgs e) C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalýþmalar\Sifirgibimakina.com\Yeni Yazýlým 19.01.2022\SifirGibiMakina\MakinaEkle.aspx.cs içinde: satýr 267
+2022-04-04 14:29:13,880 [21] ERROR SifirGibiMakina.MakinaEkle [(null)] - System.Web.HttpException (0x80004005): 'https:/admin.sifirgibimakina.com/Uploads/QR/1087.png', geçerli bir sanal yol deðil.
+   konum: System.Web.Util.UrlPath.CheckValidVirtualPath(String path)
+   konum: System.Web.Util.UrlPath.Combine(String appPath, String basepath, String relative)
+   konum: System.Web.VirtualPath.Combine(VirtualPath relativePath)
+   konum: System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   konum: System.Web.HttpServerUtility.MapPath(String path)
+   konum: SifirGibiMakina.MakinaEkle.btnSave_Click(Object sender, EventArgs e) C:\Users\umit.egrioglu.GS\YandexDisk\Umit\Çalýþmalar\Sifirgibimakina.com\Yeni Yazýlým 19.01.2022\SifirGibiMakina\MakinaEkle.aspx.cs içinde: satýr 267
+2022-08-24 11:26:28,934 [9] INFO  SifirGibiMakina.Makinalarim [(null)] - Makina Yayýndan Kaldýrýldý-Makina ID:1246-Ýþlemi Yapan:13
+2022-10-18 21:49:50,173 [10] INFO  SifirGibiMakina.Makinalarim [(null)] - Makina Düzenlendi-Makina Adý:das-Ýþlemi Yapan:13
+2022-10-18 21:51:15,487 [8] INFO  SifirGibiMakina.Makinalarim [(null)] - Makina Düzenlendi-Makina Adý:das-Ýþlemi Yapan:13
+2023-11-24 10:42:09,515 [6] INFO  SifirGibiMakina.Deneme [(null)] - Makina Eklendi-Makina Adý:deneme-Ýþlemi Yapan:4251
+2023-11-24 12:45:26,803 [20] INFO  SifirGibiMakina.Deneme [(null)] - Makina Eklendi-Makina Adý:d-Ýþlemi Yapan:4251
+2023-11-24 13:13:30,365 [11] INFO  SifirGibiMakina.Deneme [(null)] - Makina Eklendi-Makina Adý:deneme-Ýþlemi Yapan:4251
+2023-11-24 13:16:54,458 [8] INFO  SifirGibiMakina.Deneme [(null)] - Makina Eklendi-Makina Adý:deneme-Ýþlemi Yapan:4251
+2023-12-08 10:04:02,161 [7] INFO  SifirGibiMakina.MakinaEkle [(null)] - Makina Eklendi-Makina Adý:deneme-Ýþlemi Yapan:4251
+2024-01-08 13:22:36,810 [7] INFO  SifirGibiMakina.ServisRandevulari [(null)] - Randevu Talebi Onaylanmadý-Randevu ID:__Page-Ýþlemi Yapan:__Page
+2024-01-08 13:22:37,419 [11] ERROR SifirGibiMakina.Content [(null)] - System.Threading.ThreadAbortException: Ýþ parçacýðý durduruluyordu.
+   konum: System.Threading.Thread.AbortInternal()
+   konum: System.Threading.Thread.Abort(Object stateInfo)
+   konum: System.Web.HttpResponse.AbortCurrentThread()
+   konum: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   konum: SifirGibiMakina.Content.Page_Load(Object sender, EventArgs e) C:\Users\hp\Desktop\SifirGibiDüzeltme\Yeni Yazýlým 19.01.2022\Yeni Yazýlým 19.01.2022\SifirGibiMakina\Content.aspx.cs içinde: satýr 25
+2024-01-08 13:25:05,932 [6] ERROR SifirGibiMakina.ServisRandevulari [(null)] - System.Reflection.TargetInvocationException: 'SifirGibiMakina.Dtos.ServiceExpertiz.ListOfUsersRequestingServiceByIdDto' nesnesindeki 'Yanit' özellik eriþimcisi þu özel durumu oluþturdu: 'Olmayan bir metoda eriþme giriþiminde bulunuldu.' ---> System.MissingMethodException: Olmayan bir metoda eriþme giriþiminde bulunuldu.
+   konum: SifirGibiMakina.Dtos.ServiceExpertiz.ListOfUsersRequestingServiceByIdDto.get_Yanit()
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: System.ComponentModel.ReflectPropertyDescriptor.GetValue(Object component)
+   konum: System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   konum: System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   konum: SifirGibiMakina.ServisRandevulari.grdMakinalar_RowDataBound(Object sender, GridViewRowEventArgs e)
+   konum: System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   konum: System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   konum: System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   konum: System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   konum: System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   konum: System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   konum: SifirGibiMakina.ServisRandevulari.GetListOfUsersRequestingService()
+   konum: SifirGibiMakina.ServisRandevulari.Page_Load(Object sender, EventArgs e)
+2024-01-08 14:39:21,099 [6] INFO  SifirGibiMakina.ServisRandevulari [(null)] - Randevu Talebi Onaylanmadý-Randevu ID:__Page-Ýþlemi Yapan:__Page
+2024-01-08 15:01:51,788 [5] INFO  SifirGibiMakina.ServisRandevulari [(null)] - Randevu Talebi Onaylanmadý-Randevu ID:__Page-Ýþlemi Yapan:__Page
+2024-01-08 15:18:12,626 [6] INFO  SifirGibiMakina.ServisRandevulari [(null)] - Randevu Talebi iptal edildi-Randevu ID:__Page-Ýþlemi Yapan:__Page
+2024-01-08 15:28:51,302 [8] INFO  SifirGibiMakina.ServisRandevulari [(null)] - Randevu Talebi Onaylandý-Randevu ID:__Page-Ýþlemi Yapan:__Page
+2024-01-08 15:31:12,854 [5] INFO  SifirGibiMakina.ServisRandevulari [(null)] - Randevu Talebi iptal edildi-Randevu ID:__Page-Ýþlemi Yapan:__Page
+2024-01-08 15:31:13,356 [5] ERROR SifirGibiMakina.ServisRandevulari [(null)] - 4489 / System.Threading.ThreadAbortException: Ýþ parçacýðý durduruluyordu.
+   konum: System.Threading.Thread.AbortInternal()
+   konum: System.Threading.Thread.Abort(Object stateInfo)
+   konum: System.Web.HttpResponse.AbortCurrentThread()
+   konum: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   konum: SifirGibiMakina.ServisRandevulari.grdMakinalar_RowDeleting(Object sender, GridViewDeleteEventArgs e) C:\Users\hp\Desktop\SifirGibiDüzeltme\Yeni Yazýlým 19.01.2022\Yeni Yazýlým 19.01.2022\SifirGibiMakina\ServisRandevulari.aspx.cs içinde: satýr 176
+2024-01-09 14:48:09,207 [6] INFO  SifirGibiMakina.ServisRandevulari [(null)] - Randevu Talebi Onaylandý-Randevu ID:__Page-Ýþlemi Yapan:__Page
+2024-01-09 14:48:09,479 [6] ERROR SifirGibiMakina.ServisRandevulari [(null)] - 4489 / System.Threading.ThreadAbortException: Ýþ parçacýðý durduruluyordu.
+   konum: System.Threading.Thread.AbortInternal()
+   konum: System.Threading.Thread.Abort(Object stateInfo)
+   konum: System.Web.HttpResponse.AbortCurrentThread()
+   konum: System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   konum: SifirGibiMakina.ServisRandevulari.grdMakinalar_RowEditing(Object sender, GridViewEditEventArgs e) C:\Users\hp\Desktop\SifirGibiDüzeltme\Yeni Yazýlým 19.01.2022\Yeni Yazýlým 19.01.2022\SifirGibiMakina\ServisRandevulari.aspx.cs içinde: satýr 217

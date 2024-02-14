@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dd2ea981aece4f898a11ede489a71d6c" Name="Diagram1" ShowGrid="true" SnapToGrid="true" DisplayType="false" ZoomLevel="89">
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.Log" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_Ayarlar" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_BeniHaberdarEt" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_Diller" Width="1.5" PointX="2.75" PointY="2.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_Duyurular" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_DuyurularCat" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_Expertiz" Width="1.5" PointX="4.75" PointY="2.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_Firmalar" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_FirmaLogolari" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_Icerikler" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_Ihale" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_Iletisim" Width="1.5" PointX="6.75" PointY="2.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_ilanFavorileri" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_ilanKategoriListeleme" Width="1.5" PointX="6.75" PointY="4.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_ilanMesajlari" Width="1.5" PointX="4.75" PointY="6.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_Kullanicilar" Width="1.5" PointX="6.75" PointY="6.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_MakinaAltTurleri" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_MakinaAltTurleri2" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_MakinaEksper" Width="1.5" PointX="8.75" PointY="2.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_MakinaEksperSecimi" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_MakinaIhale" Width="1.5" PointX="8.75" PointY="4.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_MakinaIslemler" Width="1.5" PointX="4.75" PointY="8.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_MakinaMarkalari" Width="1.5" PointX="6.75" PointY="8.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_MakinamNeEder" Width="1.5" PointX="8.75" PointY="8.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_MakinamNeEderResimler" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_MakinaResimler" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_MakinaTurleri" Width="1.5" PointX="10.75" PointY="2.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_MakinaYillar" Width="1.5" PointX="2.75" PointY="10.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_OdemeBildirimleri" Width="1.5" PointX="10.75" PointY="4.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_SagMenu" Width="1.5" PointX="4.75" PointY="10.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_Servis" Width="1.5" PointX="10.75" PointY="6.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_Slider" Width="1.5" PointX="6.75" PointY="10.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_SosyalMedya" Width="1.5" PointX="10.75" PointY="8.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_SSS" Width="1.5" PointX="8.75" PointY="10.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_TeknikDestek" Width="1.5" PointX="10.75" PointY="10.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_Uyeler" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_Makinalar" Width="1.5" PointX="0.75" PointY="12.75" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_Ulkeler" Width="1.5" PointX="3.375" PointY="12.75" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_ReklamAlanlari" Width="1.5" PointX="5.375" PointY="12.75" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_Reklamlar" Width="1.5" PointX="7.375" PointY="12.75" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.tbl_ilanEmail" Width="1.5" PointX="9.375" PointY="12.75" />
+        <EntityTypeShape EntityType="db_SifirGibiMakinaModel.Sehirler" Width="1.5" PointX="11.375" PointY="12.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
